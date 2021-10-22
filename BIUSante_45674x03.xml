@@ -1,38 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la">
+<?xml-model href="galenus.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="lat">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>{Title}</title>
-        <author key="{author}"/>
-      </titleStmt>
-      <editionStmt>
-        <edition>{publisher}</edition>
+        <title xml:lang="lat">{title}</title>
+        <author>Galen</author>
+        <editor>Karl Gottlob Kühn</editor>
+        <funder>Sorbonne University</funder>
+        <principal>Nathalie Rousseau</principal>
         <respStmt>
-          <name>{Transcription}</name>
-          <resp>Transcription</resp>
+          <resp>Developer (Optéos)</resp>
+          <persName>Frédéric Glorieux</persName>
         </respStmt>
-      </editionStmt>
+        <respStmt>
+          <resp>Classicist and OCR</resp>
+          <persName>Cahal Taaffe</persName>
+        </respStmt>
+      </titleStmt>
       <publicationStmt>
-        <publisher>{publisher}</publisher>
-        <date when="2021"/>
-        <idno>{filename}</idno>
-        <availability status="restricted">
-          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
+        <publisher>Sorbonne Université</publisher>
+        <pubPlace>Paris</pubPlace>
+        <idno type="filename">{idno}</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
+        <date>2021</date>
       </publicationStmt>
       <sourceDesc>
-        <bibl>{bibl}</bibl>
+        <biblStruct>
+          <monogr>
+            <title xml:lang="lat">Claudii Galeni Opera Omnia</title>
+            <author>Galen</author>
+            <editor>Karl Gottlob Kühn</editor>
+            <imprint>
+              <publisher>Cnobloch</publisher>
+              <pubPlace>Lipsiae</pubPlace>
+              <!-- TODO
+              <biblScope unit="vol">3</biblScope>
+              <biblScope unit="pp" from="1" to="939">1-939</biblScope>
+              -->
+              <date>1822</date>
+            </imprint>
+            <imprint>
+              <publisher>Cnobloch</publisher>
+              <pubPlace>Lipsiae</pubPlace>
+              <!-- TODO
+              <biblScope unit="vol">4</biblScope>
+              <biblScope unit="pp" from="1" to="366">1-366</biblScope>
+              -->
+              <date>1822</date>
+            </imprint>
+          </monogr>
+          <!-- TODO
+          <ref target="https://hdl.handle.net/2027/chi.15597494">HathiTrust</ref>
+          <ref target="https://hdl.handle.net/2027/chi.11102513">HathiTrust</ref>
+          -->
+        </biblStruct>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+      <refsDecl n="CTS">
+        <cRefPattern matchPattern="(.+).(.+)" n="chapter" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])"/>
+        <cRefPattern matchPattern="(.+)" n="book" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
+      </refsDecl>
+    </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="lat">Latin</language>
+        <language ident="grc">Greek</language>
+        <language ident="eng">English</language>
       </langUsage>
-      <creation>
-        <date when="{date}"/>
-      </creation>
     </profileDesc>
   </teiHeader>
   <text>
@@ -508,7 +548,7 @@
 <p>quae omnes habeat partes utilitatem ad organorum fun-
 <lb/>ctiones sufficientem a se ipsis praebentes: digitorum enim,
 <lb/>ait,' optima cousiitutio est, ut id magnum sit, quod-lu.
-<lb/>medio est, magnusque digitus indici: opponatur. Quod
+<lb/>medio est, magnusque digitus indici<hi rend="sup">:</hi> opponatur. Quod
 <lb/>si roges, quapropter? promptam-habes scriptam respon-
 <lb/>fionemni nam in corpoffs compage, inquit, omnia com-
 <lb/>patiuntur- et consentiunt, omnes vero particulae. unius-
@@ -747,7 +787,7 @@
 <lb/>lam ei' commoditatem praestaret, -impedimento motui
 <lb/>fieret; trun gravans ut superflua, trun etiam internum
 <lb/>articuli Ipatimn claudens occupansve. Propter hae cita-
-<lb/>que carnem:generavit natura extra digitos nullam: intra
+<lb/>que carnem<hi rend="sup">:</hi>generavit natura extra digitos nullam: intra
 <lb/>vero 'iis- partibus,, quad sunt inter articulos mediae,
 <lb/>plurimam: in ipsis vero articulis paucissimam.  Lateribus
 <lb/>.autem digitorum*carnis tantam adnufci fecit, quanta me-
@@ -832,7 +872,7 @@
 <lb/>:que extrinsecus quidem exacte est convexum, lutus vero
 <lb/>et in lateribus non exacte? an hoc ’quoque’ melioris
 <lb/>gratia factum est? Internis enim sitis partibus digiti mol-
-<lb/>liunt, terunt ac omnia accipiunt:: quae deteri as-flerent,
+<lb/>liunt, terunt ac omnia accipiunt:<hi rend="sup">:</hi> quae deteri as-flerent,
 <lb/>si ossa inibi, convexa fuissent. Externis ver o partibus
 <lb/>cum neque hornm aliquid, neque alium quamvis actio-
 <lb/>'nem,'efficiant digiti, reliquum fuiti,&lt;ut adfolam patiendi
@@ -843,7 +883,7 @@
 <pb n="41"/>
 <p>non igitur eos hac parte curvos fieri necesse erat. - Eidem
 <lb/>vero ejus, quod-diximus,- sufficientem facit magni di--
-<lb/>giti-et parvi constructio: siquidem <hi rend="sup"/>! ille  super nam, hic’
+<lb/>giti-et parvi constructio: siquidem <hi rend="sup">!</hi> ille  super nam, hic’
 <lb/>infernam circumferentiam exacte convexam obtinuit-i hac
 <lb/>enim parte nec ab aliquo custodiebantur, nec alii digitu
 <lb/>juncti applicabantur. - Quo sane non parum admiranda est
@@ -1042,7 +1082,7 @@
 <lb/>et tenuem habet musculum; altera vero parte.ad palmam</p>
 <pb n="51"/>
 <p>munus’ hoc multo majorem: .reliqui vero' omnes qua-<hi rend="sup">7
-</hi><lb/>tuor digiti intus quidem duos tendones magnos, foris
+<lb/></hi>tuor digiti intus quidem duos tendones magnos, foris
 <lb/>vero unum, alteri horum, scilicet nluori, aequalem
 <lb/>tenuiorem autem hoc eum, qui ad latera exteriorum
 <lb/>partium pervenit, reliquum autem omnium tenuissimum,
@@ -1262,7 +1302,7 @@
 <lb/>quando liquidam vel parvam comprehendimus, perquam
 <lb/>utile fuit ita eos exacte sibi invicem haerentes, flectere,
 <lb/>ut nullum lu medio vacuum spatium relinqueretur. Ita
-<lb/>igitur fieri apparet: sed nequaquam fieret, : ipsis digitis
+<lb/>igitur fieri apparet: sed nequaquam fieret, <hi rend="sup">:</hi> ipsis digitis
 <lb/>non habentibus carnes eas , quae sunt in lateribus, aut
 <lb/>nisi ab uno principio prodicent qui digitos movent ten-
 <lb/>dones; principium enim hoc prope catpi . inflexionem
@@ -2322,8 +2362,8 @@
 <lb/>quum partirn quidem proportione respondeat his,' quae
 <lb/>nunc dicuntur, - partim autem similiter habeat iis, quae
 <lb/>dicentur, non erit-utique vobis difficile invenire, haben—<hi rend="sup">:
-</hi><lb/>tibus jam tot-subsidia luventionis, si unum solum in om-<hi rend="sup">£
-</hi><lb/>nibus servaveritis, tanquam aliquod lumen splendidum;
+<lb/></hi>tibus jam tot-subsidia luventionis, si unum solum in om-<hi rend="sup">£
+<lb/></hi>nibus servaveritis, tanquam aliquod lumen splendidum;
 <lb/>ducens vos,-quo oportet, et deducens prompte ad quae-
 <lb/>sitorum inventionem; - quod et in principio hujus sermo—
 <lb/>nis statim dictum-est. Quid hoc tandem est? actionem
@@ -2689,7 +2729,7 @@
 <lb/>pi um desinens, i Itaque jam juste et- aequaliter in om-</p>
 <pb n="136"/>
 <p>nem partem tractum cartilaginosum os nusquam decidit.<hi rend="sup">-
-</hi><lb/>Partes igitur carpi, quae sunt versus parvum digitum,
+<lb/></hi>Partes igitur carpi, quae sunt versus parvum digitum,
 <lb/>hoc modo ornatae et instructa sunt. Quae vero versus
 <lb/>magnum, quoniam et ibi munimentum quoddam oporte-
 <lb/>bat esse alteri descendentium superne nervorum, exci-
@@ -2863,7 +2903,7 @@
 <lb/>cuivis notum est. Atqui, si hoc ita evenisset, nullam ex 
 <lb/>viclentis ac vehementioribus actionibus, lu quibus ma-
 <lb/>nus prorsus extensae indigemus, fortiter perficere posse-<hi rend="sup">1
-</hi><lb/>mus: quippe. quum sic infirma et laxa prorsus posterior
+<lb/></hi>mus: quippe. quum sic infirma et laxa prorsus posterior
 <lb/>cubiti corome manens facile a brachii curvitate labere-
 <lb/>tur," tum actionis robus tantum laederet, quantum ipsa
 <lb/>excidisset. Verurn qua nunc sunt magnitudine bathmides,</p>
@@ -3047,7 +3087,7 @@
 <lb/>ficiunt, quemadmodum carpum moventes tendones? Al-
 <lb/>tero enim musculorum flectentium cubitum ortum ha-
 <lb/>bente ab internis quidem partibus loci, qui ad humerum
-<lb/>yergit, inde autem (perlato ad anteriores brachii partes,
+<lb/>yergit, inde autem <hi rend="sub">(</hi>perlato ad anteriores brachii partes,
 <lb/>altero autem minore exortum quidem ab externis brachii
 <lb/>partibus habente, intro autem illinc paulatim converso,
 <lb/>manifesta quidem est et positura eorum, quae X litterae
@@ -3177,7 +3217,7 @@
 <pb n="161"/>
 <p>tiones foris connectentibus, quae non crassa folum, scd- et
 <lb/>duia undique .sunt facta. Humeri autem dearticulatio,
-<lb/>tauquam: ruro validas obiens actiones, frequenter autem
+<lb/>tauquam<hi rend="sup">:</hi> ruro validas obiens actiones, frequenter autem
 <lb/>vel omnino quiescens, vel leviter et citra violentiam mo-
 <lb/>ta, laxam quidem et ipsorum ossium habet compositionem,
 <lb/>magisque adhuc membranarum ipsa ambientium: ; neque
@@ -3569,7 +3609,7 @@
 <lb/>liones quidem et lacerti et animalia, quaecunque sunt
 <lb/>brevium crurum, prorsus sunt prona, contingit enim ip-
 <lb/>forum venter tertam semper;- et iis amplius adhuc ser-
-<lb/>pentes. Equus autem et: canis, et bos, et leo, et-omnia</p>
+<lb/>pentes. Equus autem et<hi rend="sup">:</hi> canis, et bos, et leo, et-omnia</p>
 <pb n="182"/>
 <p>quadrupedia medii m locum obtinent inter prona exacte
 <lb/>et plane rectaita autem et aves universae, quainvis
@@ -3602,7 +3642,7 @@
 <lb/>cur multo magis nobis insistendum elaborandumque fit,
 <lb/>ut totum hoc opus absolvamus, nihil omninb, quod ad
 <lb/>singulas partes attineat, relinquentes (quemadmodum et
-<lb/>antea diximus), non situm, non: magnitudinem, non con-
+<lb/>antea diximus), non situm, non<hi rend="sup">:</hi> magnitudinem, non con-
 <lb/>-herionem; non figuram, non denique aliam universam
 <lb/>conformatioitem, fed neque mollitiem, neque duritiem,
 <lb/>neque alia, quae temperamenta sequuntur, neque si com-
@@ -3701,7 +3741,7 @@
 <lb/>fata, et crudelitas praedonis circa Coracesium Pamphyliae.
 <lb/>Pestilentia namque putrefaciebat:, . praedo autem abscin-
 <lb/>debat, extremos pedes;, ut’sine baculo non possent ambu-
-<lb/>lare, qui in : hujusmodi incidissent infortunium, non
+<lb/>lare, qui in <hi rend="sub">:</hi> hujusmodi incidissent infortunium, non
 <lb/>quod ad motum crurum a liaculo juvarentur, sed 'ad. fir-
 <lb/>mitatem, quam prius habebant ex pedibus: stare namque
 <lb/>poterant duobus mutilis-inuixi pedibus, „ ambulare vero
@@ -3832,7 +3872,7 @@
 <lb/>ditum. lis quidem solis nulla est in manu pars quae
 <lb/>proportione respondeat, sed sunt simpliciter basis solius
 <lb/>instrumenta, aliae vero omnes partes basis simul et ap-
-<lb/>prehensionis. :Neque enim tarsus neque pedium utraque
+<lb/>prehensionis. <hi rend="sup">:</hi>Neque enim tarsus neque pedium utraque
 <lb/>singillatirn una est simplex particula, sed, sicut carpus
 <lb/>et metacarpium, ex multis ossibus tum duris tum parvis
 <lb/>composita sunt.</p>
@@ -3949,7 +3989,7 @@
 <lb/>et continua huic tria tarsi ossa; ob id et hoc nomen ab
 <lb/>anatomicis impositum est huic pestis parti. Delude sunt
 <lb/>digiti, quorum maximus est intus, non arnplius ex tri-
-<lb/>bus phalangibus et articulis, ut reliqui, conflatus, sed:ex
+<lb/>bus phalangibus et articulis, ut reliqui, conflatus, sed<hi rend="sup">:</hi>ex
 <lb/>duabus; quum enim alta et concava, qualis est fornix,
 <lb/>futura esset luterna pedis pars, consentaneum fuit firmi-
 <lb/>tudines tutas utrinque ei adjacere maximorum ossinm.
@@ -4268,7 +4308,7 @@
 <lb/>tus est artem ’ naturae, aut intellectu ceret, aut privatim .</p>
 <pb n="218"/>
 <p>fua quidpiam interest:.. operae"pretium enim 'fuerit mihi
-<lb/>Thucydidis- dictione- uti. Intellectus . expers: 'quidem, est;
+<lb/>Thucydidis- dictione- uti. Intellectus . expers<hi rend="sup">:</hi> 'quidem, est;
 <lb/>qui actiones;- quas  praestiterat messe manibus, . aut non
 <lb/>animadvertit, aut, si .alia constructio, esset,: nreliores-.fore
 <lb/>existiniarrt: priyatrm anicm aliquid sua interest, qui pra-
@@ -4283,7 +4323,7 @@
 <lb/>btis et quam sunt illi magni nrluoribus extendantur,»
 <lb/>ab aliis autem adhuc minoribus foras et ad parvum
 <lb/>siigitum abducantur, et adhuc ab aliis minimis, quos <hi rend="sup">a
-</hi><lb/>musculis in-manti sitis diximus oriri,,, (videlicet reliquus
+<lb/></hi>musculis in-manti sitis diximus oriri,,, (videlicet reliquus
 <lb/>motus internus,) ad pollicem.adducantur, deinceps osten-<hi rend="sup">r</hi></p>
 <pb n="219"/>
 <p>demus,' et, in.unoquoquespedurn digite hos quatuor, motus
@@ -4397,7 +4437,7 @@
 <lb/>mal; cujus occasione et incidi, et frangi, ac varie affici
 <lb/>citius tendonibus illic locatis contingat, quam tendonibus
 <lb/>manuum ad portionem ipsorum respondentibus, nisi prae- <hi rend="sub">t
-</hi><lb/>dicta illius loci tendonum mixtura facta fuisset. Musculi</p>
+<lb/></hi>dicta illius loci tendonum mixtura facta fuisset. Musculi</p>
 <pb n="225"/>
 <p>autem valde parvi ab anatomicis non observati, quem-
 <lb/>admodum nec mihi longo tempore, primum articulum
@@ -4612,9 +4652,9 @@
 <p>illa, quae vulgo omnibus, hominibus funt lu confesso,
 <lb/>prontrnciare 'quidqualu nihil verearis. An videlicet eal-
 <lb/>ceanrenturn, quod extrinsecus quidem pesti adaptatur,<hi rend="sup">1
-</hi><lb/>undique constrictum esse oportere concedas, si suum
+<lb/></hi>undique constrictum esse oportere concedas, si suum
 <lb/>ipsius usum prope praestiturum est, ipsum autem, quod
-<lb/>connatum est, ' non multo magis concedes constringi et: .
+<lb/>connatum est, ' non multo magis concedes constringi et<hi rend="sup">:</hi> .
 <lb/>cohaerere fortiter oportere, unitum exacte lia, - quibus-
 <lb/>fubjacet? Insanus revera' is fuerit, qui, praeterquam quod
 <lb/>ejusmodi- non admiratur naturae opera, etiam lulunulare.
@@ -4653,7 +4693,7 @@
 <lb/>tatis specimen., esse statuo, et hac quidem ratione ejus
 <lb/>bonitas hymnis nobis est celebranda; hoc autem omne
 <lb/>invenisse, quo pacto omnia potissimum adornarentur,
-<lb/>summae sapientiae est; effecisse autem omnino, : quae
+<lb/>summae sapientiae est; effecisse autem omnino, <hi rend="sup">:</hi> quae
 <lb/>voluit,- virtutis est invictae ac insuperabilis. Ne igitur
 <lb/>miceris; solem, lunam et universam aliorum astrorum
 <lb/>ferient summo artificio dispositam efle, neve te attonitum
@@ -4760,7 +4800,7 @@
 <lb/>vulnerata inultis molis’ vitiaretur, nisi prompte ipsa sen-
 <lb/>tiens’ moneret animal, <hi rend="sup">J</hi>rit aufugeres, propterea teiiclonis
 <lb/>‘quidem lu calcaneum descendentis (quem ex tribusmu-
-<lb/>Geniis dicebamus generari) superficialis portio ad<hi rend="sup"/>-inse-
+<lb/>Geniis dicebamus generari) superficialis portio ad<hi rend="sup">-</hi>inse-
 <lb/>riorem partem pedis praetergressa cuti'ad’vestigium lu-
 <lb/>tiinseeus subnascitur; profunditati autem pedis,’ quae est
 <lb/>fub cute, in qua etiam duo parvi musculi sunt, distri-
@@ -4867,7 +4907,7 @@
 <lb/>bus et omnibus inanimatis: quia'vero movere quidem
 <lb/>oportebat, quod superjacet, moveri vero ab eo, quod.sub-
 <lb/>jectum est, majus rursus et fortius ratio fuit esse ipsum<hi rend="sub">;
-</hi><lb/>superius, ut in brachio contingit, cubito et summa manu.
+<lb/></hi>superius, ut in brachio contingit, cubito et summa manu.
 <lb/>Itaque, cum tibiam- ferendi femoris gratia praestaret esse;</p>
 <pb n="249"/>
 <p>majorem, ut autem ipsa moveretur facile; minorem; es-
@@ -5110,7 +5150,7 @@
 <lb/>namque stabili latens securam musculi '"illi-sim nes, toti veror
 <lb/>fcruri'extensionem erectam hi suppeditans. Tribus’ autem
 <lb/>his tres opposuit’ retrdrsum’, non aeque robustos; 'neque<hi rend="sup">:
-</hi><lb/>omnes unum genera'tes tenuonem; qiiae omnia sic qui—
+<lb/></hi>omnes unum genera'tes tenuonem; qiiae omnia sic qui—
 <lb/>dem comparata suerunt’ (ut in librci de motu' musculos?
 <lb/>rttm monstratum est), 'quod’omnino-'necesse' esset bppofi-
 <lb/>tdm esse omni musculo’'alium mnsculnin contrarii niotus’
@@ -5118,10 +5158,10 @@
 <lb/>dentis’genu motus ef flectentis; ' Igitur quos soliunsippo-?
 <lb/>situra erat natura, contiariique motus duces eran Insuturi,.’
 <lb/>tres pariter effecit, non tamen ipsos’aeque fortes, neque<hi rend="sup">£
-</hi><lb/>in tentiones, ut illi,' ‘robustos desinentes; sed-dedit eis/
+<lb/></hi>in tentiones, ut illi,' ‘robustos desinentes; sed-dedit eis/
 <lb/>qui utrinque meclio adjaeent,' obliquum etiam qUendam
 <lb/>nrotum non par vurn.' Ut autem quoquoverfum birsinim<hi rend="sup">3
-</hi><lb/>feratur articulus) utrinque tinnin/al musculum oblertdit’</p>
+<lb/></hi>feratur articulus) utrinque tinnin/al musculum oblertdit’</p>
 <pb n="262"/>
 <p>hunc quidem anterioribus musculis;  illum arttem poste-
 <lb/>rioribus . oppositum.. At. vero quod majores articuli vel
@@ -5147,7 +5187,7 @@
 <lb/>vendam esset molita, solam autem opportunam tendo-
 <lb/>lium insertionem omisisset, nullus illorum esset 'usus.
 <lb/>Quod igitur si ante; quam transcenderent articulum,
-<lb/>tendones:ad principium insererentur, omnino ne move-'
+<lb/>tendones<hi rend="sup">:</hi>ad principium insererentur, omnino ne move-'
 <lb/>rent quidem tibiam,' notissimum est; quod vero etiam
 <lb/>post, quam articulum transissent; tibiam non movissent,
 <lb/>si non lu- eum locum, in quem nunc inseruntur, sed
@@ -5399,7 +5439,7 @@
 <lb/>paulo ante memoratas, ut animalia ipsa, habere contigerit,-
 <lb/>eis tamen sensus certe eorum, quae sibi desunt, abest;
 <lb/>non enim per os nutriendae erant, promptuarium copiosi<hi rend="sup">1
-</hi><lb/>alimenti subjectam habentes ipsam terram, cui haerentes
+<lb/></hi>alimenti subjectam habentes ipsam terram, cui haerentes
 <lb/>atque unitae femper affluunt alimento. Ipsi vero substan-
 <lb/>tiae animalium, praeterquam quod multum a ferra differt
 <lb/>fecundum innatas partium qualitates, instiper etiam mo-
@@ -5417,7 +5457,7 @@
 <lb/>eum per nervorum haud mediocre superne defertur et
 <lb/>disseminatur, contexitque maxime quidem os ejus et
 <lb/>partes ipsi continuas, et in alias jam partes usque ad
-<lb/>fundum ipsius ventriculi protenditur. : Positus autem est
+<lb/>fundum ipsius ventriculi protenditur. <hi rend="sup">:</hi> Positus autem est
 <lb/>ventriculus non statim post os, tametsi id postulabat ali-
 <lb/>urenti certe susceptio; fed quem vocamus thoracem, et
 <lb/>quae in ipso sunt viscera, praepsisuitalatura; ut ille qui-
@@ -6074,7 +6114,7 @@
 <lb/>nihilo utique eo cnsu a planta disserat, eoque obtuse sen-
 <lb/>tit omnes hujusmodi morbos, non luculenter, ut aliae
 <lb/>corporis partes, quod nervus, quum sit parvus, qui in <hi rend="sup">1
-</hi><lb/>tunicam ambientem distribuitur, aut non omnino in
+<lb/></hi>tunicam ambientem distribuitur, aut non omnino in
 <lb/>viscus, aut non in totum certe sese insinuat. Demon-
 <lb/>stratum vero etiam hoc a nobis est, quod, scilicet in,'</p>
 <pb n="311"/>
@@ -6389,7 +6429,7 @@
 <lb/>hiant, _,ob idque.ipsum etiam ora vasorum: si quid, vero
 <lb/>alimenti effugeritfn transitu per.primum gyrum, per se-
 <lb/>eundum quidem continget; quod si hic quoque essi gerit,
-<lb/>per tertium, vel quartumvel quintum, : vel quemlibet</p>
+<lb/>per tertium, vel quartumvel quintum, <hi rend="sup">:</hi> vel quemlibet</p>
 <pb n="327"/>
 <p>fequentium; sirnt enim plurimi. In transitu igitur adeo
 <lb/>angusto et , longo et quamplurimos anfractus habente,
@@ -6720,7 +6760,7 @@
 <lb/>tur,' ut, si eorum quodvis-mali quidpiani propter violen--
 <lb/>tum motum esset incursurum, id, ubi scinditur, potissi-
 <lb/>mum incurreret. Magno igitur indigebat locus hic prae-
-<lb/>sidio; quo vasa in ipso distribuenda : ac discindenda mu-
+<lb/>sidio; quo vasa in ipso distribuenda <hi rend="sup">:</hi> ac discindenda mu-
 <lb/>nirentur. Cujus haud ignara natura glandulosum quod-
 <lb/>dam corpus fabricata, quod pancreas appellamus, sub-
 <lb/>stravitque simul ac in orbem omnibus circumdedit, di-
@@ -7297,7 +7337,7 @@
 <lb/>dum enim a longinquo succum crassum aptius Aloe fuit;
 <lb/>neque pericuium ' erat, ne quid sanguinis sequeretur,
 <lb/>" quandoquidem non prius, quam consectum, coctum atque
-<lb/>mutatum esset, ut renes lotium, ita ipsum:melancholicum
+<lb/>mutatum esset, ut renes lotium, ita ipsum<hi rend="sup">:</hi>melancholicum
 <lb/>excrementum erat excreturus, sed diutissime retenturus,
 <lb/>mutaturus ac tandem alimentum sibi ipsi facturus. Noir
 <lb/>ab re igitur is quoque laxus extititsiet renes densi; qui-
@@ -7542,7 +7582,7 @@
 <lb/>qne similes, ac omnino membranosae, sit internae, qtae
 <lb/>coipora ipsa partium constituunt, . in ventriculo quidem
 <lb/>ac stomacho (ut antea diximus)  duae fibras quidem orbi-
-<lb/>culatas externa; :rectas vero .interna habuerunt. Porro
+<lb/>culatas externa; <hi rend="sup">:</hi>rectas vero .interna habuerunt. Porro
 <lb/>intestinorum ' tunicae  transversus 'utrosque lu circutum
 <lb/>plane circumactos: at vesicarum tunicae rectos ac rotnn-</p>
 <pb n="386"/>
@@ -7731,7 +7771,7 @@
 <p>jam . dicturi sumus.- Nam si pro fibrarum positione in-,
 <lb/>strumenta' ipsa edant actiones, quatuor vero ipsarum
 <lb/>omnluo sint; positiones, recta, .transversa- et duae obli-<hi rend="sup">1
-</hi><lb/>quae, constat, priores quatuor omnem fibrarum in se ipsis
+<lb/></hi>quae, constat, priores quatuor omnem fibrarum in se ipsis
 <lb/>positionem continere.  Porro quum corpus tum in dex-
 <lb/>tris tum in sinistris ad amussim sit geminum atque ae- .
 <lb/>qtrabile, utrinque quidem quatuor, omnes autem simul’
@@ -7809,7 +7849,7 @@
 <pb n="399"/>
 <p>subjicitur. Usus autem ejus naturae est; ipsa separatione
 <lb/>alius prior ac major, ut respirationis videlicet instru-
-<lb/>menti; fecundus autem est, de quo nunc dicam. <hi rend="sup"/>! Ab
+<lb/>menti; fecundus autem est, de quo nunc dicam. <hi rend="sup">!</hi> Ab
 <lb/>ipsius pectoralis ossis extremis inferioribus superioris ex-
 <lb/>ortus ducit initium, unde etiam capita musculorum re-
 <lb/>ctorum abdominis pendent; tum autem hinc ad fines co-
@@ -7942,7 +7982,7 @@
 <lb/>tur, laxans, tensi vero, omnes vehementer abdominis mu-</p>
 <pb n="406"/>
 <p>sculi, ut intro propellant vesicam ac comprimant; con-
-<lb/>tractus postremo<hi rend="sup"/>-Undique', qui circum collum est, etipre-
+<lb/>tractus postremo<hi rend="sup">-</hi>Undique', qui circum collum est, etipre-
 <lb/>mens ac foras protrudens id lotii, quod, in meatum sub-
 <lb/>ierit Neque enim repente, .quomodo nunc, neque ab-
 <lb/>solute -meatum urinarium tuta rrina pervaderet; pulsa a
@@ -8425,7 +8465,7 @@
 <lb/>rum .ciborum transitu arteriam comprimat, in laevam ve-
 <lb/>ro,' quod in eo loco satius fuerat os ventriculi constitui,’
 <lb/>quemadmodum antea docuimus; Adde huc, quod nervis,
-<lb/>qui a cerebro juxta, stomachum lu’ ventriculum feruntur<hi rend="sup"/>-,
+<lb/>qui a cerebro juxta, stomachum lu’ ventriculum feruntur<hi rend="sup">-</hi>,
 <lb/>obliqua via tutior multo erat sutura, quam recta; molles
 <lb/>enim quum sint hi ac tenues, lougoque intervallo fecun-
 <lb/>dum rectitudinem tendantur, maximamque praeterea par-
@@ -8793,7 +8833,7 @@
 <lb/>aliis demonstratum est, nutriri corpora attracto per ipsam
 <lb/>vasorum tunicam sanguine, rursus pulmo videbitur pro-
 <lb/>pemodum inopia alimenti laborare, quum venae tuni- .
-<lb/>cam densam: admodum habeant.<hi rend="sup"/>- Quod tibi puto satis
+<lb/>cam densam: admodum habeant.<hi rend="sup">-</hi> Quod tibi puto satis
 <lb/>fore ad intellrgendum aliam rursus naturae admirabilem</p>
 <pb n="450"/>
 <p>providentiam, si modo memoria tenes ea, quae in illis
@@ -9127,7 +9167,7 @@
 <lb/>adulterinam, cautam este vel ex accidente, vel ex con-
 <lb/>sequente, fidem, se- facere: sperat atque sapientem esse;
 <lb/>legis Adrastiae (ut- ego arbitror)' i.umemor; quod nulla
-<lb/>alia ratio aeque redarguat dogmatum ejus: absurdilatem,
+<lb/>alia ratio aeque redarguat dogmatum ejus<hi rend="sup">:</hi> absurdilatem,
 <lb/>atqua siaec ipsa; 'quam se sapienter’invenisse arbitratur.
 <lb/>Norn quod (inquit) in pulmone salar ‘contra quam in
 <lb/>aliis omnibus instrumentis r arteriae motu agantur du-
@@ -9428,7 +9468,7 @@
 <lb/>aerem trahant,, id omnium maxime cordi inest; sive
 <lb/>quo pacto ellychniorum flammae 'oleum attrahunt, ne ea
 <lb/>quidem curet‘ facultate, quum ipsum caloris nativi sit-
-<lb/>principium ; sive ni lapis ' Heraclius: qualitatis familiari-
+<lb/>principium ; sive ni lapis ' Heraclius<hi rend="sup">:</hi> qualitatis familiari-
 <lb/>nite . ferrum attrahit; quid spiritu ad refrigerationem
 <lb/>cordi est familiarius ? quid sanguine ad nutritionem’ uti--
 <lb/>ltus? -Mihi quidem ridetur vas aliquod fuisse divulsurum;-
@@ -9488,7 +9528,7 @@
 <lb/>utrinque .cordi :ipsi, ut. animalis capiti aures, adjaeeaut.
 <lb/>Et quideni membranarum tanto eas, quae ad vasa sunt
 <lb/>materias introducentia, fortiores simul et majores esse<hi rend="sup">1
-</hi><lb/>oportuit iis, quae est educentia funt, quanto majore in
+<lb/></hi>oportuit iis, quae est educentia funt, quanto majore in
 <lb/>dilatando, quam lu contrahendo, vi opus erat: majore
 <lb/>enim vi cor dilatatum attrahat necesse est, quam con-.
 <lb/>tiactum expellat. Atque etiam lu eo maxime admiran—.</p>
@@ -9669,7 +9709,7 @@
 <lb/>dem anastomosibus; -neque hepatis certe, neque-ventri-;
 <lb/>culi, neque lienis., nequet cujusquam aliarum partium
 <lb/>erit insiammatic. . Atque, ut.in pauca conseram, plu-<hi rend="sup">1
-</hi><lb/>rimi ae 'maximi, tollentur morbi , si anastomosies-lias-
+<lb/></hi>rimi ae 'maximi, tollentur morbi , si anastomosies-lias-
 <lb/>sustuleris, quas provida rerum natura effecit, nihil qui-’
 <lb/>dem plus animali profuturas, scd folum pernicicfortuni</p>
 <pb n="494"/>
@@ -9719,12 +9759,12 @@
 <lb/>ponamus, quam memoriae causa actiones repetierimus.
 <lb/>Quae igitur in corde- apparent- foramina ad ipfius -po-
 <lb/>tissimum medium septum , ‘ praedictae, communitatis gra-<hi rend="sup">;
-</hi><lb/>tia:-extitferunti -nam alloqui prius in venis conscctum’
+<lb/></hi>tia<hi rend="sup">:</hi>-extitferunti -nam alloqui prius in venis conscctum’
 <lb/>sanguinem arterias transumere eiat melius,' ut-,' quod
-<lb/>ventriculus est venis, ' hoc : venae sint.'arteriis; nam ne'<hi rend="sup">;
-</hi><lb/>haec quideni ratio forte salsa fuerit, quod spiritus anis-
+<lb/>ventriculus est venis, ' hoc <hi rend="sup">:</hi> venae sint.'arteriis; nam ne'<hi rend="sup">;
+<lb/></hi>haec quideni ratio forte salsa fuerit, quod spiritus anis-
 <lb/>malis exhalatio quaedam est sanguinis benigni, de<hi rend="sup">r</hi> qui--
-<lb/>luis alio loco uberius disputavimus.: Quod autem ad’
+<lb/>luis alio loco uberius disputavimus.<hi rend="sup">:</hi> Quod autem ad’
 <lb/>propsifitnm attinet, i sui habuerimus memorare usum,-
 <lb/>propter: quem purum sanguinem ac tenuem’ in arteriis
 <lb/>contineri oportuit, nempe quod spiritui animali ali-*
@@ -9770,7 +9810,7 @@
 <lb/>surn nutriri alimentoroporteat, jure- optimo, cor quidem.
 <lb/>crasso, purmo autem-vapoyofo sanguine indiguit. Quae</p>
 <pb n="499"/>
-<p>causa est, quare cor.: non alatur, ex se ipso; sed prius,
+<p>causa est, quare cor.<hi rend="sub">:</hi> non alatur, ex se ipso; sed prius,
 <lb/>quam vena cava dextro ipsius ventriculo inseratur, pars
 <lb/>ejus tanta, quanta maxime corni nutriendo fatis fit,: se-
 <lb/>juncta circa cordis caput extrinsecus obvolvitur, . et lu.
@@ -9789,7 +9829,7 @@
 <lb/>quae ratio fuit, cur nor in .corde modo, sed toto etiam</p>
 <pb n="500"/>
 <p>animali arteriae et venae mediocri intervallo sint loca-
-<lb/>tae<hi rend="sup"/>!:<hi rend="sup">;</hi> quod nunquam esset factum a natura, si ipsa ma-
+<lb/>tae<hi rend="sup">!</hi>:<hi rend="sup">;</hi> quod nunquam esset factum a natura, si ipsa ma-
 <lb/>terias longissime dimittere sine ampla via potuisset. .</p>
 </div>
 <div>
@@ -10002,7 +10042,7 @@
 <lb/>spiritalibus instrumentis transumi;: in persectis, animalibus
 <lb/>per mullas et eas subtiles -anastomoses nisum effugien-
 <lb/>tes, promptius.vero in iis,- quae adhuc utero geruntur, <hi rend="sub">f
-</hi><lb/>spiritus transumitur; id , enim est adhuc adjiciendum,
+<lb/></hi>spiritus transumitur; id , enim est adhuc adjiciendum,
 <lb/>quod in foetibus apparet, quodque argmnentum est. cer-
 <lb/>tissirnum, haec duo. vafiorum .genera mutuis anastomosibus
 <lb/>inter fe esse juncta, venasque aliqua ex-parte' spiritus
@@ -10078,9 +10118,9 @@
 <lb/>ad spinam, tandem exiccat et velut funiculos quosdam
 <lb/>tenues efficit, ad - eundem modum et- praedictas vaso-
 <lb/>rum, quae<hi rend="sup">7</hi>, ad cor pertinent,' anastomoses in animali
-<lb/>jam itato abolet, quod :(ut..ego arbitror)-omnium maxi-
+<lb/>jam itato abolet, quod <hi rend="sup">:</hi>(ut..ego arbitror)-omnium maxi-
 <lb/>me.. est&lt;-admirabile;::.'quta® enim’ nulli omnino usui ani-
-<lb/>, malibuS jam an lucem..editis .erantfutura, - ea: nec esse</p>
+<lb/>, malibuS jam an lucem..editis .erantfutura, - ea<hi rend="sup">:</hi> nec esse</p>
 <p>prorsus patitur: miliique ridetur multo majus esse; na-
 <lb/>turum, ubi quid plus in embryis, quam lu perfectis,
 <lb/>effenit,- id’ipsum, quando, nullius amplius-sit’usus-, cor-
@@ -10230,7 +10270,7 @@
 <lb/>fcripsimus, non omnem aeris percussionem vocem posse
 <lb/>efficere, scd oportere lymmctrianr quandam ac conve-
 <lb/>nientiam esse substantiae rei percutientis simul et ro<hi rend="sub">7
-</hi><lb/>horis, quo aliquantisper aer resistat; 'neque primo statim
+<lb/></hi>horis, quo aliquantisper aer resistat; 'neque primo statim
 <lb/>impetu ac coitione victus, dejiciatur. Hanc autem fym-
 <lb/>rnetriam cartilago in animalibus adepta est, quum mol-
 <lb/>liora, quam pro ipsius natura, prae imbecillitate aerem
@@ -10341,8 +10381,8 @@
 <lb/>translatae. Pulmonis rnitur -propria pars ess -haec- arte-</p>
 <pb n="528"/>
 <p>na,” qua pisces merito carueruut; atque etiam pulmone,'
-<lb/>quod ne voce' 'quidem: illis plane opus esset, ut qui
-<lb/>vitam in aqua degerent. Nam <hi rend="sup"/>? quod ad ' ipsius cordis
+<lb/>quod ne voce' 'quidem<hi rend="sup">:</hi> illis plane opus esset, ut qui
+<lb/>vitam in aqua degerent. Nam <hi rend="sup">?</hi> quod ad ' ipsius cordis
 <lb/>caloris refrigerationem attinet (propter quam respiratione
 <lb/>etiam opus  fuit), ‘ 'sola ipsis branchiarum constructio a
 <lb/>natura data est; quam antea quidem- aftiginius, ~ scribe-
@@ -10710,7 +10750,7 @@
 <lb/>dnm justarum non es invidiis. ’ Quod itaque pulmo tu-
 <lb/>tam implevit thoracis capacitatem/trim niuod,-"si dilatetur
 <lb/>thorax atrt comprimatur, simul quoque per totum pill-
-<lb/>mo' dilatatur 'aut comprimitur;-’ ex: commentariis; quos
+<lb/>mo' dilatatur 'aut comprimitur;-’ ex<hi rend="sup">:</hi> commentariis; quos
 <lb/>de motunorum conscripsimus;  didicistip praeterea quod
 <lb/>instrumentis omnibus,' quae attrahunt; consecutione qua-
 <lb/>dam ad idy quod evacuatur,  prius’ quidem leve quam
@@ -10779,13 +10819,13 @@
 <head>Cap. X.</head>
 <p>Caeterum et, fle ipsius quoque in lobos
 <lb/>divisiqne dictum est; atque oportet capita eorum, quae
-<lb/>illi dicta' sunt, hi, memoriam revuogrf. : videlicet quod
+<lb/>illi dicta' sunt, hi, memoriam revuogrf. <hi rend="sub">:</hi> videlicet quod
 <lb/>lobi hi primum usum iis, qui sunt in jecinore, similem
 <lb/>habent; nam ut jecur lobis quasi digitis quibusdam yen-
 <lb/>triculum firmrur complectitur, ita et pulmo cor ipsimi.
 <lb/>Delude vero, quum duo sint.iobi in utraque .thoracisparte,
 <lb/>alter, superiorem thoracis capacitatem, alter inseriorem,<hi rend="sup">1
-</hi><lb/>quae ad phrenas est, obtinet. Atque etiam, quod quintus
+<lb/></hi>quae ad phrenas est, obtinet. Atque etiam, quod quintus
 <lb/>lobus, qni parvus, qui .dextra lu parte positus, quique trian-
 <lb/>gulus. est, venae cavae gratia factus est. Praeterea quod, 'ut
 <lb/>totum’ viscus sucinus, simul ad tutius dilatetur, ac contprima-
@@ -10810,7 +10850,7 @@
 <lb/>insunt, similibus. ... Movetur  autem a musculisrsecundum
 <lb/>propriam quidem suam- compositionem duodecim;, qua-
 <lb/>fenus vero comnnrnipnem habet, urm partibus xicinrs,
-<lb/>. ab aliis octo. ; Harum igitur laryngis,curtilaginym,(maxi-
+<lb/>. ab aliis octo. ; Harum igitur laryngis,curtilaginym,<hi rend="sub">(</hi>maxi-
 <lb/>ma.anterior est (quam et tangimus), , extrinsecus, quidem
 <lb/>convexa, intqs .autem concava-,., clypeo. maxime similis
 <lb/>non undique rotundo, scd praelongo, quod scilicet fcn-
@@ -11127,7 +11167,7 @@
 <lb/>si huic sermoni animum intenderint,, cogitarintque, quan-
 <lb/>ta sit magnitudo ac multitudo contrahentium thoracem-
 <lb/>musculorum; quibus omnibus resistunt duo parvi rnu<hi rend="sup">J
-</hi><lb/>sculi, qui larynga claudendo' sucum etiam (ut dictum .
+<lb/></hi>sculi, qui larynga claudendo' sucum etiam (ut dictum .
 <lb/>est), ipsam quoque lingulam comprehendunt; existit enim
 <lb/>et hic praecipua quaedam, animalium opificis sapientia,
 <lb/>a .viris anatomicis ignorata, sicut et alia fere omnia,.</p>
@@ -11175,7 +11215,7 @@
 <lb/>hementiam. musculis laryngem claudentibus ab infernis
 <lb/>eorum partibus nervos immitti fuit necesse fecundum
 <lb/>rectitudinem fui principii, ut per medius musculos ary- <hi rend="sup">1
-</hi><lb/>tacnoidem cartilaginem attraherent. Si igitur cor ner-
+<lb/></hi>tacnoidem cartilaginem attraherent. Si igitur cor ner-
 <lb/>yormn esset principium (ut nonnulli arbitrantur, omni-
 <lb/>um,. quae ad anatomen pertinent, .prorsus ignari), facile
 <lb/>utique praedictos fex musculos nervis fecundum rectitu-
@@ -11383,7 +11423,7 @@
 <p>-<space rend="tab">    </space>.<space rend="tab">    </space>-.<space rend="tab">    </space>r. -<space rend="tab">    </space>.<space rend="tab">    </space>-r.</p>
 <p>jaceret sub cute, extra prominens, facileque a quavis in-
 <lb/>juria laederetur. .Neque tamen sine .flexu tutum ,erat<hi rend="sub">(
-</hi><lb/>a magno nervo parvum nervurn  ad laryngem’ ita per-.
+<lb/></hi>a magno nervo parvum nervurn  ad laryngem’ ita per-.
 <lb/>ducere; ormrino enim-rumperetur hic, -nisi circum ali—,
 <lb/>quid volveretur.. . Si igitur circumvolvi quidem erat pe~
 <lb/>celse, nihil aniem habebat ejusmodi, antequam prope,, cor
@@ -11427,7 +11467,7 @@
 <pb n="583"/>
 <p>spexissemus quidem, . fieri non 'posse persunsum habeba-
 <lb/>nrus; conspicati vero' deceptos nos’opinione suisse coni-<hi rend="sup">1
-</hi><lb/>perimus, putissimum quando sine<hi rend="sup">1</hi> magno negotio atque
+<lb/></hi>perimus, putissimum quando sine<hi rend="sup">1</hi> magno negotio atque
 <lb/>apparatu conditor nostri, uno usus’.instrumento eoque
 <lb/>perexiguo, inculpatum prorsus ae persectum opus effe-
 <lb/>cerit, ut’ in horum nervorum flexione videre- est; in
@@ -11461,7 +11501,7 @@
 <lb/>sursum et in sublime tollit; inde autem ptrique feruntur
 <lb/>sursum ad caput afperae,. arteriae, idem iter, quod prius,
 <lb/>conficientes, fed  nulli amplius; musculo ne minimam<hi rend="sub">;
-</hi><lb/>quidem £ui portionem distribuentes, quod nullum aliud</p>
+<lb/></hi>quidem £ui portionem distribuentes, quod nullum aliud</p>
 <pb n="585"/>
 <p>motionis principium ex portibus inferioribus necesse eraf
 <lb/>musculum accipere; sed eorum uterque plane ac jusiq,
@@ -11552,7 +11592,7 @@
 <lb/>quoque machinata ei, quod ante in membranis, quae
 <lb/>funt ad cordis orificia, memoravimus. Sed quemadmo-
 <lb/>dum in illis admonuimus hujusmodi' membranarum pro- <hi rend="sup">r
-</hi><lb/>ductionem a natura fuisse factam, non quo nihil’pior-
+<lb/></hi>ductionem a natura fuisse factam, non quo nihil’pior-
 <lb/>fus aliquando incideret contrariis orificiis., fed ne' mul-
 <lb/>tum, neve simul ac subito, sic etiam meminisse hic
 <lb/>oportet eorum, quae in libris de placitis Hippocratis
@@ -12187,7 +12227,7 @@
 <pb n="622"/>
 <p>monem non credens tactui, illi autem et ipsum cor'
 <lb/>credideritis Quo pacto autem cerebrum aere .non est
-<lb/>calidius, cui certe: lethale est, ‘si aeque ac aer refri-
+<lb/>calidius, cui certe<hi rend="sup">:</hi> lethale est, ‘si aeque ac aer refri-
 <lb/>geretur? Quomodo autem cerebrum cordi refrigerando
 <lb/>fatis esse potest, cor autem non-multo magis cerebrum
 <lb/>supra fe positum potest excalfacere, quum calor omnis
@@ -12218,7 +12258,7 @@
 <lb/>runtur, quorum duo quidem molles per palatum ten-
 <lb/>dunt, duo autem duri secus utramque anrem descen-'
 <lb/>dunt? Omnia igitur cum cerebro communicant, modo<hi rend="sup">1
-</hi><lb/>oculis credere oporteat ridentibus et tangentibus mani;
+<lb/></hi>oculis credere oporteat ridentibus et tangentibus mani;
 <lb/>b'us.- Quid jam loquar de totius cerebri constructione ?
 <lb/>quemnam habebunt usum χοροειδῆ corpora, plexus reti—
 <lb/>formis, conarion, pyelus seu pelvis, choana, corpus’
@@ -12352,7 +12392,7 @@
 <lb/>iniit, eadem ratione aures; et .quibus-, olfaciunt mares.
 <lb/>-Simili igrtur ratione .et quod sensus aci motus, estprin-
 <lb/>alpium , unum atque adem . est .lu omnibus unirnalibus,
-<lb/>-etiamsi locis diversis: inveniatur,  Quemadmodum igitur
+<lb/>-etiamsi locis diversis<hi rend="sup">:</hi> inveniatur,  Quemadmodum igitur
 <lb/>ipraedictis animatibus lu pectore-.est constitutum,:-neque
 <lb/>-umpllus propter hanc., partem necessaria apparet capitis
 <lb/>-generatic,. ita quoque non propter .os luit necessaria,
@@ -12544,7 +12584,7 @@
 <p>ipsae seruntur; quandoquidem facultatum alia odorum,
 <lb/>alia saporum, alia-sonorum, alia colorum est dijudica-
 <lb/>trrx. Viarum: autem ea quidem, quae fert ab utroque<hi rend="sup">1
-</hi><lb/>cerebri, ventriculo ad nares, productio est prae longa,
+<lb/></hi>cerebri, ventriculo ad nares, productio est prae longa,
 <lb/>nihil ab ipsis ventriculis discrepans; quae vero ad ocu-
 <lb/>los- ducit,- variat quidem jam quoiiamjtrodo ac dissidet,
 <lb/>non tamen plane certus est nervus; quae'autem ad lin-
@@ -12695,7 +12735,7 @@
 <lb/>servares ipsum posset, tum transitum ipsorum sensibilium
 <lb/>interea non impedire. Verum, si impediturum non erat,
 <lb/>tanto id rarius este oportebat operimento auditus, quan-
-<lb/>;o sensibile hujus, quam r,unitus <hi rend="sub"/>?- crassiorum erat pan-</p>
+<lb/>;o sensibile hujus, quam r,unitus <hi rend="sub">?</hi>- crassiorum erat pan-</p>
 <pb n="648"/>
 <p>alum; fere enim quantum aen partium tenuitate a luce
 <lb/>-relinquitur, tantum vapor etiam an aere.. Videre autem
@@ -13091,7 +13131,7 @@
 <lb/>ventriculus hic est creditus, - omnium totius cerebri ven-
 <lb/>triculorum’ affirmant esse principalissimum. Herophllus
 <lb/>vero non hunc-ventriculum, sed’-eum, qui posteriori?'
-<lb/>cerebro ’ inest,' existimare videtur esse : principaliorem.
+<lb/>cerebro ’ inest,' existimare videtur esse <hi rend="sup">:</hi> principaliorem.
 <lb/>Nos veto; quidnam sentire de nis’oporteat, lu commen-
 <lb/>tariis de Placitis Hippocratis et Platonis abunde prodi-</p>
 <pb n="668"/>
@@ -13216,7 +13256,7 @@
 <lb/>magis implexam esse hanc in horuluibus dicat, quam in
 <lb/>aliis animalibus, et cum ea etiam cerebrum, propterea.
 <lb/>quod homines mente ac  ratiocinatione caetera anirnan-
-<lb/>tia superant, .non amplius mihi videtur aeque' recte <hi rend="sup"/>!fen-
+<lb/>tia superant, .non amplius mihi videtur aeque' recte <hi rend="sup">!</hi>fen-
 <lb/>fire, quum ipsi certe etiam asini cerebrum habeant ad—
 <lb/>modum multis nexibus implicitum i ' quos oportebat; si
 <lb/>morum spectes ruditatem ac stuporem,- cerebrum habere
@@ -13437,11 +13477,11 @@
 <lb/>principes, quomodo cerebrum, hae fuerint Nam succi
 <lb/>ejus, qui par(illas’ ipsis aflluit, pars quidem utilis est adeo
 <lb/>'atque benigna,' ut corpori" nutriendo assimiletur;' qui
-<lb/>siuccus re' vera: est alimentum; reliqua- vero pars ad
+<lb/>siuccus re' vera<hi rend="sup">:</hi> est alimentum; reliqua- vero pars ad
 <lb/>membrum usque cum benigno pervenit quidem ' et ipsa,'
 <lb/>at, quum illud, apponitur, secernitur; ad quam excernen-
 <lb/>dam natura meatus requirit opportunos; quos nisi nacta'
-<lb/>fuerit, acervata ibi primum quidem:instar oneris gravat;
+<lb/>fuerit, acervata ibi primum quidem<hi rend="sup">:</hi>instar oneris gravat;
 <lb/>deinde vero prohibet,' quominus succi postea affluant, vias
 <lb/>ipformn’ praeoccupans; quo fit; ut membrum ipsum nu-
 <lb/>triri non sinat. Sed haec quidem sunt leviora. Majora
@@ -13584,7 +13624,7 @@
 <lb/>subsunt partes; nihil plus ex ea constructione’ ad fecurr-'
 <lb/>tetein fuissent assecutae,' quum ea, quae id "vulnerarii,
 <lb/>intro facile penetrare potuissent propter viae brevitatem;
-<lb/>sin vero  crassum -fimus ae: densum, - oneri fuisset totr
+<lb/>sin vero  crassum -fimus ae<hi rend="sup">:</hi> densum, - oneri fuisset totr
 <lb/>animali; quemadmodum si quis nune capiti -suo ornus
 <lb/>aliquod, alliget; perpetuoque id gestet.-ῆ Reliquum igitiur
 <lb/>adhuc erat tertium, ut neque tenue, neque densum, scd
@@ -13861,10 +13901,10 @@
 <lb/>geniofiorem inv eniebat securitatem,', ad id saltem venisset,
 <lb/>sicut ex lis, quae ipsa in transitu per ossa machinatur,
 <lb/>indicati At enim mificis industrii maximum est ludid<hi rend="sup">1
-</hi><lb/>cinm .(quemadmodum, ante saepenuUiero jam diximus),
+<lb/></hi>cinm .(quemadmodum, ante saepenuUiero jam diximus),
 <lb/>iis, quae ad alium usum fuerunt comparata, ad alias
 <lb/>quoque utilitates, simul uti, neque laborare, ut .singulis<hi rend="sup">1
-</hi><lb/>utilitatibus singulas faciat ac proprias partes. Quum igi-
+<lb/></hi>utilitatibus singulas faciat ac proprias partes. Quum igi-
 <lb/>tur ibidem crassa meninx’ esset, - aliam tunicam non pn-.</p>
 <p><space/>, .  '</p>
 <pb n="707"/>
@@ -14416,7 +14456,7 @@
 <lb/>qua deduceret, ullum habebat. Si enim per duram
 <lb/>menlugem eos traduxisset, , nervis tertiae et quariae
 <lb/>ccnjugationis admiscens, aeque, ac illi, molles perstitis-<hi rend="sup">1
-</hi><lb/>senti Per ossa vero capitis ducere quidem ipsos poterat,
+<lb/></hi>senti Per ossa vero capitis ducere quidem ipsos poterat,
 <lb/>durosque ex hac ejusmodi via moderate efficere; verum
 <lb/>id quidem’ simul erat supervacaneum, quum aliunde
 <lb/>promptius deduci possent, simul autem ne locus quidem
@@ -14487,7 +14527,7 @@
 <lb/>vero locum durum atque aridum permeat, ibi ericcutiu
 <lb/>facillime atque obdurescit; .his omnibus accedit et. ex
 <lb/>opportuno petrosi hujus olfis situ securitatis utilitas; om-<hi rend="sub">:
-</hi><lb/>niaque videtur, .quibus nervus hic: egebat, ' ex uno.lioe-
+<lb/></hi>niaque videtur, .quibus nervus hic: egebat, ' ex uno.lioe-
 <lb/>flexu complexa,.securitatem, viae longitudinem, loci sic—,
 <lb/>citatem. - Hic igitur nervus maxima . quidem sua parte
 <lb/>latum buccarum aperit musculum,, exiguum autem ipsius.,
@@ -14739,7 +14779,7 @@
 <lb/>ter constructae suerint, dictum ante suit Nunc autem,
 <lb/>quod adhuc fuperest de ipsar um qsu,. postquam adjunxe-</p>
 <pb n="751"/>
-<p>-- - su - ' : ’  ' .?
+<p>-- - su - ' <hi rend="sup">:</hi> ’  ' .?
 <lb/>rimus, deinceps de, earumdem positione ac numera
 <lb/>tractabimus. Fuit , certe vel ob, eam causam utile cra-
 <lb/>nium ex multis osticus, componi, ut, si quando pcre.usium.
@@ -14916,7 +14956,7 @@
 <lb/>rei argumento'sunt certissimo, quae a medicis hypoehy-’
 <lb/>mata, (justusiones) appellantur, quae interjacent quidem
 <lb/>inter humorem crystallinum et coiuearn tunicam, xi-<hi rend="sup">1
-</hi><lb/>sionern autem" impediunt, quoad- acu deprimantiir.'</p>
+<lb/></hi>sionern autem" impediunt, quoad- acu deprimantiir.'</p>
 <pb n="761"/>
 <p>Humori autem crystallino, qui albus .est, clarus ac splen- *
 <lb/>dens, (hac enim scla ratione erat suturum, ut a colori-,
@@ -15047,7 +15087,7 @@
 <lb/>quintaque praeter quatuor praedictas in uno loco est
 <lb/>haec- conjunctio, quae subjectis omnibus, commoditatem
 <lb/>praestat haud’levem, tum ne a circumj acentibus ossibus
-<lb/>afficiantur,<hi rend="sup"/>- tum etiam ne in vehementissirnis motibus
+<lb/>afficiantur,<hi rend="sup">-</hi> tum etiam ne in vehementissirnis motibus
 <lb/>a sese abrumpantur. Dura igitux meninx tuto chorioidi
 <lb/>est applicata; haec vero rursus ipsi retiformi; ' relisurum-</p>
 <pb n="768"/>
@@ -15463,10 +15503,10 @@
 <lb/>cumbentes circulos ' ac . coalefcentes, , qui lu spatio funtt
 <lb/>iridos -turquam; quomodo nunc admisisset; ad:.haec ini
 <lb/>vehementi ae- violento motu; aut. plaga; quae oculo<hi rend="sup">1
-</hi><lb/>nomi unquam accidunt, lu periculum fuisset adductus, nes
+<lb/></hi>nomi unquam accidunt, lu periculum fuisset adductus, nes
 <lb/>e vitreo humore exturbaretur.. Etenim .connexiones ae
 <lb/>sudes iu absolute rotundis sunt fallaciores,- quam- in<hi rend="sup">}
-</hi><lb/>planioribus, ceu. super' devexas- et ob id ipsum facile'
+<lb/></hi>planioribus, ceu. super' devexas- et ob id ipsum facile'
 <lb/>lubricas rotunditates vehantur.: Haec quidem figurae
 <lb/>crystallini est causa;- omniaque, .' quae ad oculum perti-
 <lb/>nent, tuto disposita: videntur praeter- tegentem ea-cor-
@@ -15829,7 +15869,7 @@
 <lb/>possit injusta, quod iuferiorem multo minorem effecerit;
 <lb/>oportebat enisu,' quemadmodum auribus ac labiis et nasi
 <lb/>alis, ita palpebris’ utrisque magnitudinem ae motum
-<lb/>tribuere aequalem. alAt situs:hujus’'discriminis est causa;
+<lb/>tribuere aequalem. alAt situs<hi rend="sup">:</hi>hujus’'discriminis est causa;
 <lb/>si enim palpebri inferior' longior, quam nunc 'est, ex-
 <lb/>titisset, noir fuisset fimlliter constans, scd in fe ipfam de-
 <lb/>fluens corrugaretur; laxaque fieret, ab oculoque'disce-
@@ -16030,7 +16070,7 @@
 <lb/>nic per visiones illas videri,'ipsiusque centrum per aliam
 <lb/>visionem in axe coni locatam, omnernque circuli plani; -
 <lb/>tiem per multas quasdam visiones ad ipsam pervenientes.<hi rend="sup">1
-</hi><lb/>Herum autem visionum, quae aequaliter ab axe absunt,
+<lb/></hi>Herum autem visionum, quae aequaliter ab axe absunt,
 <lb/>in quavis planitiei parte fuerint,- eas ejusdem’ stationis
 <lb/>ac loci nomina; quae vero fecus, stationis dissimilis.</p>
 <pb n="818"/>
@@ -17184,7 +17224,7 @@
 <lb/>alius aliquando nobis explicandi locus fuerit, homo vero
 <lb/>(ad eum enim nobis est revertendum) unum parte utra-
 <lb/>que dentem caninum produxit, quum leones, lupi a<hi rend="sub">C
-</hi><lb/>canes multos utrinque habeant. Verurntamen hic rursus
+<lb/></hi>canes multos utrinque habeant. Verurntamen hic rursus
 <lb/>natura certo sciebat, . sc animal mansuetum ac civile ef-,
 <lb/>fingere, cui robur ac vires essent ex sapientia, non ex
 <lb/>corporis robore. Quantum igitur ad frangendum quip-
@@ -17235,7 +17275,7 @@
 <lb/>xillae partibus singulos. Porro quemadmodum partes hae
 <lb/>proportione luter se suerunt comparatae, ad eundem
 <lb/>plane modum et ungues: in animalibus quidem rnansiie-
-<lb/>tis aut timidis lati,<hi rend="sup"/>- molles atque obtusi, agrestibus auv</p>
+<lb/>tis aut timidis lati,<hi rend="sup">-</hi> molles atque obtusi, agrestibus auv</p>
 <pb n="880"/>
 <p>tem aut fortibus acuti, magni, fortes ae rotundi; quod
 <lb/>ab ipsis atomis praetermitti (ut mihi videtur) minime
@@ -17428,7 +17468,7 @@
 <lb/>corpuscula inhibentur, ut quae prius irr ipso flexu cor-
 <lb/>poribus incidunt hmnidis, ac mollibus, ac viscosum quid-
 <lb/>piam habentibus, quorum omnium beneficio possunt re-'
-<lb/>tinere, quae incidunt. Quod : si quid ad os usque per-
+<lb/>tinere, quae incidunt. Quod <hi rend="sup">:</hi> si quid ad os usque per-
 <lb/>imearit, ibi haerebit ad palatum ac columellam, fic
 <lb/>enim et gurgulionem hanc appellant. Cujus rei argu-
 <lb/>mentum est maximum id, quod quotidie accidit tunr iis,
