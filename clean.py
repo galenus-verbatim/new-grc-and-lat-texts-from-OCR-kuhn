@@ -1,10 +1,18 @@
-"""Nettoyer du XML avec des expressions régulières
+"""Améliorer du latin acquis par OCR
 
 Programme adapté au XML Galien latin, généré par odette.
 Certaines fonctions sont sans doute réutilisables.
 """
-import re
-import os
+import os, re, argparse
+
+parser = argparse.ArgumentParser(description='Galenus/la, nettoyage de TEI.')
+parser.add_argument(
+    'srctei',
+    metavar='45674x0?.xml',
+    nargs='+',
+    help='Un ou plusieurs fichier xml/tei'
+)
+
 
 # programme d’expressions régulières à appliquer dans l’ordre à un fichier XML sorti d’Odette
 reg_galien = [
@@ -45,4 +53,7 @@ def reg_replace(pairs, text):
         text = re.sub(search, replace, text, 0, re.UNICODE)
     return text
 
-reg_file('BIUSante_45674x03.xml', reg_galien)
+args = parser.parse_args()
+print(args)
+for srctei in args.srctei:
+    reg_file(srctei, reg_galien)
