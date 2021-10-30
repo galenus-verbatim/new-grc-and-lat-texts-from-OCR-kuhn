@@ -3,6 +3,7 @@
 Programme adapté au XML Galien latin, généré par odette.
 Certaines fonctions sont sans doute réutilisables.
 """
+
 import os, re, argparse
 
 parser = argparse.ArgumentParser(description='Galenus/la, nettoyage de TEI.')
@@ -27,6 +28,7 @@ reg_galien = [
     ("\s*</p>\s*(<pb[^/>]+/>)\s*<p>\s*", "\n\\1\n"), # pas de rupture de paragraphe au saut de page
     ("[-—]\n(<pb[^/>]+/>)\n([^\s]+) *", "\\2\n\\1\n"), # césure au saut de page
     ("<div>", '<div type="textpart">'), # EpiDoc TEI
+    # ^\W*[CG] *a *p[\Wi]*([XIiHVΠlL]+)[,'\. ]* repérer des têtes de chapitres
 ]
 
 
