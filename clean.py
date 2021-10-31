@@ -17,6 +17,7 @@ parser.add_argument(
 
 # programme d’expressions régulières à appliquer dans l’ordre à un fichier XML sorti d’Odette
 reg_galien = [
+    # cacographie en début de ligne
     ('<space rend="tab">    </space>[^\w<>]*', ""), # cacographie, tabulation suivie de non-lettres
     ('\n *<space unit="line" quantity="1"/> *', ''), # fausse ligne vide
     ('\n *<ab type="dinkus">\*</ab> *', ''), # cacographie, un astérisme inadapté
