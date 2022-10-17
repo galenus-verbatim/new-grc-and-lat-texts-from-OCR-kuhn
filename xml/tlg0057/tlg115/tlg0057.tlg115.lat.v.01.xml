@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">    
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">*Quomodo morbum simulantes sint deprehendendi*</title>
+                <author>Galen</author>
+                <editor>Karl Gottlob Kühn</editor>
+                <funder>?</funder>
+                <respStmt>
+          <resp>Published original versions of the electronic texts</resp>
+          <orgName ref="?"></orgName>
+          <persName>Nathalie Rouseau</persName>
+        </respStmt>
+        <respStmt>
+          <resp>?</resp>
+          <persName>Cahal Taaffe</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+                <authority>?</authority>
+                <publisher>Institut Universitaire de France</publisher>
+                <pubPlace>France</pubPlace>
+                <idno type="filename">tlg0057.tlg115.lat.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>
+                </availability>
+                <date>2022</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title xml:lang="lat">Claudii Galeni Opera Omnia</title>
+                        <author>Galen</author>
+                        <editor>Karl Gottlob Kühn</editor>
+                        <imprint>
+                            <publisher>Cnobloch</publisher>
+                            <pubPlace>Lipsiae</pubPlace>
+                            <biblScope unit="vol">19</biblScope>
+                            <biblScope unit="ed1vol">3</biblScope>
+                            <biblScope unit="ed2vol">8</biblScope>
+                            <biblScope unit="pp" from="1" to="7">1-7</biblScope>
+                            <date>1830</date>
+                        </imprint>
+                    </monogr>
+                    <ref target="?">?</ref>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+              <refsDecl n="CTS">
+                <cRefPattern matchPattern="(.+)" n="chapter" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="lat">lat</language>
+            </langUsage>
+        </profileDesc>
+  </teiHeader>
+
+    <text>
+        <body>
+
+            <div type="edition" xml:lang="lat" n="urn:cts:greekLit:tlg0057.tlg115.lat">
+                <pb n="1"/>
+                    <head>GALENI QUOMODO MORBUM SIMULANTES<lb/>SINT DEPREHENDENDI 
+                        <lb/>LIBELLUS.</head>
+						
+                    <p>Ob multas causas aegrotare fe homines simulant. <lb/>Videtur autem medico 
+						convenire veritatis inventio in <lb/>ejusmodi omnibus; ipsi etiam idiotae fallentes
+						verum <lb/>proferentibus se discernere existimant. Etenim phlegmone <lb/> et 
+						erysipelas et oedemata consulto ab externis medicamentis<lb/> 
+						procreata modicis deprehendere ac discernere licet
+                <pb n="2"/>
+                        <lb/>ab iis quae ex ipso corpore concitantur affectibus; ita <lb/>vero et 
+						sanguinis sputum qui ex oris emanat partibus, ab <lb/>eo qui e stomacho et 
+						ventriculo aut spirabilium organorum <lb/>aliquo exspuitur. Etenim deprehensi 
+						jam quidam <lb/>sunt, qui sub finem tussis, quoties vellent, sanguinem <lb/>exercerent, 
+						venula quadam in hoc prompte circa gingivas <lb/>aperta sicque comparata, ut quando 
+						videretur, lingua illam  <lb/>sugentes statimque post tussientes, sanguinem quasi ex <lb/>inferioribus 
+						redditum exspuerent. Delirare quoque nonnulli  <lb/>desipereque se finxerunt, quum alios potius 
+						stultos <lb/>ostenderent. Haec omnia et deprehendere et inter se discernere,  <lb/>ad medicos pertinere 
+						vulgus existimat. In his <lb/>vero certe dolor adeo vehemens <i>fingitur</i>, ut intolerabilis <lb/>esse 
+						videatur. Atque vocatum quendam a civibus ad concionem  <lb/>novi culicum dolorem finxisse, ut ne 
+						accederet, <lb/>quod sibi ita conducere vifum esset. Qua in re eo tempore  <lb/>suspicatus sum hominem 
+						fallere, quod postea mihi <lb/>confessus est. Fomenta igitur ipsi admovere jussi, verum
+                <pb n="3"/>
+                        <lb/>non magnopere sibi succurri precabatur, quamquam prius <lb/>in minimis admodum meticulosus esset. 
+						Equidem paucis <lb/>ante diebus noverat colico dolore laborantem a me hausto <lb/>mox medicamento philonio dolore 
+						fuisse liberatum, quod <lb/>a me continuo petiisset, si doluisset. Sed et exitus istud <lb/>declararit, quoniam dimissa concione extemplo 
+						conqueri, <lb/>tanquam extra omnem mox dolorem constitutus desiit. <lb/>Quin et ipsa praeterea vivendi ratio quae praecesserat, <lb/>talis erat ut colicam 
+						in eo dispositionem non posset generasse; <lb/>quando ex indigestione infrigidationeque proficisci <lb/>solent ejusmodi passiones, quorum in hoc
+						neutrum praecesserat. <lb/>Hoc igitur quod non ratione anteactae diaetae <lb/>morbus esset, potuisse cognoscere, medicae erat experientiae <lb/>opus. Alterum vero 
+						istud quod ob concionem simulare <lb/>haec illum suspicatus eram, medicinae proprium non <lb/>fuerat, sed rationis opus quae communis dicitur; quam <lb/>licet omnibus communis sit, 
+						pauci tamen exactam persectamque <lb/>habent ut invenire in quoquo negotio possint
+                <pb n="4"/>
+                        <lb/>quid faciendum dicendumve sit. Tenendum ergo memoria <lb/>quod diximus, experientiae medicae si coniungatur <lb/>externa haec facultas, 
+						alia quoque similia fingentes, validosque <lb/>dolores simulantes deprehendere licere. Quemadmodum <lb/>ipse nuper quum 
+						utroque genu vehementissime <lb/>dolere se quidam diceret. Servus autem is erat ex eorum <lb/>ordine qui dominos iter 
+						facientes cursu comitantur. Unde <lb/>statim doloris ejus fictionem deprehendi ex eo partim suspicionem <lb/>sumens, quod 
+						illam forte diem dominus ex urbe <lb/>profecturus erat; partim ex adolescentis moribus, qui talis <lb/>esset, ut facile in hujusmodi 
+						mentiretur. Caeterum et <lb/>conservum insuper quendam ei familiarem rogabam, num <lb/>adolescens ille mulierculae alicujus amore 
+						teneretur, propter <lb/>quam esset verisimile, longiorem profectionem domino <lb/>adornante, hoc illum studere ut relinqueretur. Et 
+						ita res <lb/>habebat. Haec autem extrinsecus adinveneram. Circa <lb/>vero genu ejus tumor quidam maximus existebat qui facile <lb/>idiotam 
+						perterrere potuisset, sed rei perito manifeste per
+                <pb n="5"/>
+                        <lb/>thapsiam excitatus apparebat. Haec autem cognitio medicinae <lb/>propria erat, non ab extrinsecus assumptis 
+						proveniens. <lb/> Ejusdem quoque erat experientiae scivisse nihil <lb/>eorum quae antecesserant, tale fuisse quod eum excitare <lb/>tumorem 
+						tam repente potuisset. Neque enim plus quam <lb/>conveniebat, concurrerat: neque vapularat ab aliquo neque <lb/>saltaverat neque fossam transiliens
+						id incommodum passus <lb/>erat; tum redundantis humoris indicium quidem nullum <lb/>erat, quod antea neque splendidius neque abundantius <lb/>vixisset. 
+						Ad haec autem et doloris speciem me, qualisnam <lb/>esset, percontante neque statim neque prompte neque <lb/>eadem respondebat. Quare profecto domino 
+						quum pharmacum <lb/>imposuissent quod dolorem quidem nihil leniebat, <lb/>verum thapsiae solum qualitatem infrigidare posset, post <lb/>horam unam illum confitentem habui,
+						nihil amplius su <lb/>doloris sentire. Quod fi e phlegmone dolor is natus fuisset, <lb/>non solum per istud refrigerativum non resedisset, <lb/>sed 
+						etiam vehementior redditus esset. Liquere igitur nunc <lb/>arbitror quod si medicinalis experientia externis istis ratiocinationibus
+                <pb n="6"/>
+                        <lb/>coniungatur, sufficiens sit ad fortis doloris <lb/>dignotionem. Potest vero quis ex eo quod lenius morbum <lb/>ferant, judicium 
+						non vehementis doloris sumere. Accidit <lb/>enim istud omnino saepe, non advertentibus iis. qui morbi <lb/>vehementiam simulant, 
+						quod in alium se aliumque habitum <lb/>illi qui vere laborant, magnitudine videlicet doloris <lb/>agitati, transjiciunt. Praeterea 
+						si dolore vehementi revera <lb/>premantur, quoduis perpeti auxilium parati sunt, hortanturque <lb/>ipsi ultro medicos ut quidquid 
+						ipsis libuerit agant, <lb/>quo assectus curetur. Sin vero mediocriter aut nequaquam <lb/>omnino dolent, hujusmodi auxilia refugiunt, 
+						neque <lb/>longiora jejunia, neque mordacium pharmacorum oblationem <lb/>perferentes. Quae sola quidem quum graviter se 
+						laborare <lb/>dicunt, hujusmodi dispositionibus conferre nos illis <lb/>affirmare oportet; quemadmodum et sectiones et 
+						ustiones <lb/>et omnis cibi potusque, quorum desiderio eos trahi videmus, <lb/>abstinentiam. Morbum igitur simulantes doloris
+                <pb n="7"/>
+                        <lb/>magnitudo arguet, tum medicinalis experientiae notionibus, <lb/>in quibus sunt languere, extrema infrigidari, 
+						pallere, <lb/>interdum quoque frigidum sudare et pulsus non tantum <lb/>inaequales, quod quidem iis etiam qui mediocriter
+						dolent, <lb/>accidit, sed etiam plures minorum quam magnorum, obscurorum <lb/>quam vehementium habere; praeterea
+						interrogatum <lb/>de doloris specie, eam respondere quae affecto <lb/>membro propria sit. Quaedam namque species 
+						dolores <lb/>longe lateque se diffundentes habent; quaedam vero tanquam <lb/>fixos unique tantum parti inhaerentes.
+						Sic aliae <lb/>pungunt pulsantque aliae quasi devellunt, aliae quodammodo <lb/>obstupefacere, aliae gravare videntur,
+						nonnullae <lb/>denique vomitus, quaedam ventris perturbationes, quaedam <lb/>caliginem inferunt. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

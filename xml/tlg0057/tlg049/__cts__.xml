@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:tlg0057" xml:lang="lat" urn="urn:cts:latinLit:tlg0057.tlg049">
+  <ti:title xml:lang="lat">Adversus eos qui de typis scripserunt vel de circuitibus</ti:title>
+  <ti:edition urn="urn:cts:latinLit:tlg0057.tlg049." workUrn="urn:cts:latinLit:tlg0057.tlg049">
+    <ti:label xml:lang="lat">Adversus eos qui de typis scripserunt vel de circuitibus</ti:label>
+    <ti:description xml:lang="mul">Galen, Adversus eos qui de typis scripserunt vel de circuitibus</ti:description>
+  </ti:edition>
+</ti:work>

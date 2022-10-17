@@ -1,0 +1,19 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:tlg0057"
+	xml:lang="lat" urn="urn:cts:latinLit:tlg0057.tlg073">
+	<ti:title xml:lang="lat">Quos quibus catharticis medicamentis et quando purgare
+		oporteat</ti:title>
+	<ti:edition urn="urn:cts:latinLit:tlg0057.tlg073."
+		workUrn="urn:cts:latinLit:tlg0057.tlg073">
+		<ti:label xml:lang="lat">Quos quibus catharticis medicamentis et quando purgare
+			oporteat</ti:label>
+		<ti:description xml:lang="mul">Galen, Quos quibus catharticis medicamentis et quando purgare
+			oporteat, Kühn, Cnobloch, 1826</ti:description>
+	</ti:edition>
+    <ti:edition urn="urn:cts:latinLit:tlg0057.tlg073."
+        workUrn="urn:cts:latinLit:tlg0057.tlg073">
+        <ti:label xml:lang="lat">Quos quibus catharticis medicamentis et quando purgare
+            oporteat (ap. Oribasium)</ti:label>
+        <ti:description xml:lang="mul">Galen, Quos quibus catharticis medicamentis et quando purgare
+            oporteat (ap. Oribasium), Raeder, Teubner, 1928</ti:description>
+    </ti:edition>
+</ti:work>

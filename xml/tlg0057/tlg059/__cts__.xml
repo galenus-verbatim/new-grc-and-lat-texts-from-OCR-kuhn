@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:tlg0057" xml:lang="lat" urn="urn:cts:latinLit:tlg0057.tlg059">
+  <ti:title xml:lang="lat">De differentiis pulsuum</ti:title>
+  <ti:edition urn="urn:cts:latinLit:tlg0057.tlg059." workUrn="urn:cts:latinLit:tlg0057.tlg059">
+    <ti:label xml:lang="lat">De differentiis pulsuum</ti:label>
+    <ti:description xml:lang="mul">Galen, De differentiis pulsuum</ti:description>
+  </ti:edition>
+</ti:work>

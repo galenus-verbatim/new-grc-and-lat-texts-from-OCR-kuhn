@@ -1,0 +1,8 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:tlg0057" xml:lang="lat" urn="urn:cts:latinLit:tlg0057.tlg037">
+    <ti:title xml:lang="lat">De alimentorum facultatibus</ti:title>
+    <ti:edition urn="urn:cts:latinLit:tlg0057.tlg037." workUrn="urn:cts:latinLit:tlg0057.tlg037" xml:lang="lat">
+            <ti:label xml:lang="lat">Περὶ τῶν ἐν ταῖς τροφαῖς δυνάμεων</ti:label>
+        <ti:description xml:lang="mul">Galen. De alimentorum facultatibus libri tres. Corpus medicorum Graecorum, 5,4,2. Helmreich, Georg, editor. Leipzig; Berlin: Teubner, 1923.</ti:description>
+    </ti:edition>
+</ti:work>
+

@@ -1,0 +1,11 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:tlg0057" xml:lang="lat" urn="urn:cts:latinLit:tlg0057.tlg001">
+  <ti:title xml:lang="lat">Adhortatio ad artes addiscendas</ti:title>
+  <ti:edition urn="urn:cts:latinLit:tlg0057.tlg001." workUrn="urn:cts:latinLit:tlg0057.tlg001">
+    <ti:label xml:lang="lat">Adhortatio ad artes addiscendas</ti:label>
+    <ti:description xml:lang="mul">Galen, Adhortatio ad artes addiscendas, Claudii Galeni Opera Omnia, Kühn, Volume 1, 1829</ti:description>
+  </ti:edition>
+<ti:edition urn="urn:cts:latinLit:tlg0057.tlg001." workUrn="urn:cts:latinLit:tlg0057.tlg001">
+<ti:label xml:lang="lat">Protrepticus</ti:label>
+  <ti:description xml:lang="mul">Galen, Protrepticus, Claudii Galeni Protreptici quae supersunt, Kaibel, Weidmann, 1894</ti:description>
+</ti:edition>
+</ti:work>

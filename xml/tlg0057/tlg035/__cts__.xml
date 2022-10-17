@@ -1,0 +1,14 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:tlg0057"
+    xml:lang="lat" urn="urn:cts:latinLit:tlg0057.tlg035">
+    <ti:title xml:lang="lat">De venereis</ti:title>
+    <ti:edition urn="urn:cts:latinLit:tlg0057.tlg035."
+        workUrn="urn:cts:latinLit:tlg0057.tlg035">
+        <ti:label xml:lang="lat">De venereis</ti:label>
+        <ti:description xml:lang="mul">Galen, De venereis, Kühn, Cnobloch, 1823</ti:description>
+    </ti:edition>
+    <ti:edition urn="urn:cts:latinLit:tlg0057.tlg035.1st1K-grc3"
+        workUrn="urn:cts:latinLit:tlg0057.tlg035">
+        <ti:label xml:lang="lat">De venereis (ap. Oribasium)</ti:label>
+        <ti:description xml:lang="mul">Galen, De venereis (ap. Oribasium), Raeder, Teubner, 1928</ti:description>
+    </ti:edition>
+</ti:work>

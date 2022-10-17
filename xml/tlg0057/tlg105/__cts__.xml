@@ -1,0 +1,7 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:tlg0057" xml:lang="lat" urn="urn:cts:latinLit:tlg0057.tlg105">
+  <ti:title xml:lang="lat">QDe ordine librorum suorum ad Eugenianum</ti:title>
+  <ti:edition urn="urn:cts:latinLit:tlg0057.tlg105." workUrn="urn:cts:latinLit:tlg0057.tlg105">
+    <ti:label xml:lang="lat">De ordine librorum suorum ad Eugenianum</ti:label>
+    <ti:description xml:lang="mul">Galen, De ordine librorum suorum ad Eugenianum, Kühn, Volume 19, 1830</ti:description>
+  </ti:edition>
+</ti:work>
