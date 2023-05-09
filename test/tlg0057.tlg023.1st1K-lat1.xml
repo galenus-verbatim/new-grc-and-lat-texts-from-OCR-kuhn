@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
@@ -51,36 +51,40 @@
               <biblScope unit="pp" from="703" to="736">703-736</biblScope>
               <date>1822</date>
             </imprint>
-			<ref target="https://hdl.handle.net/2027/chi.11102513">HathiTrust</ref>
           </monogr>
+          
+        <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?45674x04">BIU Santé, Medica</ref></biblStruct>
+        <biblStruct>
           <monogr corresp="Basel">
             <title xml:lang="lat">Γαληνοῦ Ἅπαντα. Galeni Pergameni Opera omnia</title>
             <author>Galenus</author>
             <editor>Joachim Camerarius</editor>
             <editor>Leonhart Fuchs</editor>
             <editor>Hieronymus Gemusaeus</editor>
-            <imprint>              
+            <imprint>
               <publisher>Cratander</publisher>
               <pubPlace>Basel</pubPlace>
               <biblScope unit="vol">1</biblScope>
               <biblScope unit="pp" from="222" to="226">222-226</biblScope>
               <date>1538</date>
-			  <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00039x01">BIU Santé, Medica</ref>
             </imprint>
           </monogr>
-		  <monogr corresp="Chartier">
+          <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00039x01">BIU Santé, Medica</ref>
+        </biblStruct>
+        <biblStruct>
+          <monogr corresp="Chartier">
             <title xml:lang="lat">Magni Hippocratis Coi, et Claudii Galeni Pergameni archiatrΩn uniuersa quae extant</title>
             <author>Galen</author>
             <editor>René Chartier</editor>
             <imprint>
               <publisher>[s.n.]</publisher>
-			  <pubPlace>Paris</pubPlace>
+              <pubPlace>Paris</pubPlace>
               <biblScope unit="vol">3</biblScope>
               <biblScope unit="pp" from="155" to="164">155-164</biblScope>
               <date>1639</date>
-			  <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00013x03">BIU Santé, Medica</ref>
             </imprint>
           </monogr>
+          <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00013x03">BIU Santé, Medica</ref>
         </biblStruct>
       </sourceDesc>
     </fileDesc>
@@ -134,7 +138,7 @@
 <lb/>apposita <hi rend="italic">dictione</hi> quamprimum consequens est, in arteriis
 <lb/>etiam prius, quam vulnerarentur, <hi rend="italic">suesse</hi> sanguinem,
 <lb/>composita nimirum tota ratiocinatione , quae hunc in modum
-<lb/>procedit. Si<hi rend="italic">s</hi> quum vuluerantur arteriae, fanguis vaenari
+<lb/>procedit. Sis quum vuluerantur arteriae, fanguis vaenari
 <lb/>conspiciatur, vel is in ipsis arteriis continebatur,
 <lb/>vel alibi transsumitur: atqui, quum vuluerantur arteriae,
 <lb/>sanguis vacuari conspicitur, non transsumitur, ut demonstrabimus
@@ -174,25 +178,25 @@
 <lb/>Enimvero qui spiritus arteriis concluditur, ambiente
 <lb/>nos aere tenuior non est, nt ejus procreatio doceI.
 <lb/>Procreatur enim Erasiftrati sententia ambiente
-<lb/>nos aere, qui in corpus ad eas, quae in pulmon<hi rend="italic">e</hi> sunt,
+<lb/>nos aere, qui in corpus ad eas, quae in pulmone sunt,
 <lb/>primas arterias, deinde vero ad cor et ad alias appulerit.
 <lb/>Quo igitur in humidioribus corporibus is versatur^
-<lb/>eo crassior pinguiorque reddatur par est. <hi rend="italic">i</hi> Calidior quoque
-<lb/>sit, <hi rend="italic">s</hi>ed ut vapor furfum fertur, qui neque obscuram
+<lb/>eo crassior pinguiorque reddatur par est. i Calidior quoque
+<lb/>sit, sed ut vapor furfum fertur, qui neque obscuram
 <pb n="707"/>vacualionem, neque ita citam habiturus est. Praxagoras
 <lb/>quidem et crassiorem ipsum et abunde vaporosum esse
 <lb/>protulit. Erasistratus vero, quomodo crassitiem habeat^
-<lb/>haud definivit. Ex Iis tamen, quae de ipso tradit <hi rend="italic">s</hi> quisque
+<lb/>haud definivit. Ex Iis tamen, quae de ipso tradit s quisque
 <lb/>conjicit, nequaquam congruere ipsum esse tenuem.
 <lb/>Arterias enim eo repletas dilatari, eodemque modo muscusorum
 <lb/>ventres asseverat, quum certe eorum neutrum
 <lb/>fieri queat, si absolute sit tenuis. Non enim certe, qui
 <lb/>talis esit, eum in corporibus detineri, sed. egredi magis
-<lb/>consentaneum esi<hi rend="italic">i</hi> Cur igitur is peraeque ac in thoracis^
+<lb/>consentaneum esii Cur igitur is peraeque ac in thoracis^
 <lb/>peritonaei et pharyngis vulneribus efflari non conspicitur?
 <lb/>Sed rifum fortassis movemus ex aliis id argumentis comprobantes,
 <lb/>quum liceat eos memorare arterias; quae quum
-<lb/>sanguinem affatim ejaculan tur<hi rend="italic">p</hi>is manifesto efflari conspicitur.
+<lb/>sanguinem affatim ejaculan turpis manifesto efflari conspicitur.
 <lb/>Ut enim calidior, sic et magis vapofiferus in arteriis esit sanguis;
 <lb/>non tamen ipse per fe vapor; vel aer; vel aether A vel
 <lb/>omnino qui in eo continetur spiritus conspicitur^ Si namque
@@ -209,13 +213,13 @@
 <lb/>facilis ac tenuis, ut pauco tempore procliviter vacuefur,
 <lb/>non is quidem Polus vacuabitur, qui sectis inest arterris,
 <lb/>sed qui in caeteris omnibus manet. Constat enim,
-<lb/>quod priorem <hi rend="italic">s</hi>ectae arteriae reliquus universus prompte
+<lb/>quod priorem sectae arteriae reliquus universus prompte
 <lb/>sit sequuturus. Ac prima in postremis arteriis mainfesta
 <lb/>fiet vacuatio, quum aliud ipsae non habeant, unde
 <lb/>rurfum transfumant. ln ipsa igitur primum periculum
 <lb/>est, ne locus vacuus reddatur, nisi quidiTubstanliae trans;
 <pb n="709"/>sumpti spiritus locum repleverit; proptereaque necessario
-<lb/>per mutuas anastomoscs (ut ipse loquitur) fanguis c<hi rend="italic">u</hi>rsat^
+<lb/>per mutuas anastomoscs (ut ipse loquitur) fanguis cursat^
 <lb/>ei, qui evacuatur, succedentem sequitur, atque tanquam ei,
 <lb/>qui postremarum arteriarum extremis est, spiritui alligatus,
 <lb/>prior quidem omni alio sanguine, posterior vere
@@ -232,10 +236,10 @@
 <p rend="indent">Ad eorum autem, quae proposita funt
 <lb/>reliquum redeuntes demonstrabimus, neque, si a corde
 <lb/>comprimente spiritus immittatur arteriis, probabile esse.
-<lb/>ipsum intercidentis sanguinis dogma. Quid enim vult <hi rend="italic">id</hi>
+<lb/>ipsum intercidentis sanguinis dogma. Quid enim vult id
 <lb/>C prius)? arterias ad extremum usque ex natura salitas,
 <lb/>quemadmodum et venas, contrahi, veI, quod verum efa
-<pb n="710"/><hi rend="italic">eas</hi> adusque quid ? Esto prius , quod ad extremum , ut
+<pb n="710"/>eas adusque quid ? Esto prius , quod ad extremum , ut
 <lb/>nihil supersit. -At si hoc, pravum erit argumentum, et
 <lb/>quod divisionis defectu nihil concludet. Neque enim amplius
 <lb/>licet dicere , quod, quum evacuatur spiritus , vel locus
@@ -247,7 +251,7 @@
 <lb/>non evadit, haud inde licet istud concludere: lgitur
 <lb/>continuum subsequetur. Sed quaenam erit conclusio?
 <lb/>Ergo vel continuum subsequetur, vel vas contrahetur.
-<lb/>Sic sane prava esse parempt<hi rend="italic">G</hi>seos rasio demonstrabitur, si
+<lb/>Sic sane prava esse paremptGseos rasio demonstrabitur, si
 <lb/>absolute arteria contrahatur; fed si ad aliquantulum quid
 <lb/>usque, ilia etiamnum ratio prava esse demonstrabitur, .si
 <lb/>Id meminerimus, quod in teneris calamis advertitur, quos
@@ -270,7 +274,7 @@
 <lb/>profecto, quod vehementius inflatur, id magis ac citius,
 <lb/>evacuari. At si quis calamum omnibus etiam ventis exponat,
 <lb/>nullus tamen erit vacuus in calamo locus, fedsi
-<lb/>femper <hi rend="italic">P</hi>ane viam sibi spatiosam .calami cavitatem habivj.
+<lb/>femper Pane viam sibi spatiosam .calami cavitatem habivj.
 <pb n="712"/>turus est, per quam aeris spiritus fluat, neque vero unquam
 <lb/>adeo vacuabitur, ut alio quodam corpore sit opus,
 <lb/>quod evacuati locum repleat.</p>
@@ -294,8 +298,8 @@
 <lb/>autem proximae sunt, tum quae ab hac ortae in manum
 <lb/>distribuuntur, tum quae magna a corde prodit, a qua ipsa
 <pb n="713"/>propagata est. At si haec vacuetur, sinistrum simul cordis
-<lb/>sinum huic proximum existentem vacuari utique pror-<hi rend="italic">i</hi>
-<lb/>sius necesse est, tum <hi rend="italic">superiorem</hi>, quae ad caput ascendit,.
+<lb/>sinum huic proximum existentem vacuari utique pror-i
+<lb/>sius necesse est, tum <hi rend="italic">superiorem</hi>, hiuae ad caput ascendit,.
 <lb/>tum <hi rend="italic">inferiorem</hi>, quae ad spinam descendit. Nam si omni,
 <lb/>quae evacuatur, parti arteriae , quae vicinae funt, simul
 <lb/>evacuentur, vicinae vero sint ipsius propagines, a quibus
@@ -321,7 +325,7 @@
 <lb/>fluxum ejus prohibueris, totum universae molis sianguinem
 <lb/>evacuari. ld vero (ut monstravimus) haud fanguinem
 <lb/>arteriis contineri asserentibus, sed et Erasistrato
-<lb/>ejus que sectatoribus ipsas vitalis <hi rend="italic">s</hi>pirifus organa esse volentibus
+<lb/>ejus que sectatoribus ipsas vitalis spirifus organa esse volentibus
 <lb/>adversatur. Etenim, acu vulnerata dicta arteria,
 <lb/>primum . quidem vitalem spiritum , eurnque universum
 <lb/>evacuari, deinde vero in omnes arterias sanguinem transfundi
@@ -351,7 +355,7 @@
 <lb/>et ut neque arteriarum neque musculorum motus oblaedantur.
 <lb/>Non itaque solum , quum arteria magna vulueratur,
 <lb/>haec accidere necesse est, fed et quum parva est,
-<lb/>et quum sola cutis <hi rend="italic">inciditur</hi>. Non enim eam vult cutim
+<lb/>et quum sola cutis <hi rend="italic">inciditur</hi>. hion enim eam vult cutim
 <lb/>suium vasiorum esse texturam, ut, quamcunque eorum parte
 <lb/>m tenui acu punxeris, omnia simul tria vasorum genera
 <lb/>vulnerentur Pungatur itaque in brachio cutis, quae
@@ -381,7 +385,7 @@
 <lb/>quod dejectoris fui cervicem teneant, atque ideo
 <lb/>ipsum surgere non permittunt: sic et isti faciunt, qui
 <lb/>quum ignari sint errorum, qui in rationibus committi so<hi rend="italic">-</hi>
-<lb/>lent, nos discedere non permittunt, <hi rend="italic">i</hi>ed inanes quasdam
+<lb/>lent, nos discedere non permittunt, ied inanes quasdam
 <lb/>tricas complicant et quocunque vis modo verba nectunt,
 <lb/>quoad aliquis exosus impudentiam et ruditatem eorum
 <lb/>nolentes cedere dirimat. Siquidem aliqui usque in hunc</p>
@@ -397,7 +401,7 @@
 <lb/>rei plenas : spiritum autem solum nunquam ilias continere viderunt,
 <lb/>sicut nec ullam aliam arteriam, cum nudata fuerit.
 <lb/>Arbitror autem, ipsos adeo imperitos esse eorum, quae ad
-<lb/>dissecti<hi rend="italic">o</hi>nes attinent, ut neque id fatis Intelligant, quod
+<lb/>dissectiones attinent, ut neque id fatis Intelligant, quod
 <lb/>est ab Erafistrato recte pronunciatum, extremas arterias
 <lb/>esse, quae mesenterium occupant, nimirum ipfas ad eas,
 <lb/>quae imo ventri insunt, comparante. Fortassis enim, ut
@@ -412,14 +416,14 @@
 <lb/>non affectionem, non inanitionem, non denique aliud quippiam
 <lb/>transire continget, nisi prius in arteriam perveniat,
 <lb/>quae spinae inhaeret. Hoc cujusmodi sit, per funilitudinern
-<lb/>explicare nitar<hi rend="italic">i</hi>s Arteriam , quae spinae haeret, perinde atque
+<lb/>explicare nitaris Arteriam , quae spinae haeret, perinde atque
 <lb/>truncum arboris unius esse cogites, alias vero ex ea
 <lb/>ortas veluti ramos, et rursus alias, quae a se invicem
 <lb/>divisiIe aequales protenduntur , sicuti in ramis germina et
 <lb/>folia. Quemadmodum igitur folia e diversis ramis prodeuntia
 <lb/>plerumque sibi intervallo propinqua funt, quamvis
-<lb/>long<hi rend="italic">o</hi> sint exortus progresse copulata ,( nam trunco
-<lb/>inter <hi rend="italic">i</hi>e folia junguntur,) sic et arteriae, quae in imo venUtre
+<lb/>longo sint exortus progresse copulata ,( nam trunco
+<lb/>inter ie folia junguntur,) sic et arteriae, quae in imo venUtre
 <lb/>disperguntur , etiamsi propinquae spatio sint arteriis
 <lb/>mesenterii, longo tamen originis intervallo sese contingunI.
 <lb/>Si prius igitur sin ; extrema^ arterias,.. (hoc enim a
@@ -474,20 +478,20 @@
 <lb/>quo modo, prout libuerit, movere nos possumus, aut
 <lb/>qua rasione sine impedimento spiritus arterias morere
 <lb/>queat, cum fanguis ipsis reluctetur. Hasce quaestiones
-<lb/><hi rend="italic">s</hi>e<hi rend="italic">o</hi>rl<hi rend="italic">u</hi>m proponere et sigillatim quamque discutere aequum
+<lb/><hi rend="italic">seorlu</hi>m proponere et sigillatim quamque discutere aequum
 <lb/>sane fuerat eum etiam fortasse, qui infinitum concedit:
 <lb/>nam quamvis solutu difficiles sint, non tamen ad rerum
 <lb/>evidentiam submovendam satis valere debent. Atque ut
 <lb/>ab eo exordiar, quod primum diximus, perinde est ac
-<lb/>si quis in iis quae ruminant animantibus plures ventr<hi rend="italic">e</hi>s
+<lb/>si quis in iis quae ruminant animantibus plures ventres
 <lb/>conspicatus, hunc credat pabulum, ilium potum, alium
 <lb/>spiritum excipere, neque naturam, quae nunquam frustra
-<lb/>quicquam egit, uni<hi rend="italic">u</hi>s rei gratia multa receptacuIa
+<lb/>quicquam egit, unius rei gratia multa receptacuIa
 <lb/>fecisse. Quemadmodum enim in illis, etiamsi tot ventres
 <pb n="723"/>unam rem excipiat, diversum tamen Issum habuerunt,
 <lb/>cujus gratia plures etiam existunt, sic in arteriis et
 <lb/>venis fe res habet. Sanguinem enim ambae continent, ut
-<lb/>praecedens oratio docuit: et constitutione dissimili <hi rend="italic">su</hi>nt
+<lb/>praecedens oratio docuit: et constitutione dissimili sunt
 <lb/>certi cujusdam usus causa, quem nos aliis in libris explicavimus.
 <lb/>Deinde, quod secundum fuit, quo pacto aer
 <lb/>attractus respirando in totum corpus veniat, si sanguinem
@@ -507,36 +511,36 @@
 <pb n="724"/>quia ipse Erasistratus asseverat, cum pellis detrahitur, in
 <lb/>arterias sanguinem migrare, simul quia sensus ita dijudieat:
 <lb/>nam ubi funiculo dissectam arteriam utrinque ligavimus
-<lb/>et quod in medio comprehen<hi rend="italic">s</hi>um suerat incidimus,
-<lb/>sanguine plenam ipsam esse monstravimus. Sed q<hi rend="italic">u</hi>o
+<lb/>et quod in medio comprehensum suerat incidimus,
+<lb/>sanguine plenam ipsam esse monstravimus. Sed quo
 <lb/>modo, reclamant, in totum corpus aer veniet, quem respirando
-<lb/>attrahimus, si <hi rend="italic">s</hi>anguinem arteriae contineant? Quibus
+<lb/>attrahimus, si sanguinem arteriae contineant? Quibus
 <lb/>respondendum est, quae necessitas hoc eos saterscogat,
 <lb/>cum possit totus qui respirando admissus est aer
 <lb/>foras etiam remitti , quemadmodum pluribus iifque disigeutissimis
-<lb/>tam philosophis quam medicis visum est, q<hi rend="italic">u</hi>i
-<lb/>cor inquiunt <hi rend="italic">p</hi>on aeris substantiam exposcere, fed frigiditatem
+<lb/>tam philosophis quam medicis visum est, qui
+<lb/>cor inquiunt pon aeris substantiam exposcere, fed frigiditatem
 <lb/>solummodo, qua recreari desiderat, atque hunc
-<lb/>esse respirationis usum. Sumunt igitur Erasistrati s<hi rend="italic">e</hi>ctatores
-<lb/>et hac in re id, de qu<hi rend="italic">o</hi> dubitatur. Prius istud ipsum
-<lb/>demonstrandum suerat: tum sigillatim quaeque inv<hi rend="italic">e</hi>
+<lb/>esse respirationis usum. Sumunt igitur Erasistrati sectatores
+<lb/>et hac in re id, de quo dubitatur. Prius istud ipsum
+<lb/>demonstrandum suerat: tum sigillatim quaeque inve
 <lb/>fugare debebant: sicut et nos fecimus et omnes, quotquot
-<lb/>ordine rerum considerationem suscepere, quiqu<hi rend="italic">e</hi>
-<lb/>non solum investigare, sed tractare etiam res voluer<hi rend="italic">e</hi>.
+<lb/>ordine rerum considerationem suscepere, quique
+<lb/>non solum investigare, sed tractare etiam res voluere.hi
 <pb n="725"/>Demonstratum est autem a nobis in eo libro, quem de
 <lb/>usu respirationis edidimus, vel omnino parum, vel nihil
 <lb/>prorsus aeris inspirati in cor descendere. Eodem pacto
 <lb/>rursus aberrant, cum petunt, quo modo movere nos polsimus
 <lb/>ad imperium voluntatis, quove modo motus arteviarum
 <lb/>non impediatur, sed tam distincte procedat, si
-<lb/>sanguinem arteriae contineant. Adversus quos <hi rend="italic">s</hi>ubinde
+<lb/>sanguinem arteriae contineant. Adversus quos subinde
 <lb/>primo monstramus, arterias non solum manuum,
-<lb/><hi rend="italic">s</hi>ed oculorum etiam j inlicio sine impedimento moveri
+<lb/>sed oculorum etiam j inlicio sine impedimento moveri
 <lb/>: deinde rationem hanc inducimus , cujus asa
 <lb/>sumptiones etiam ipsi veras fatentur : concedunt enim,
 <lb/>veram esse hanc adjunctionem : si sanguinem arteriae continent
 <lb/>et a corde spiritu implentur , ordinem in motu
-<lb/><hi rend="italic">s</hi>ervare non possunt, nam hujusmodi adjunclionem ita
+<lb/>servare non possunt, nam hujusmodi adjunclionem ita
 <lb/>per fe sumptam: si sanguinem arteriae continent, earum
 <lb/>motus ordinem non servabit: ne ipsi quidem ut veram
 <lb/>affirmare audent, nec alius quisquam, qui mente praeditus
@@ -555,7 +559,7 @@
 <lb/>igitur et. sanguinem con sinent, et a corde repletae extenduntur.
 <lb/>Hic Era sistrata sectatores , oum et assumptiones ambas
 <lb/>et adiunctionem, consequentisque oppositum concedant,
-<lb/>Re<hi rend="italic">i</hi>cio cur et illatum non concedant: nisi fortasse
+<lb/>Reicio cur et illatum non concedant: nisi fortasse
 <lb/>nefciunt (quod ne vulgares quidem latet), ex adjuncto et
 <lb/>consequentis) id quod adjunctum definit, opposito antecedentis
 <pb n="727"/>oppositum inferri. Nam cum antecedat in hac
@@ -564,7 +568,7 @@
 <lb/>extendi , stratum erit hujusce conjuncta negatio : quando.
 <lb/>namque in adiunctione totius enunciata id, quod antecedit,
 <lb/>ex duabus assumptionibus coniunctum est, id,
-<lb/>quod sequitur, simplex est: deinde ejus, quod <hi rend="italic">s</hi>equebatur,
+<lb/>quod sequitur, simplex est: deinde ejus, quod sequebatur,
 <lb/>opposito assumpto, conjuncta oppositum necessario.
 <lb/>colligitur.</p>
 </div>
@@ -581,7 +585,7 @@
 <lb/>quaedam inferre, nihil respondent. Sed si certamen
 <lb/>procederet, quidnam respondere possent (modo sibi constare
 <pb n="728"/>vellent), nisi artem plane nullam extare colligendi,
-<lb/><hi rend="italic">s</hi>ed ex datis assumptionibus quidvis sine ullo discrimine
+<lb/>sed ex datis assumptionibus quidvis sine ullo discrimine
 <lb/>inferri posse? vel extare quidem, non tamen ea opus esse
 <lb/>ad demonstrationes conficiendas? Sed ambo vehementer
 <lb/>absurda sunt. Nam primum si dixerint, sicuti quidam
@@ -590,7 +594,7 @@
 <lb/>duas tunicas habent, fanguis fulvus est, ergo non solum
 <lb/>spiritum,. sed et sanguinem arteriae continent. Ridentibus
 <lb/>illis, aliud statim subjunxi argumentum: Corvi nigri
-<lb/><hi rend="italic">s</hi>unt, olores albi sunt, igitur non siclus spiritus ab arteriis
+<lb/>sunt, olores albi sunt, igitur non siclus spiritus ab arteriis
 <lb/>continetur. Hic denuo cum riderent, tertium subjeci:
 <lb/>lgnis calidus est, nix frigida est, tu stupidus es,
 <lb/>ergo non solus spiritus in arteriis continetur. Nam si
@@ -599,16 +603,16 @@
 <lb/>me prohibet vobiscum sic argumentari? Sin ars et disiciplina
 <pb n="729"/>quaedam excogitata fuit, quae singulis in rebus difgemere
 <lb/>nos docet et quid e quibusnam concessis inferatur,
-<lb/>quisnam vobis, o Erafistratici, <hi rend="italic">s</hi>apere plus videtur, num
+<lb/>quisnam vobis, o Erafistratici, sapere plus videtur, num
 <lb/>qui eam artem non novit, aut noscit quidem, sed non
-<lb/>utitur, an potius, qui et no<hi rend="italic">s</hi>cit et utitur? Non possum,
+<lb/>utitur, an potius, qui et noscit et utitur? Non possum,
 <lb/>Erafistratici , vos magnopere non admirari , qui , cum inter
 <lb/>Erafistrati laudes et alia multa et iliud in primis jactetis,
 <lb/>convixisse Theopluasto Erasistratum, rationales disciplinas
 <lb/>aspernari audeatis, sine quibus nec Theophrastus, nec
 <lb/>Theopluasti magister Aristoteles scribere quicquam aggrefsus
-<lb/>eII. Ob haec ip<hi rend="italic">s</hi>orum quidam vix tandem erubes
-<lb/><hi rend="italic">G</hi>entes et tanquam e profundo somno excitati, non amplius
+<lb/>eII. Ob haec ipsorum quidam vix tandem erubes
+<lb/>Gentes et tanquam e profundo somno excitati, non amplius
 <lb/>indocte et ferine, fed erudite et humane ad me
 <lb/>conversi disceptare coeperunt. Et quid, dicebant, plus
 <lb/>conficitur hac oratione, quam non et sanguinem arteriae
@@ -618,8 +622,8 @@
 <lb/>inferri debeat, fed iliud, non posse in idem concurrere,
 <pb n="730"/>ut et sanguinem arteriae contineant bt a corde spiritu
 <lb/>repleantur. Subinde rursus ex hoc aliquando sanguinem
-<lb/>ipsas continere dedux<hi rend="italic">i</hi>mus, fuitque deductio talis : si sanguinem
-<lb/>arteriae continent , a corde spiritu non implentur: <hi rend="italic">s</hi>ed
+<lb/>ipsas continere deduximus, fuitque deductio talis : si sanguinem
+<lb/>arteriae continent , a corde spiritu non implentur: sed
 <lb/>sanguinem arteriae continent: igitur a corde spiritu non implentur.
 <lb/>Ab his rurfus, si voluerimus in memoriam reducere,
 <lb/>quae superius dicebamus , ita percontabimur: si plenae fanguinis
@@ -633,9 +637,9 @@
 <lb/>nam cum vis quaedam arteriarum tunicis insit, qua distendantur,
 <lb/>quidquid .ipsis circumquaque vicinum est, attrahunt,
 <lb/>undecunque in eas concedat. Exemplis adhuc
-<pb n="731"/>magis intelliges, quid <hi rend="italic">A</hi> n tersit inter id, quod extendi torsi
+<pb n="731"/>magis intelliges, quid A n tersit inter id, quod extendi torsi
 <lb/>quia repletur, ^et id, quod impletur, quia distenditur.
-<lb/>Utres et sacculi, si replentur, extenduntur, fabriles anteu<hi rend="italic">s</hi>
+<lb/>Utres et sacculi, si replentur, extenduntur, fabriles anteus
 <lb/>folles ideo replentur , quia extenduntur : arterias igitur
 <lb/>vel ut utres vel ut folles impleri perspicuum esse debet
 <lb/>unicuique. Quonam autem pacto rei veritas fe habeat,
@@ -652,7 +656,7 @@
 
 <p rend="indent">Quocirca, cum abigunt, quo modo spirrtus
 <lb/>in totum corpus a corde feratur, fi plenae sanguinis
-<lb/>arteriae sint, difficile non est ejusmodi dubitationem foB<hi rend="italic">V</hi>
+<lb/>arteriae sint, difficile non est ejusmodi dubitationem foBV
 <lb/>vere et dicere, non ferri, fed tralsi spiritum in arteriis,
 <lb/>nec a corde foto, fed undequaque, sicut Herophilo placet
 <pb n="732"/>et ante Herophilum Praxagorae , Philotimo, Diocli,
@@ -665,7 +669,7 @@
 <lb/>etenim agendi, non corporis mole, viventia a
 <lb/>non viventibus differunt. Verum de his in praesentia
 <lb/>disputare non intendimus : neque enim , ut. in finem usque
-<lb/><hi rend="italic">s</hi>ermonem hunc persequeremur, eum inceperamus, cusa
+<lb/>sermonem hunc persequeremur, eum inceperamus, cusa
 <lb/>falis fuperque hisce de rebus alias a nobis disceptatum
 <lb/>sit, praesertim vero in libris si quos de placitis Hipp
 <lb/>o cratis et Platonis emisimus: caeterum, ut ostenderemus,
@@ -687,15 +691,15 @@
 <lb/>non amplius arteriam ultra laqueum pulsare
 <lb/>videbis, etiamsi spiritus et sanguis ad arteriam, quae est
 <lb/>ultra filum, sicuti prius faciebat, per concavitatem calami
-<lb/>feratur: quod si propterea pulsabant arteriae, p<hi rend="italic">u</hi>llirent
+<lb/>feratur: quod si propterea pulsabant arteriae, pullirent
 <lb/>etiam nunc partes, quae sunt ultra laqueum: sed
-<lb/>non puh<hi rend="italic">i</hi>nt: igitur perspicuum est, quoniam moveri
+<lb/>non puhint: igitur perspicuum est, quoniam moveri
 <lb/>posse desinunt, non per spiritum in concavitatibus difcurrentem,
 <pb n="734"/>fe d ob virtutem in tunicas transmissam arterias
 <lb/>a corde .moveri. Nam quae Erasiftratus de motu arteriarum.
 <lb/>prodidit, falfa prorfus funL. Ante enim quam nudata
 <lb/>arteria in partibus, quae ultra laqueum sunt, mo-
-<lb/><hi rend="italic">N</hi>eri desistat, videre licet (quod nec fieri antea oportehat,
+<lb/>Neri desistat, videre licet (quod nec fieri antea oportehat,
 <lb/>quam ea laqueo obligaretur) , totam uno tempore moveri,.
 <lb/>non autem hanc quidem partem prius, ut vult EraIistratus.,
 <lb/>iliam vero posterius. Atque haec ipsi vehementer
@@ -708,7 +712,7 @@
 <lb/>Quod si hoc, ut dixi, aliquis forsan concederet:
 <lb/>faltem poft immissionem concavi calami motus arteriae
 <lb/>ultra calamum, antea quam filum obstringas, et obstricto
-<lb/>filo quies, ejusdem <hi rend="italic">s</hi>ubsecuta plane demonstrat, non corpus
+<lb/>filo quies, ejusdem subsecuta plane demonstrat, non corpus
 <pb n="735"/>aliquod per arteriarum concavitates a corde protrudi,
 <lb/>fed motricem qualitatem per earum tunicas ab eodem
 <lb/>submitti, quae illas distendit. Ut enim, si digitum pedis

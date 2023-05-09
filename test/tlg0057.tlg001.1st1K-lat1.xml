@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
@@ -52,8 +52,8 @@
               <date>1821</date>
             </imprint>
           </monogr>
-          <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?45674x00">BIU Santé, Medica</ref>
-        </biblStruct>
+          
+        <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?45674x01">BIU Santé, Medica</ref></biblStruct>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -85,7 +85,7 @@
 <p rend="indent">An animantia, quae dicuntur bruta, prorsus
 <lb/>expertia sint rationis, nondum flatis liquet. Fortassis enim,
 <lb/>tametsi non habent eam rationem, quae in voce sita est,
-<lb/>nobiscum communem, quam vocant <hi rend="italic">enuntiativam</hi>, certe
+<lb/>nobiscum communem, quam vocant <hi rend="italic">enuntiativam</hi>, hierte
 <lb/>eam, quae est in anima, quam <hi rend="italic">mente conceptam</hi> appellant,
 <lb/>nobiscum habent communem omnia, licet alia
 <lb/>magis, alia minus. Perspicuum sane est hominem hac
@@ -98,15 +98,15 @@
 <lb/>ipsis natura magis, quam instituto contigerunt artes.
 <lb/>Caeterum nec apud illa quicquam est artium , quod homo
 <lb/>non meditetur. Sed in arte texendi imitatus est araneas,
-<lb/>in a<hi rend="italic">r</hi>te fingendi, quam plasticen vocant, apes: necitaperitus
+<lb/>in arte fingendi, quam plasticen vocant, apes: necitaperitus
 <lb/>est natandi, cum sit animal terrestre. Jam nec
 <lb/>divinis artibus destituitur, imitans et Aesculapii, quae
 <lb/>eadem est Apollinis,. medicam artem, ac caeteras item
 <lb/>omnes, quas habet Apollo, jaculandi, canendi, dirinandi;
 <lb/>ad haec quam unaquaeque Musarum habet peculiarem.
 <lb/>Nec geometriae, .nec astronomiae expers est.
-<lb/>Verum et <hi rend="italic">ea, quae subter terram sunt</hi>, e<hi rend="italic">t ea, quae su</hi>-
-<lb/><hi rend="italic">pra coelum sunt</hi>, ut ait Pindarus, <hi rend="italic">contemplatur</hi>., Denique
+<lb/>Verum et <hi rend="italic">ea, quae subter terram sunt</hi>, hi<hi rend="italic">t ea, quae su</hi>-
+<lb/><hi rend="italic">pra coelum sunt</hi>, hit ait Pindarus, <hi rend="italic">contemplatur</hi>., Denique
 <pb n="3"/>bonorum divinorum maximum sua sibi paravit industria,
 <lb/>philosophiam Has igitur ob causas, quamquam
 <lb/>caeteris animantibus non deest ratio, tamen solus homo
@@ -214,7 +214,7 @@
 <lb/>sed qui cum virtute vitam agunt, quique in suis
 <lb/>artibus excellunt, ipsiusque obsequuntur praeceptis ac legitime
 <lb/>suas artes exercent: hos et magni Iacit et caeteris
-<pb n="8"/>anteponit, eos semper sibi habens coniu<hi rend="italic">n</hi>ctissimos,
+<pb n="8"/>anteponit, eos semper sibi habens coniunctissimos,
 <lb/>Hunc, ni fallor, chorum si cognoveris, qualis sit, non
 <lb/>modo admiraberis, verum etiam adorabis. In hoc et
 <lb/>Socrates et Humerus et Hippocrates et Plato et horum
@@ -226,17 +226,17 @@
 <lb/>saltem, cum aliquando navigans, fracta scapha, lu
 <lb/>littus Syracusanum ejectus esset, primum quidem bono
 <lb/>animo esse coepit, cum in arena vidisset descriptas lineas
-<lb/>geometricas: re<hi rend="italic">p</hi>utabat enim sese ad Graecos ac sapientes
+<lb/>geometricas: reputabat enim sese ad Graecos ac sapientes
 <lb/>viros, non ad barbaros venisse. Post cum venisset lu
 <lb/>Syracusiorum gymnasium, et hosce verius pronuntiasset:</p>
-<p rend="indent"><hi rend="italic">Quis Oedipum in diem vagantem et exulem
-<lb/>sonis recipiet hoc die rarissimis</hi>?</p>
+<p rend="i">Quis Oedipum in diem vagantem et exulem
+<lb/>sonis recipiet hoc die rarissimis?</p>
 <p>et habuit, qui ipsam convenirent et agnito protinus omnia,
-<pb n="9"/>quibus opus era<hi rend="italic">t</hi>, impertirent. Deinde cum essent, qui
+<pb n="9"/>quibus opus erat, impertirent. Deinde cum essent, qui
 <lb/>Cyrenen, illius patriam, navigaturi percunctarentur,
 <lb/><hi rend="italic">numquid suis renuntiari vellet; Jubete, inquit, illos has
 <lb/>sibi parare possessiones, quae, navi fracta, simul enatant
-<lb/>cum possessore</hi>.</p>
+<lb/>cum possessore.</hi></p>
 </div>
 <div type="textpart" subtype="chapter" n="6">
 
@@ -297,12 +297,12 @@
 <lb/>similis est singularum urbium numismatibus, quae
 <pb n="12"/>apud eos quidem valent, qui instituerunt , apud alios
 <lb/>vero adulterina habentur.</p>
-<p rend="indent"><hi rend="italic">Annon te in altum generis evexit decus</hi>?</p>
-<p rend="indent"><hi rend="italic">Malum est egere ; non alebat me genus</hi>.</p>
-<p><hi rend="italic">Pra</hi>e<hi rend="italic">clarus</hi> igitur, ut ait Plato, <hi rend="italic">thesaurus est parentum
-<lb/>virtutes</hi>; sed praeclarius est huic opponere polle Stheneli
+<p rend="i">Annon te in altum generis evexit decus?</p>
+<p rend="i">Malum est egere ; non alebat me genus.</p>
+<p><hi rend="italic">Praeclarus</hi> igitur, ut ait Plato, <hi rend="italic">thesaurus est parentum
+<lb/>virtutes</hi>;hised praeclarius est huic opponere polle Stheneli
 <lb/>dictum:</p>
-<p rend="indent"><hi rend="italic">Atqui nos patribus longe praestamus avisque</hi>.</p>
+<p rend="i">Atqui nos patribus longe praestamus avisque.</p>
 <p>Nam si qua omnino est nobilitatis utilitas, ea sola
 <lb/>est, quod, proposito exemplo domestico, hinc accenditur
 <lb/>studium imitandi. Proinde si deponeremus a maiorum
@@ -329,7 +329,7 @@
 <lb/>illum Themistoclem imitatus, cui quum probro objiceretur,
 <lb/>quod nothus esset, <hi rend="italic">At ego</hi>, inquit, <hi rend="italic">posteris meis
 <lb/>auctor ero generis; ac meum quidem genus a me incipiet,
-<lb/>tuum vero in te desinet</hi>. Vides, non obstitisse Anacharsidi
+<lb/>tuum vero in te desinet</hi>. hiides, non obstitisse Anacharsidi
 <lb/>Scythae, quominus esset in admiratione et inter
 <pb n="14"/>sapientes numeretur, tametsi genere barbarus esset. Huic
 <lb/>quum quidam exprobraret, quod gettere barbarus esset
@@ -355,7 +355,7 @@
 <p rend="indent"><hi rend="italic">Quondam Boeotios vocabant sues,</hi>
 <lb/>inquit Pindarus. Et idem rursus:</p>
 <p rend="i">An effugimus Boeotiam</p>
-<p rend="indent"><hi rend="italic">Suem</hi> ?</p>
+<p rend="i">Suem ?</p>
 <p>volens totius sere gentis de imperitia probrum aboleri
 <lb/>per setam poeticam.</p>
 </div>
@@ -370,18 +370,18 @@
 <lb/>formam conspicui animum negligant, deinde sero
 <lb/>frustraque deplorent , dicentes :</p>
 <p><hi rend="italic">Utinam forma, quae me perdidit,
-<lb/>Pereat male</hi>!
+<lb/>Pereat male</hi>!hi
 <pb n="16"/>Tum illis et illud Solonis in mentem venit, qui jubet
-<lb/>inprimis <hi rend="italic">spectari vitae finem</hi>. Deinde et senectutem
+<lb/>inprimis <hi rend="italic">spectari vitae finem</hi>. hieinde et senectutem
 <lb/>incusant, cum se ipsos debuissent incusare: Euripidemque
 <lb/>laudant dicentem:</p>
-<p><hi rend="italic">non enim tutum est</hi>,</p>
-<p><hi rend="italic">Pulchritudinem supra quam mediocrem parasse</hi>.</p>
+<p rend="i">non enim tutum est,</p>
+<p rend="i">Pulchritudinem supra quam mediocrem parasse.</p>
 <p>Praestat igitur intelligere, adolescentium formam vernis
 <lb/>floribus similem esse, ut quae voluptatem habeat
 <lb/>temporariam , simulque laudare Lesbiae dictum :</p>
-<p rend="indent"><hi rend="italic">Asem qui formosus est, tantisper est, dum cernitur</hi>;</p>
-<p rend="indent"><hi rend="italic">At quisquis bonus est, protinus et formosus erit</hi>.</p>
+<p rend="i">Asem qui formosus est, tantisper est, dum cernitur;</p>
+<p rend="i">At quisquis bonus est, protinus et formosus erit.</p>
 <p>Parendum autem et Soloni, eandem sententiam proserenti
 <lb/>: Adversus senectutem, quae tanquam procella vehemens
 <lb/>irruit, quaeque non calceamentis solum et vestitu,
@@ -389,15 +389,15 @@
 <lb/>eget, advectus hanc igitur nos probi gubernatoris exemplo
 <lb/>multo ante velut in venturam tempestatem oportere
 <lb/>praeparatos esse. Miserum enim illud est:</p>
-<p><hi rend="italic">Vecors intelligit acta</hi>.
+<p><hi rend="italic">Vecors intelligit acta</hi>.hi
 <pb n="17"/>Ad quid enim dixeris utilem esse formam adolescentis
-<lb/>nulla excultam arse? Num ad bellum? Atqui non <hi rend="italic">a</hi>bs
+<lb/>nulla excultam arse? Num ad bellum? Atqui non abs
 <lb/>re quis illud Homericum in tales iaculetur:</p>
-<p rend="indent"><hi rend="italic">Quin tu conjugii tractas mulcentia stacta</hi>!</p>
+<p rend="i">Quin tu conjugii tractas mulcentia stacta!</p>
 <p rend="indent"><hi rend="italic">Ito demum et tracta tibi convenientia facta!</hi>
 <lb/>Siquidem Nileus</p>
-<p rend="indent"><hi rend="italic">Venerat ad Trojam cunctis formosior unus</hi>,</p>
-<p rend="indent"><hi rend="italic">Verum mollis erat</hi>.</p>
+<p rend="i">Venerat ad Trojam cunctis formosior unus,</p>
+<p rend="i">Verum mollis erat.</p>
 <p>Eoque non nisi semel hujus meminit Humerus in recensendis
 <lb/>navibus, haud quidem ob aliud, mea sententia,
 <lb/>nisi ut declararet, quam sint inutiles viri sorma praestantissimi,
@@ -414,12 +414,12 @@
 <lb/>corpore animum habitare deformem; rursus si se viderit
 <lb/>forma corporis infelici, tanto maiori audio animum excolet,
 <lb/>ut dicere possit illud Homericum:</p>
-<p><hi rend="italic">Est alias, cui forma parum sit corpore felix,
+<p rend="i">Est alias, cui forma parum sit corpore felix,
 <lb/>Sed comptis formam verbis Deus ornat, et illi
 <lb/>Defixis oculis vultum hujus cernere gaudent.
 <lb/>Ille sine offensa loquitur , placido ora rubore
 <lb/>Suffusus , reliquosque foro toto eminet inter,
-<lb/>Utque Deum adspiciant, incedit quando per urbem</hi>.</p>
+<lb/>Utque Deum adspiciant, incedit quando per urbem.</p>
 <p>Ex his igitur perspicuum est, iis, qui non prorsus mente
 <lb/>carent, non esse negligenda artium studia, nec in divitiis
 <lb/>aut formae venustate aut denique splendore generis
@@ -497,10 +497,10 @@
 <lb/>dui te moveat auctoritas. Hic est ille, qui et Socratem
 <lb/>virorum omnium sapientissimum pronuntiarit, et Lycurgum
 <lb/>assatus, hunc in modum salutat;</p>
-<p><hi rend="italic">Huc advenisti ad mea ditia templa, Lycurge,
+<p rend="i">Huc advenisti ad mea ditia templa, Lycurge,
 <lb/>crate fovi et cunctis, quibus altus habetur Olympus.
 <lb/>At dubito, anne neam te dico hominemve, Lycurge;
-<lb/>spero tamen, magis esse Deum numenque verendum</hi>.</p>
+<lb/>spero tamen, magis esse Deum numenque verendum.</p>
 <p>Hic rursum idem videtur honorem haud mediocrem habuisse
 <lb/>Arehilocho mortuo. Cum enim hujus interemptor.
 <lb/>vellet illius templum ingredi, vetuit dicens:</p>
@@ -520,7 +520,7 @@
 <lb/>fero, te ipsum vulgo commiseris, sed ex omnibus paucis
 <lb/>aliquot, atque his quidem medicae rei peritissimis : .neque
 <lb/>navigans enixis e numero vectorum, sed nui videlicet
-<lb/>gubernat<hi rend="italic">o</hi>ri. Denique in rebus minimis, si aedificas, fabro
+<lb/>gubernatori. Denique in rebus minimis, si aedificas, fabro
 <lb/>credis , si calceamentis egeas , coriario. Qui fit igitur,
 <lb/>ut, ubi de rebus summis contentio est, tibi vindices judicandi
 <lb/>potestatem, adimens eam his, qui plus rapiunt,
@@ -528,35 +528,34 @@
 <lb/>mentionem. Audi igitur, quid de athletis sentiat
 <lb/>Eiuripides;</p>
 <p><hi rend="italic">Innumera cum sint mala per omnem Graeciam,
-<lb/>Haud aliud ullum est pejus athletis genus</hi>.
+<lb/>Haud aliud ullum est pejus athletis genus</hi>.hi
 <pb n="24"/><hi rend="italic">Primum ii domi sibi consulunt putum bene,
 <lb/>Nec liceat ; etenim quomodo vir , qui sint
 <lb/>Gulaeque servus, atque ventri deditus,
 <lb/>opes putaret , unde viveret demi ?
 <lb/>Egere rursus non potest, nec casibus
-<lb/>Servire; pravis nam asueti motibus</hi>,
-<lb/><hi rend="italic">Sunt duriores ad ferenda incommoda</hi>.</p>
+<lb/>Servire; pravis nam asueti motibus</hi>,hi<lb/><hi rend="italic">Sunt duriores ad ferenda incommoda.</hi></p>
 <p>Iam ut intelligas., et omnia, quorum studio tenentur isti,
 <lb/>nihil habere utilitatis, audi rursus, quae dicit, li libet:</p>
-<p rend="indent"><hi rend="italic">Quis enim in palaestra, quis pedum cursu valens,
+<p rend="i">Quis enim in palaestra, quis pedum cursu valens,
 <lb/>Feliciter versutus, aut disco bene
 <lb/>Misso, aut probe sciteque mala icta viti,
-<lb/>Patriae corona opem tulit parta suae</hi> ?</p>
+<lb/>Patriae corona opem tulit parta suae ?</p>
 <p rend="hanging">Quod si cupis audire his etiam expressiora, ausculta :
 <lb/><hi rend="italic">Num adversus hostes praeliabuntur , manu
 <lb/>Discos ferentes, sive vibrata apside,
-<lb/>Pedibus citi testem submovebant patria</hi>?
+<lb/>Pedibus citi testem submovebant patria</hi>?hi
 <pb n="25"/><hi rend="italic">Nullus profecto: vana fiunt omnia haec,
-<lb/>Ubi cominus serram micare coeperit</hi>.</p>
-<p>Utrum. igitur Eurrpidem et hujus generis alios auct<hi rend="italic">o</hi>res
+<lb/>Ubi cominus serram micare coeperit.</hi></p>
+<p>Utrum. igitur Eurrpidem et hujus generis alios auctores
 <lb/>rejiciemus, philosophis autem permittemus judicandi
 <lb/>jus? Imo vero horum omnium suffragio, velut uno ore
 <lb/>loquentium, damnatur istorum ars , adeo , ut eam nec
 <lb/>medicorum quisquam probarit. Primum enim audies Hippocratem
 <lb/>ita dicentem: <hi rend="italic">Affectio athletica non est secundum
-<lb/>naturam, melior est habitus salubris</hi> : delude optimos quosque
+<lb/>naturam, melior est habitus salubris</hi> :hidelude optimos quosque
 <lb/>melicos , qui Hippocrati aetatem secuti sunt. Equidem
-<lb/>n<hi rend="italic">o</hi>lim a testibus pendere judicium. Nam id oratorum
+<lb/>nolim a testibus pendere judicium. Nam id oratorum
 <lb/>est potius, quam hominis, apud quem in pretio sit ipsa
 <lb/>veritas. Attamen, quoniam nonnulli confugiunt ad
 <lb/>multitudinis approbationem, et lune inanem captant gloriam,
@@ -568,7 +567,7 @@
 <pb n="26"/>cum esset lu convivio quodam, in quo ludus hic agebafur,
 <lb/>ut singuli per alces convivis imperarent, quae vellent,
 <lb/>vidissetque adesse mulieres anchusa, cerussa et fuco
-<lb/>pictas, jussit inferri aquam, moxque praecepit, ut <hi rend="italic">o</hi>mnes
+<lb/>pictas, jussit inferri aquam, moxque praecepit, ut omnes
 <lb/>aquae immersas manus semel admoverent ad faciem, deinde,
 <lb/>ut illico linteo abstergerentur. Atque hoc ipsa prima
 <lb/>omnium fecit. Ac caeteris quidem omnibus foeminis
@@ -589,56 +588,56 @@
 <p rend="indent">Cum igitur variae sint honorina species,
 <pb n="27"/>quae insunt naturae, puta quae pertinent ad animum,
 <lb/>quae ad corpus, quae ad externa, nec praeter haec ullum
-<lb/>aliud b<hi rend="italic">o</hi>norum genus possit excogitari; cuivis perspicuum
+<lb/>aliud bonorum genus possit excogitari; cuivis perspicuum
 <lb/>est, quod athleticam exercentes animi bona ne
 <lb/>in somnis quidem assecuti sint, quando prorsus illud
-<lb/>ign<hi rend="italic">o</hi>rant, an habeant animum: tantum abest, ut illum
+<lb/>ignorant, an habeant animum: tantum abest, ut illum
 <lb/>sciant esse rationis participem. Etenim cum semper aggerant
 <lb/>vim carnium et sanguinis, habent animum suum
 <lb/>veluti multo immersum coeno , ut nihil exploratum cogniiamque
 <lb/>habeat, verum non minus stupidus sit, quam
 <lb/>brutorum animae. At fortassis contendent athletae, tamquam
-<lb/>aliqu<hi rend="italic">o</hi>d ex- bonis corporis adepti sinti Num igitur
+<lb/>aliquod ex- bonis corporis adepti sinti Num igitur
 <lb/>bonam valetudinem, qua nihil pretiosius, vindicabunt?
 <lb/>Atqui non alios reperies corporis affectione magis
 <lb/>periculosa ri siquidem Hippocrati fides habenda, qui
 <lb/>dixit, <hi rend="italic">summe bonam corporis habitudinem periculosam
-<lb/>esse</hi>, quam affectant isti. Quin et illud ab Hippocrate
+<lb/>esse</hi>, hiuam affectant isti. Quin et illud ab Hippocrate
 <lb/>recte dictum, quod <hi rend="italic">sanitatis studium est non satiari
-<lb/>cibis, et impigrum esse ad labores</hi>, laudatur ab omnibus.
+<lb/>cibis, et impigrum esse ad labores</hi>, hiaudatur ab omnibus.
 <pb n="28"/>At isti contra faciunt, dum et supra modum laborant,
 <lb/>et iidem supra modum explentur, et omnino
 <lb/>senis illius sermonem, ceu Corybantum furore correpti,
 <lb/>contemnunt. Nam ille demonstrans, quae vitae ratio sit
 <lb/>accommodata tuendae bonae valetudini, dixit: <hi rend="italic">Labores</hi>,
-<lb/><hi rend="italic">cibi, potus, somni, venus, omnia moderata</hi>. Isti vero
+<lb/><hi rend="italic">cibi, potus, somni, venus, omnia moderata</hi>. histi vero
 <lb/>quotidie, supra quam convenit, laboribus exercentur,
 <lb/>et ingurgitant se nonnumquam e vi, et ad mediam usque
 <lb/>noctem producunt comessationes, ut aliquis non
 <lb/>immerito torserit lu illos illud Homeri:</p>
-<p><hi rend="italic">Dormibunt reliqui Divique hominesque per omnem
-<lb/>Noctem praedulci restituti corpora somno</hi> ;</p>
-<p><hi rend="italic">At nullus miseros athletas somnus habebat</hi>.</p>
+<p rend="i">Dormibunt reliqui Divique hominesque per omnem
+<lb/>Noctem praedulci restituti corpora somno ;</p>
+<p rend="i">At nullus miseros athletas somnus habebat.</p>
 <p>Itaque quemadmodum se habent in eibis et laboribus,
 <lb/>eodem modo moderantur et somnum. Etenim quo senile
 <lb/>pore caeteri juxta naturam viventes ab opere veniunt,
 <lb/>et cibum requirunt, tum isti surgunt a somno: ut illorum
 <lb/>vita similis videatur suillae: nisi quod sues non
-<pb n="29"/>ultra modum laborant, (neque coguntur ad edendum <hi rend="italic">i</hi>
+<pb n="29"/>ultra modum laborant, (neque coguntur ad edendum i
 <lb/>illi vero et haec faciunt, et nonnumquam iisdem rhododaphnis
 <lb/>terga perstringuntur. Proinde priscus ille Hippocrates
 <lb/>praeter haec, quae dicta sinat, addit et illa:
 <lb/><hi rend="italic">Universim ac repente corpus explere vel inanire, vel
 <lb/>calefacere, vel refe iger are, aut alio quocunque modo
-<lb/>movere, periculosum est. Quicquid enim</hi>, inquit, <hi rend="italic">est</hi>
-<lb/><hi rend="italic">nimium, inimicum est naturae</hi>. isti vero nec his auscultant,
+<lb/>movere, periculosum est. Quicquid enim</hi>, inquit, est
+<lb/><hi rend="italic">nimium, inimicum est naturae</hi>. histi vero nec his auscultant,
 <lb/>nec aliis, quae bene ab hoc dicta transgredinntur:
 <lb/>quin potius utuntur omnibus, quae pugnant cum
 <lb/>his praeceptis. Quapropter ego Iane dixerim, istud vitae
 <lb/>institutum non esse sanitatis, sed morbi potius studium.
 <lb/>Nam id, ni fallor, sentit Hippocrates, cum alte
 <lb/><hi rend="italic">Affectio athletica non est secundum naturam, sed habitus</hi>
-<lb/><hi rend="italic">saluber melior</hi>. His dietis non fotum palam negavit, illorum
+<lb/><hi rend="italic">saluber melior</hi>. hiis dietis non fotum palam negavit, illorum
 <lb/>exercitationem esse naturalem, verum ne habitum
 <lb/>quidem .appellarit eorum affectionem, spolians illos.
 <lb/>etiam nominis honore, quo cuncti veteres .appellare solent
@@ -651,7 +650,7 @@
 <lb/>statu consistere non potest, nihil. restat, nisi ut vergat
 <lb/>in deterius. Atque hoc quidem in statu corpus est ifu,
 <lb/>dum athleticam exercent. Caeterum ubi discesserint ab
-<lb/>exercitiis, multo pejus habent. Etenim nonnulli paul<hi rend="italic">o</hi>
+<lb/>exercitiis, multo pejus habent. Etenim nonnulli paulo
 <lb/>post emoriuntur,. alii vero diutius quidem vivunt, at ne
 <lb/>ipsi quidem perveniunt ad senectutem. Et ut jam aliquando
 <lb/>perveniant, nihil differunt a Litis Homericis,
@@ -695,7 +694,7 @@
 <lb/>vel maxime fructus artis ipsorum evidenter apparet, videlicet
 <lb/>pulchritudo. Hunc ad modum illis res successit
 <lb/>ad formae commodum, quamdiu sani sunt. Caeterum
-<lb/>ubi desierint exerceri, simul et reliqua sensuum c<hi rend="italic">o</hi>rporis
+<lb/>ubi desierint exerceri, simul et reliqua sensuum corporis
 <lb/>organa pereunt, cunctaque, ut dixi, membra distorta
 <lb/>nihil non reddunt deforme.</p>
 </div>
@@ -711,15 +710,14 @@
 <lb/>possunt.. Sed fortassis ad res bellicas valent. Rursus Euripidem
 <lb/>huc mihi cita , qui laudes illorum canet his verbis :</p>
 <p rend="indent"><hi rend="italic">Num adversus hostes proeliabuntur, manti
-<lb/>osseos serentes</hi> ?
-<lb/>Revera
-<lb/><hi rend="italic">rana sinat omnia haec</hi>,</p>
-<p rend="indent"><hi rend="italic">Ubi cominus farrum micare coeperit</hi>.</p>
+<lb/>osseos serentes</hi> ?hi<lb/>Revera
+<lb/><hi rend="italic">rana sinat omnia haec,</hi></p>
+<p rend="i">Ubi cominus farrum micare coeperit.</p>
 <p>Caeterum adversius rigorem et aestum validi sunt, hoc
-<lb/>ips<hi rend="italic">o</hi> lane Herculem referentes, ut tum hieme, tum
+<lb/>ipso lane Herculem referentes, ut tum hieme, tum
 <lb/>aestate, una pelle tegantur: ut incalceati perpetuo fusi
 <lb/>dio dormiant; humi cubantes. At enim in his omnibus
-<lb/>pueris nuper natis sunt imbecilliores. Qua ta<hi rend="italic">n</hi>dem igitur
+<lb/>pueris nuper natis sunt imbecilliores. Qua tandem igitur
 <lb/>m re roboris siti specimen edent ? aut unde sibi placebunt
 <lb/>et cristas erigenti Non sane in hoc, quod coriarios,
 <lb/>fabros, domorum aedificatores vel in palaestra
@@ -753,8 +751,8 @@
 <lb/>lu gestando tauro declaravit, potius quam Themistoclis
 <lb/>sapientia, qui primum recte interpretatus est oraculum,
 <lb/>delude bellum, quemadmodum oportebat, gessit.</p>
-<p><hi rend="italic">Unicum enim consilium prudens multas superat manus,
-<lb/>Caeterum inscitia cum armis pejor est quovis malo</hi>.</p>
+<p rend="i">Unicum enim consilium prudens multas superat manus,
+<lb/>Caeterum inscitia cum armis pejor est quovis malo.</p>
 <p>Arbitror itaque jam perspicue declaratum , athletarum
 <lb/>exercitationem nihil utilitatis afferre ad vitae functiones.
 <lb/>Caeterum quod nec lu ipsis, quibus exercentur, ullius
@@ -779,7 +777,7 @@
 <lb/>sit. Et asinus, inquit, si velit calcibus contendere, ecronam
 <lb/>auferet. Et in historia variorum eventuum scriberetur,
 <lb/>quod asinus in pancratio aliquando vicerit vicos. <hi rend="italic">Erat</hi>
-<lb/><hi rend="italic">autem Olympias prima ac vigesima, cum vinceret ruditer</hi>.
+<lb/><hi rend="italic">autem Olympias prima ac vigesima, cum vinceret ruditer</hi>.hi
 <pb n="37"/>Admodum venusta fabula haec declarat, robur athleticum
 <lb/>non esse de numero eorum, quibus homines decet
 <lb/>exerceri. Atqui si ne robore quidem antecellunt animantibus
@@ -796,7 +794,7 @@
 <lb/>cam, in laboribus ac miserus agunt, non tantum ob
 <lb/>exercitia, verum etiam ob id, quod coguntur ad edacitatem.
 <lb/>Quod si contigerit eos ah arte missionem accipere,
-<lb/>plerisque cor<hi rend="italic">p</hi>oris membris mutili sunt ac debiles.
+<lb/>plerisque corporis membris mutili sunt ac debiles.
 <lb/>Ergo fortassis inde gloriantur, quod prae caeteris plurimum
 <lb/>colligunt et coacervant pecuniarum. Atqui, videre
 <lb/>licet istos omnes aere alieno obstrictos, non solum id
@@ -821,7 +819,7 @@
 <lb/>quaedam contra illiberales, quod corporis laboribus coastent,
 <lb/>quas sedentarias ac manuarias vocant: praestituit
 <lb/>ex illo priore genere quampiam discere: nam posterius
-<lb/>illud genus destituere solet senectute gravatos artifice<hi rend="italic">s</hi>.
+<lb/>illud genus destituere solet senectute gravatos artifices.hi
 <pb n="39"/>Prioris autem generis sunt Medicina, Rhetorica, Musica,
 <lb/>Geometria et Arithmetica, Dialectica, Astronomia
 <lb/>, Grammatica ac Legum prudentia. Adde his,

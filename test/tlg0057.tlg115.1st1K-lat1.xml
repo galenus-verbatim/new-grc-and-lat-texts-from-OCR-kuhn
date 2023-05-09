@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
@@ -37,50 +37,54 @@
         <date>2023</date>
       </publicationStmt>
       <sourceDesc>
-				<biblStruct>
-					<monogr>
-						<title xml:lang="lat">Claudii Galeni Opera Omnia</title>
-						<author>Galen</author>
-						<editor>Karl Gottlob Kühn</editor>
-						<imprint>
-							<publisher>Cnobloch</publisher>
-							<pubPlace>Lipsiae</pubPlace>
-							<biblScope unit="vol">19</biblScope>
-							<biblScope unit="pp" from="1" to="7">1-7</biblScope>
-							<date>1830</date>
-							<ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?45674x19">BIU Santé, Medica</ref>
-						</imprint>
-					</monogr>
-					<monogr corresp="Basel">
+                <biblStruct>
+                    <monogr>
+                        <title xml:lang="lat">Claudii Galeni Opera Omnia</title>
+                        <author>Galen</author>
+                        <editor>Karl Gottlob Kühn</editor>
+                        <imprint>
+                            <publisher>Cnobloch</publisher>
+                            <pubPlace>Lipsiae</pubPlace>
+                            <biblScope unit="vol">19</biblScope>
+                            <biblScope unit="pp" from="1" to="7">1-7</biblScope>
+                            <date>1830</date>
+                          </imprint>
+                    </monogr>
+          
+        <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?45674x19">BIU Santé, Medica</ref></biblStruct>
+        <biblStruct>
+          <monogr corresp="Basel">
             <title xml:lang="lat">Γαληνοῦ Ἅπαντα. Galeni Pergameni Opera omnia</title>
             <author>Galenus</author>
             <editor>Joachim Camerarius</editor>
             <editor>Leonhart Fuchs</editor>
             <editor>Hieronymus Gemusaeus</editor>
-            <imprint>              
+            <imprint>
               <publisher>Cratander</publisher>
               <pubPlace>Basel</pubPlace>
               <biblScope unit="vol">3</biblScope>
               <biblScope unit="pp" from="368" to="369">368-369</biblScope>
               <date>1538</date>
-			  <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00039x03">BIU Santé, Medica</ref>
             </imprint>
           </monogr>
-		  <monogr corresp="Chartier">
+          <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00039x03">BIU Santé, Medica</ref>
+        </biblStruct>
+        <biblStruct>
+          <monogr corresp="Chartier">
             <title xml:lang="lat">Magni Hippocratis Coi, et Claudii Galeni Pergameni archiatrΩn uniuersa quae extant</title>
             <author>Galen</author>
             <editor>René Chartier</editor>
             <imprint>
               <publisher>[s.n.]</publisher>
-			  <pubPlace>Paris</pubPlace>
+              <pubPlace>Paris</pubPlace>
               <biblScope unit="vol">8</biblScope>
               <biblScope unit="pp" from="916" to="918">916-918 </biblScope>
               <date>1649</date>
-			  <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00013x08">BIU Santé, Medica</ref>
             </imprint>
           </monogr>
-				</biblStruct>
-			</sourceDesc>
+          <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00013x08">BIU Santé, Medica</ref>
+                </biblStruct>
+            </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
@@ -122,18 +126,18 @@
 <lb/>desipereque fe finxerunt, quum alios potius stultos
 <lb/>ostenderent. Haec omnia et deprehendere et inter fe disicernere,
 <lb/>ad medicos pertinere vulgus existimat. In his
-<lb/>vero certe dolor adeo vehemens <hi rend="italic">sing</hi>i<hi rend="italic">tur</hi>, ut intolerabilis
+<lb/>vero certe dolor adeo vehemens <hi rend="italic">singitur</hi>, hit intolerabilis
 <lb/>esse videatur. Atque vocatum quendam a nixibus ad conclunem
 <lb/>novi culicum dolorem finxisse, ut ne accederet,
-<lb/>quod sibi ita conducere vi<hi rend="italic">t</hi>um esset. Qua in re eo tempore
-<lb/>suspicatus <hi rend="italic">t</hi>um hominem fallere, quod postea mihi
+<lb/>quod sibi ita conducere vitum esset. Qua in re eo tempore
+<lb/>suspicatus tum hominem fallere, quod postea mihi
 <lb/>confessus est. Fomenta igitur ipsi admovere jussi, verum
 <pb n="3"/>non magnopere sibi succurri precabatur, quamquam prius
 <lb/>in minimis admodum meticulofus effeti Equidem paucis
 <lb/>ante diebus noverat colico dolore laborantem a me hausto
 <lb/>mox medicamento philonio dolore fuisse liberatum, quod
 <lb/>a me continuo petiisset, si doluisset. Sed et exitus istud
-<lb/>declararit, qu<hi rend="italic">o</hi>niam dimissa concione extemplo conqueri,
+<lb/>declararit, quoniam dimissa concione extemplo conqueri,
 <lb/>tanquam extra omnem metit dolorem constitutus desiit.
 <lb/>Quin et ipsa praeterea vivendi ratio quae praecesserat,
 <lb/>talis erat ut colicam in eo dispositionem non posset generasse;
@@ -143,7 +147,7 @@
 <lb/>morbus esset, potuisse cognoscere, medicae erat experientiae
 <lb/>opus. Alterum vero istud quod ob concionem sintosare
 <lb/>haec illum suspicatus eram , medicinae proprium non
-<lb/>fuerat, <hi rend="italic">t</hi>ed rationis opus quae communis dicitur; quam
+<lb/>fuerat, ted rationis opus quae communis dicitur; quam
 <lb/>licet omnibus communis sit, pauci tamen exactam perfectamque
 <lb/>habent ut invenire in quoquo negotio possint
 <pb n="4"/>quid faciendum dicendumve sit. Tenendum ergo tuentoria
@@ -160,14 +164,14 @@
 <lb/>conservum insuper quendam ei familiarem rogabam, num
 <lb/>adolescens ille mulierculae alienius amore teneretur, propter
 <lb/>quam esset verisimile, longiorem profectionem domino
-<lb/>ad<hi rend="italic">a</hi>mante, hoc illum studere ut relinqueretur. Et ita res
+<lb/>adamante, hoc illum studere ut relinqueretur. Et ita res
 <lb/>habebat. Haec autem extrinsecus adinvenerant. Circa
 <lb/>vero genu ejus tumor quidam maximus existebat qui facile
 <lb/>idiotam perterrere potuisset, fed rei perito manifeste per
 <pb n="5"/>thapsiam excitatus apparebat. Haec autem cognitio medicinae
 <lb/>propria erat, non ab extrinsecus assumptis provealens.
 <lb/>Ejusdem -quoque erat experientiae scivisse nihil
-<lb/>eorum quae a<hi rend="italic">n</hi>tecesserant, tale fuisse quod eum excitare
+<lb/>eorum quae antecesserant, tale fuisse quod eum excitare
 <lb/>tumorem tam repente potuisset. Neque enim plus quam
 <lb/>conveniebat, concurrerat: neque vapularat ab aliquo neque
 <lb/>saltaverat neque fossam transfiliens id incommodum passus
@@ -178,14 +182,14 @@
 <lb/>eadem respondebat. Quare profecto domino quum pbarmacum
 <lb/>imposuissent quod dolorem quidem nihil leniebat,
 <lb/>verum thapsiae fotum qualitatem infrigidare posset , post
-<lb/>horam unam illum confitentem habui, nihil amplius <hi rend="italic">t</hi>e
+<lb/>horam unam illum confitentem habui, nihil amplius te
 <lb/>doloris sentire. Quod fi e phlegmone dolor is natus sui<hi rend="italic">t-</hi>
 <lb/>fiet, non solum per istud refrigera rivum non resedisset,
 <lb/>sed etiam vehementior redditus esset. Liquere igitur nunc
 <lb/>arbitror quod si medicinalis experientia externis istis ratiocinationibus
 <pb n="6"/>coniungatur, sufficiens sit ad fortis doloris
-<lb/>dign<hi rend="italic">a</hi>tionem. Potest vero quis ex eo quod lenius morbum
-<lb/>ferant, -judicium non vehementis doloris <hi rend="italic">t</hi>umere. Accidit
+<lb/>dignationem. Potest vero quis ex eo quod lenius morbum
+<lb/>ferant, -judicium non vehementis doloris tumere. Accidit
 <lb/>enim istud omnino saepe, non advertentibus iis. qui morbi
 <lb/>vehementiam simulant, quod in alium se.aliumque habitum
 <lb/>illi qui vere laborant, magnitudine videlicet doloris
@@ -195,7 +199,7 @@
 <lb/>quo assectus curetur. Sin vero mediocriter aut nequaquam
 <lb/>omnino dolent, hujusmodi auxilia refugiunt, neque
 <lb/>longiora jejunia, neque mordacium pharmacorum oblationem
-<lb/>perferentes. Quae sula quidem quum graviter <hi rend="italic">t</hi>e laborare
+<lb/>perferentes. Quae sula quidem quum graviter te laborare
 <lb/>dicunt, hujusmodi dispositionibus conferre nos illis
 <lb/>affirmare oportet; quemadmodum et sectiones et ustiones
 <lb/>et omnis cibi potusque , quorum desiderio eos trabi videmus
@@ -208,7 +212,7 @@
 <lb/>quam vehementium habere ; praeterea interrogatum
 <lb/>de doloris specie, eam respondere quae affecto
 <lb/>membro propria sit. Quaedam namque species dolores
-<lb/>longe lateque <hi rend="italic">t</hi>e diffundentes habent; quaedam vero tanquam
+<lb/>longe lateque te diffundentes habent; quaedam vero tanquam
 <lb/>fixos unique tantum parti inhaerentes. Sic aliae
 <lb/>pungunt pulsantque aliae quasi devellunt, aliae quodammodo
 <lb/>obstupefacere, aliae gravare videntur, nonnullae

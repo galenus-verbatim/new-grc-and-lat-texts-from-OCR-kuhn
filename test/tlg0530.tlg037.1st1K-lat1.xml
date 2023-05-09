@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://epidoc.stoa.org/schema/dev/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
@@ -48,22 +48,24 @@
               <biblScope unit="vol">19</biblScope>
               <biblScope unit="pp" from="182" to="221">182-221</biblScope>
               <date>1830</date>
-			  <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?45674x19">BIU Santé, Medica</ref>
             </imprint>
           </monogr>
+          
+        <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?45674x19">BIU Santé, Medica</ref></biblStruct>
+        <biblStruct>
           <monogr corresp="Chartier">
             <title xml:lang="lat">Magni Hippocratis Coi, et Claudii Galeni Pergameni archiatrΩn uniuersa quae extant</title>
             <author>Galen</author>
             <editor>René Chartier</editor>
             <imprint>
               <publisher>[s.n.]</publisher>
-			  <pubPlace>Paris</pubPlace>
+              <pubPlace>Paris</pubPlace>
               <biblScope unit="vol">11</biblScope>
               <biblScope unit="pp" from="184" to="196">184-196</biblScope>
               <date>1649</date>
-			  <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00013x11">BIU Santé, Medica</ref>
             </imprint>
           </monogr>
+          <ref target="https://www.biusante.parisdescartes.fr/histmed/medica/cote?00013x11">BIU Santé, Medica</ref>
         </biblStruct>
       </sourceDesc>
     </fileDesc>
@@ -99,17 +101,17 @@
 <lb/>fed -tum quietem tum mitigationem indicat; atque
 <lb/>persuadendum potius quam cogendum est omnibus quae
 <lb/>movere queant praesidiis prohibitis. <hi rend="italic">Quum vero morbi
-<lb/>irruun</hi>t <hi rend="italic">et laborantem e</hi>t <hi rend="italic">medicum a curat</hi>io<hi rend="italic">n</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">quiescere
-<lb/>opor</hi>t<hi rend="italic">et, ne quid mal</hi>i <hi rend="italic">esuria</hi>t. He particularibus etiam paroxysmis
-<lb/>his verbis vaticinatus esu <hi rend="italic">Quo</hi>s <hi rend="italic">per sta</hi>t<hi rend="italic">o</hi>s <hi rend="italic">cir-</hi>
-<pb n="183"/><hi rend="italic">cu</hi>l<hi rend="italic">tu</hi>s <hi rend="italic">accessione</hi>s <hi rend="italic">ador</hi>i<hi rend="italic">untur</hi>, iis <hi rend="italic">n</hi>i<hi rend="italic">h</hi>i<hi rend="italic">l dare op</hi>o<hi rend="italic">rtet neque
-<lb/>eo</hi>s <hi rend="italic">c</hi>o<hi rend="italic">gere</hi>; quod est nulla re vim inserente utendum esu
+<lb/>irruunt et laborantem et medicum a curationibus quiescere
+<lb/>oportet, ne quid mali esuria</hi>t. He particularibus etiam paroxysmis
+<lb/>his verbis vaticinatus esu <hi rend="italic">Quos per statos cir-</hi>
+<pb n="183"/><hi rend="italic">cultus accessiones adoriuntur</hi>, iis <hi rend="italic">nihil dare oportet neque
+<lb/>eos cogere</hi>; quod est nulla re vim inserente utendum esu
 <lb/>Neque enim alimentum neque violentum quidquam in accessionibus
 <lb/>assumendum esse censet. Fortassis autem idem
-<lb/>docet his verbis : <hi rend="italic">quae</hi> i<hi rend="italic">udican</hi>t<hi rend="italic">ur aut</hi> i<hi rend="italic">ntegre</hi> i<hi rend="italic">udicata
-<lb/>sunt , ea neque movere neque med</hi>i<hi rend="italic">ca</hi>m<hi rend="italic">entis neque ali</hi>i<hi rend="italic">s</hi>
-<lb/>i<hi rend="italic">rr</hi>i<hi rend="italic">tament</hi>i<hi rend="italic">s inn</hi>o<hi rend="italic">vare, sed sinere oportet</hi>. Satis sit paroxy
-<lb/><hi rend="italic">l</hi>mi malum non concurrisse tum hoc tum quod ah arte</p>
+<lb/>docet his verbis : <hi rend="italic">quae iudicantur aut integre iudicata
+<lb/>sunt , ea neque movere neque medicamentis neque aliis</hi>
+<lb/>i<hi rend="italic">rritamentis innovare, sed sinere oportet</hi>. hiatis sit paroxy
+<lb/>lmi malum non concurrisse tum hoc tum quod ah arte</p>
 <p>- invehitur. Verum de indicationibus deinceps ratione differemus.
 <lb/></p>
 </div>
@@ -119,44 +121,44 @@
 <p rend="indent">Jam vero hujusmodi temporum differentias
 <lb/>deinceps videamus; dicamus ergo morborum alios quatuor
 <lb/>.habere tempora natura acuta , alios vero non- quatuor producta,
-<lb/>nonnullos <hi rend="italic">den</hi>i<hi rend="italic">que</hi> ip forum tarditatem celeritate
+<lb/>nonnullos <hi rend="italic">denique</hi> ip forum tarditatem celeritate
 <lb/>compensare; hos quidem morbos in principio, illos vero
-<lb/>in fine, alios <hi rend="italic">den</hi>i<hi rend="italic">que</hi> ut fors tulerit. Quum enim in epidemtis
+<lb/>in fine, alios <hi rend="italic">denique</hi> ut fors tulerit. Quum enim in epidemtis
 <lb/>prius febrium ex ipfarum speciebus , continuarum,
 <lb/>intermittentium, tertianarum, femitertianarum vel quotidianarum
 <pb n="184"/>, quartanarum et caeterarum differentias adduxiifet,
-<lb/>haec infert: <hi rend="italic">h</hi>i <hi rend="italic">vero sunt istaru</hi>m <hi rend="italic">singular</hi>um su-
-<lb/><hi rend="italic">br</hi>i<hi rend="italic">u</hi>m <hi rend="italic">peraeque c</hi>o<hi rend="italic">n</hi>t<hi rend="italic">inuaru</hi>m <hi rend="italic">ac</hi> i<hi rend="italic">n</hi>t<hi rend="italic">er</hi>m<hi rend="italic">i</hi>tt<hi rend="italic">en</hi>t<hi rend="italic">iu</hi>m m<hi rend="italic">odi et
-<lb/>statu</hi>s <hi rend="italic">et acce</hi>ssio<hi rend="italic">ne</hi>s. P<hi rend="italic">r</hi>im<hi rend="italic">um en</hi>im . <hi rend="italic">con</hi>ti<hi rend="italic">nua qu</hi>i<hi rend="italic">bu</hi>s<hi rend="italic">da</hi>m
-<lb/>i<hi rend="italic">nterdum incipien</hi>s <hi rend="italic">stor</hi>et <hi rend="italic">ac v</hi>i<hi rend="italic">ge</hi>t <hi rend="italic">max</hi>i<hi rend="italic">me a</hi>t<hi rend="italic">que saev</hi>i<hi rend="italic">u</hi>s
-<lb/><hi rend="italic">ingravesci</hi>t;. <hi rend="italic">circa judiciu</hi>m <hi rend="italic">vero ac statim in</hi> /a<hi rend="italic">d</hi>i<hi rend="italic">cio in</hi>i-
-<lb/><hi rend="italic">minu</hi>it<hi rend="italic">ur</hi>. N<hi rend="italic">onnulli</hi>s <hi rend="italic">vero</hi> i<hi rend="italic">n</hi>t<hi rend="italic">erdu</hi>m <hi rend="italic">len</hi>it<hi rend="italic">er e</hi>t <hi rend="italic">latenter inc</hi>
-<lb/>i<hi rend="italic">p</hi>it, <hi rend="italic">sed</hi> i<hi rend="italic">ncresc</hi>i<hi rend="italic">t singul</hi>is<hi rend="italic">que d</hi>i<hi rend="italic">ebu</hi>s <hi rend="italic">exacerbatur, sub sud</hi>
-<lb/>i<hi rend="italic">ciu</hi>m <hi rend="italic">vero</hi> i<hi rend="italic">n ipfaque sed</hi>i<hi rend="italic">cio suti</hi>s <hi rend="italic">e</hi>mi<hi rend="italic">ca</hi>t. N<hi rend="italic">onnull</hi>is
-<lb/><hi rend="italic">denique blande inc</hi>i<hi rend="italic">pien</hi>s i<hi rend="italic">ncresc</hi>it <hi rend="italic">e</hi>t <hi rend="italic">exacerba</hi>t<hi rend="italic">ur et quadan</hi>
-<lb/>t<hi rend="italic">enu</hi>s <hi rend="italic">v</hi>i<hi rend="italic">gore</hi>m <hi rend="italic">adep</hi>t<hi rend="italic">a rursu</hi>s <hi rend="italic">ad</hi> j<hi rend="italic">ud</hi>i<hi rend="italic">ciu</hi>m <hi rend="italic">usuue et
-<lb/>sub</hi> j<hi rend="italic">ud</hi>i<hi rend="italic">c</hi>i<hi rend="italic">um se rem</hi>itt<hi rend="italic">i</hi>t. <hi rend="italic">Atque haec sieri</hi> i<hi rend="italic">n o</hi>m<hi rend="italic">n</hi>i <hi rend="italic">febre
-<lb/>o</hi>m<hi rend="italic">nique m</hi>o<hi rend="italic">rb</hi>o <hi rend="italic">c</hi>o<hi rend="italic">nt</hi>i<hi rend="italic">ngit</hi>. Esto, haec quidem verba innuit
-<lb/><hi rend="italic">Hipp</hi>o<hi rend="italic">crate</hi>s de continuis febribus ob certam notistatu
+<lb/>haec infert: <hi rend="italic">hi vero sunt istarum singular</hi>um su-
+<lb/><hi rend="italic">brium peraeque continuarum ac intermittentium modi et
+<lb/>status et acce</hi>ssiones. P<hi rend="italic">rimum en</hi>im . <hi rend="italic">continua quibusda</hi>m
+<lb/>i<hi rend="italic">nterdum incipiens storet ac viget maxime atque saeviu</hi>s
+<lb/><hi rend="italic">ingravesci</hi>t;. <hi rend="italic">circa judicium vero ac statim in</hi> /a<hi rend="italic">dicio in</hi>i-
+<lb/><hi rend="italic">minuitur</hi>. hi<hi rend="italic">onnullis vero interdum leniter et latenter inc</hi>
+<lb/>ipit, <hi rend="italic">sed increscit singulisque diebus exacerbatur, sub sud</hi>
+<lb/>i<hi rend="italic">cium vero in ipfaque sedicio sutis emica</hi>t. N<hi rend="italic">onnull</hi>is
+<lb/><hi rend="italic">denique blande incipiens increscit et exacerbatur et quadan</hi>
+<lb/>t<hi rend="italic">enus vigorem adepta rursus ad judicium usuue et
+<lb/>sub judicium se remitti</hi>t. <hi rend="italic">Atque haec sieri in omni febre
+<lb/>omnique morbo contingit</hi>.hiEsto, haec quidem verba innuit
+<lb/><hi rend="italic">Hippocrate</hi>s de continuis febribus ob certam notistatu
 <lb/>; illae vero praedictae temporum. motiones non siclum
 <lb/>in omni febre , fed etiam in omni morbo contingunt.
 <lb/>Quare neque ab Erasistrato, neque a recentiorum aliquo
 <lb/>.discendum hoc nobis est et oculorum inflammationem et
 <pb n="185"/>aurium dolorem suos habere circuitus, sed ab eo qui medicinam
-<lb/>invenit et absolvit. <hi rend="italic">Con</hi>ti<hi rend="italic">ngi</hi>t <hi rend="italic">en</hi>i<hi rend="italic">m haec sier</hi>i,
-<lb/>inquit, <hi rend="italic">in omn</hi>i <hi rend="italic">fabre e</hi>t <hi rend="italic">omn</hi>i mo<hi rend="italic">rbo</hi>. Quum autem inferret
+<lb/>invenit et absolvit. <hi rend="italic">Contingit enim haec sier</hi>i,
+<lb/>inquit, <hi rend="italic">in omni fabre et omn</hi>i morbo. hiuum autem inferret
 <lb/>omnem etiam morbum quatuor habere tempora, rationem
-<lb/>ad ufum reduxit his verbis: <hi rend="italic">duc</hi>t<hi rend="italic">i</hi>s <hi rend="italic">autem</hi> i<hi rend="italic">nde
-<lb/>scop</hi>is <hi rend="italic">c</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">offerendu</hi>s <hi rend="italic">est</hi>. Quia vero non ex his solum
-<lb/>victus instituendi rationem sumit, propterea addidit : <hi rend="italic">mul</hi>t<hi rend="italic">a
-<lb/>ver</hi>o <hi rend="italic">et al</hi>i<hi rend="italic">a praecipua signa sunt h</hi>is <hi rend="italic">germana, de qu</hi>i<hi rend="italic">bu</hi>s
-<lb/><hi rend="italic">par</hi>ti<hi rend="italic">m al</hi>i<hi rend="italic">quand</hi>o <hi rend="italic">scr</hi>i<hi rend="italic">p</hi>t<hi rend="italic">um est part</hi>i<hi rend="italic">m scribetur; ad quod
-<lb/>ra</hi>tio<hi rend="italic">c</hi>i<hi rend="italic">nan</hi>t<hi rend="italic">i perpendendum e</hi>t <hi rend="italic">considerandum est cu</hi>i <hi rend="italic">horum
-<lb/>acutu</hi>s <hi rend="italic">ac le</hi>t<hi rend="italic">ali</hi>s sit m<hi rend="italic">orbu</hi>s <hi rend="italic">aut</hi> i<hi rend="italic">mpendea</hi>t <hi rend="italic">et cu</hi>i <hi rend="italic">adh</hi>i<hi rend="italic">bendu</hi>
-<lb/>s <hi rend="italic">nec ne e</hi>t <hi rend="italic">quando e</hi>t <hi rend="italic">quantu</hi>s <hi rend="italic">e</hi>t <hi rend="italic">qu</hi>i<hi rend="italic">nam c</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">sit osiferendu</hi>
-<lb/>s. Et quis brevi<hi rend="italic">o</hi>ri oratione remediorum <hi rend="italic">t</hi>ropos
+<lb/>ad ufum reduxit his verbis: <hi rend="italic">ductis autem inde
+<lb/>scopis cibus offerendus est</hi>. hiuia vero non ex his solum
+<lb/>victus instituendi rationem sumit, propterea addidit : <hi rend="italic">multa
+<lb/>vero et alia praecipua signa sunt his germana, de quibu</hi>s
+<lb/><hi rend="italic">partim aliquando scriptum est partim scribetur; ad quod
+<lb/>ratiocinanti perpendendum et considerandum est cui horum
+<lb/>acutus ac letali</hi>s sit m<hi rend="italic">orbus aut impendeat et cui adhibendu</hi>
+<lb/>s <hi rend="italic">nec ne et quando et quantus et quinam cibus sit osiferendu</hi>
+<lb/>s. Et quis breviori oratione remediorum tropos
 <lb/>tradidisset quam ipfe Hippocrates qui perpendendum esse
-<lb/>ait: <hi rend="italic">qu</hi>i<hi rend="italic">d, quantum et quando</hi>. In hoc enim ordo ac opportunum
+<lb/>ait: <hi rend="italic">quid, quantum et quando</hi>.hiIn hoc enim ordo ac opportunum
 <lb/>tempus consistit. Qui ergo prius dat alimentum,
 <lb/>deinde blandam exercitationem imperat, is in quando
 <lb/>aberrat, nam quod praeiens occasio postulat, ad non exhibet;
@@ -169,45 +171,45 @@
 
 <p rend="indent">Nunc autem de temporibus disseremus, ubi
 <lb/>docuerimus quemadmodum a principio ad usque finem ty- .
-<lb/>pus omnis in orbem devenerit, primos ex li<hi rend="italic">br</hi>o de morbis
+<lb/>pus omnis in orbem devenerit, primos ex libro de morbis
 <lb/>apponemus textus, quibus quum praenunciasset necessartum
 <lb/>esse scire quid sit opportunum tempus quidque intempestivitas
-<lb/>tum haec connectit. <hi rend="italic">At opp</hi>o<hi rend="italic">rtuna temp</hi>o<hi rend="italic">ra,
-<lb/>ut se</hi>m<hi rend="italic">e</hi>l <hi rend="italic">dica</hi>m, <hi rend="italic">in arte mu</hi>lt<hi rend="italic">a ac varia sunt, que</hi>m<hi rend="italic">ad</hi>m<hi rend="italic">odum
-<lb/>et</hi> mo<hi rend="italic">rbi et affectu</hi>s <hi rend="italic">et e</hi>o<hi rend="italic">ru</hi>m <hi rend="italic">curat</hi>io<hi rend="italic">ne</hi>s. <hi rend="italic">Ce</hi>l<hi rend="italic">erri</hi>m<hi rend="italic">a
-<lb/>vero sunt, quibu</hi>s <hi rend="italic">au</hi>t <hi rend="italic">an</hi>i<hi rend="italic">m</hi>o <hi rend="italic">de</hi>i<hi rend="italic">c</hi>i<hi rend="italic">en</hi>ti<hi rend="italic">bus opitu</hi>l<hi rend="italic">andu</hi>m <hi rend="italic">est,
-<lb/>au</hi>t <hi rend="italic">urinam reddere vel stercu</hi>s <hi rend="italic">de</hi>i<hi rend="italic">icere nequeun</hi>ti<hi rend="italic">bu</hi>s <hi rend="italic">aut</hi>
-<lb/>susto<hi rend="italic">cant</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">aut si mu</hi>li<hi rend="italic">erem partur</hi>i<hi rend="italic">entem vel ab</hi>o<hi rend="italic">rt</hi>i<hi rend="italic">en</hi>t<hi rend="italic">em
-<lb/>l</hi>i<hi rend="italic">berare deceat et quaecunque sunt e</hi>j<hi rend="italic">usmod</hi>i. <hi rend="italic">Atque haec
-<lb/>qu</hi>i<hi rend="italic">dem acuta neque pau</hi>lo <hi rend="italic">post conferunt; nam plerique</hi>
-<lb/>p<hi rend="italic">au</hi>l<hi rend="italic">o posterius intereunt. occasio</hi> i<hi rend="italic">g</hi>i<hi rend="italic">tur est, si quis ho-</hi>
-<pb n="187"/>mi<hi rend="italic">t</hi>t<hi rend="italic">i</hi> i<hi rend="italic">n hu</hi>j<hi rend="italic">us</hi>m<hi rend="italic">od</hi>i <hi rend="italic">affec</hi>t<hi rend="italic">uum a</hi>li<hi rend="italic">quem inc</hi>i<hi rend="italic">den</hi>ti, <hi rend="italic">pr</hi>i<hi rend="italic">usquam
-<lb/>an</hi>i<hi rend="italic">mam estlaver</hi>it, <hi rend="italic">oppor</hi>t<hi rend="italic">une opitule</hi>t<hi rend="italic">ur</hi>; i<hi rend="italic">d aux</hi>i<hi rend="italic">l</hi>i<hi rend="italic">um quum
-<lb/>opportuno tempore ceper</hi>it, <hi rend="italic">iuvatur</hi>. Qui vero hoc facit,
+<lb/>tum haec connectit. <hi rend="italic">At opportuna tempora,
+<lb/>ut semel dica</hi>m, <hi rend="italic">in arte multa ac varia sunt, quemadmodum
+<lb/>et morbi et affectus et eorum curatione</hi>s. <hi rend="italic">Celerrima
+<lb/>vero sunt, quibus aut animo deicientibus opitulandum est,
+<lb/>aut urinam reddere vel stercus deiicere nequeuntibus aut</hi>
+<lb/>susto<hi rend="italic">cantibus aut si mulierem parturientem vel abortientem
+<lb/>liberare deceat et quaecunque sunt ejusmod</hi>i. <hi rend="italic">Atque haec
+<lb/>quidem acuta neque paulo post conferunt; nam plerique</hi>
+<lb/>p<hi rend="italic">aulo posterius intereunt. occasio igitur est, si quis ho-</hi>
+<pb n="187"/>mi<hi rend="italic">tti in hujusmodi affectuum aliquem inciden</hi>ti, <hi rend="italic">priusquam
+<lb/>animam estlaver</hi>it, <hi rend="italic">opportune opituletur</hi>; i<hi rend="italic">d auxilium quum
+<lb/>opportuno tempore ceper</hi>it, <hi rend="italic">iuvatur</hi>. hiui vero hoc facit,
 <lb/>is certe opitulationis opportunitatem Icit. Quidquid enim
 <lb/>aliquis opportuno tempore assumpserit, quod eo instanti
 <lb/>tempore assumptum est, is <hi rend="italic">propterea</hi> opem tulit. Quum
 <lb/>autem de acutissimis temporum opportunitatibus et prompta
 <lb/>auxilia postulantibus dixisset, deinceps et de protracto
-<lb/>tempore praecepta traditi <hi rend="italic">Al</hi>i<hi rend="italic">i autem m</hi>o<hi rend="italic">rb</hi>i <hi rend="italic">sunt qu</hi>i <hi rend="italic">opportune
-<lb/>ma</hi>t<hi rend="italic">u</hi>t<hi rend="italic">in</hi>o <hi rend="italic">die</hi>i t<hi rend="italic">empore curantur, nihsique refert
-<lb/>an summ</hi>o <hi rend="italic">mane an paulo poster</hi>i<hi rend="italic">u</hi>s. <hi rend="italic">Al</hi>ii <hi rend="italic">vero sunt morbi
-<lb/>qu</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">opportunum medend</hi>i t<hi rend="italic">empu</hi>s <hi rend="italic">est seme</hi>l <hi rend="italic">d</hi>i<hi rend="italic">e, sed
-<lb/>quando n</hi>i<hi rend="italic">hil qu</hi>i<hi rend="italic">dem refer</hi>t. <hi rend="italic">Qu</hi>i<hi rend="italic">dam e</hi>ti<hi rend="italic">am tert</hi>i<hi rend="italic">o qu</hi>o<hi rend="italic">que
-<lb/>d</hi>i<hi rend="italic">e au</hi>t <hi rend="italic">quarto , qu</hi>i<hi rend="italic">dam et</hi>i<hi rend="italic">am semel mense et al</hi>ii <hi rend="italic">qu</hi>i<hi rend="italic">dem</hi>
-<lb/>t<hi rend="italic">er</hi>ti<hi rend="italic">o qu</hi>o<hi rend="italic">que mense , neque refert an</hi> t<hi rend="italic">er</hi>i<hi rend="italic">t</hi>o i<hi rend="italic">neun</hi>t<hi rend="italic">e au</hi>t
-<lb/><hi rend="italic">desinente</hi> i<hi rend="italic">d stat ve</hi>l <hi rend="italic">perend</hi>i<hi rend="italic">no n</hi>o<hi rend="italic">vae au</hi>t <hi rend="italic">decrescent</hi>i<hi rend="italic">s lunae
-<lb/>die. . A</hi>t<hi rend="italic">que haec sunt opportuna temp</hi>o<hi rend="italic">ra</hi> i<hi rend="italic">n qu</hi>i<hi rend="italic">bus neque
-<lb/>aliam qua</hi>m <hi rend="italic">hanc accurata</hi>m <hi rend="italic">d</hi>i<hi rend="italic">l</hi>i<hi rend="italic">gentia</hi>m <hi rend="italic">sort</hi>i<hi rend="italic">untur</hi>. Incepit
-<lb/>sane ab hypostest <hi rend="italic">seu sta</hi>t<hi rend="italic">u</hi> quae in temporis puncto
+<lb/>tempore praecepta traditi <hi rend="italic">Alii autem morbi sunt qui opportune
+<lb/>matutino diei tempore curantur, nihsique refert
+<lb/>an summo mane an paulo posteriu</hi>s. <hi rend="italic">Alii vero sunt morbi
+<lb/>quibus opportunum medendi tempus est semel die, sed
+<lb/>quando nihil quidem refer</hi>t. <hi rend="italic">Quidam etiam tertio quoque
+<lb/>die aut quarto , quidam etiam semel mense et alii quidem</hi>
+<lb/>t<hi rend="italic">ertio quoque mense , neque refert an terito ineunte au</hi>t
+<lb/><hi rend="italic">desinente id stat vel perendino novae aut decrescentis lunae
+<lb/>die. . Atque haec sunt opportuna tempora in quibus neque
+<lb/>aliam quam hanc accuratam diligentiam sortiuntur</hi>. hincepit
+<lb/>sane ab hypostest <hi rend="italic">seu statu</hi> quae in temporis puncto
 <pb n="188"/>consistit; atque ita ad horas prodiit; ab horis ad dies,
-<lb/>et a diebus ad men<hi rend="italic">t</hi>es, ipsus quidem lunae incremento
+<lb/>et a diebus ad mentes, ipsus quidem lunae incremento
 <lb/>aut decremento numeratos. Quod fortassis quibusdam paradoxum
 <lb/>esse videtur, id ego magnam vim habere prodi- .
-<lb/>tutus sum ad morborum destru<hi rend="italic">c</hi>tionem praecipueque diuturnorum,
+<lb/>tutus sum ad morborum destructionem praecipueque diuturnorum,
 <lb/>in quibus artisici permissum est idonea tempora
-<lb/>exspectare ; id autem est caelestibus terrestria c<hi rend="italic">o</hi>mpati
-<lb/>simulque commutari; <hi rend="italic">conspirat</hi>i<hi rend="italic">o na</hi>m<hi rend="italic">que una est e</hi>t <hi rend="italic">c</hi>o<hi rend="italic">nsiux</hi>
+<lb/>exspectare ; id autem est caelestibus terrestria compati
+<lb/>simulque commutari; <hi rend="italic">conspiratio namque una est et consiux</hi>
 <lb/>i<hi rend="italic">o una</hi> non siclum nostris in corporibus , verum etiam
 <lb/>in universis. Plantae namque et animantes mutationis
 <lb/>quae in ambiente aere movetur fiunt participes multoque
@@ -217,7 +219,7 @@
 <lb/>partes tabescunt, aliae colliquantur. Iudicis vero
 <lb/>sunt humana corpora multoque magis in morbis; sanitatis
 <lb/>enim robur tales morbos occultare potest. Morbi siquidem
-<lb/>ob detractionem o<hi rend="italic">b</hi>o<hi rend="italic">rti</hi> decrescente <hi rend="italic">luna</hi> ad deterius
+<lb/>ob detractionem o<hi rend="italic">borti</hi> decrescente <hi rend="italic">luna</hi> ad deterius
 <pb n="189"/>signa dant; ex redundantia vero et affluentia crescente
 <lb/>luna premunt maxime. Quare praeclarum est artificem
 <lb/>ferre non solum in oceano mari recessum et accessum aquarum
@@ -230,16 +232,16 @@
 <lb/>arti in opere divinum numen auxiliatur. . Quapropter
 <lb/>etiam orationem praedictorum comitem infert etiam ad
 <lb/>horarum ufque circum versionem, quum inquit: <hi rend="italic">intempesi</hi>i-
-<lb/><hi rend="italic">v</hi>it<hi rend="italic">a</hi>s <hi rend="italic">au</hi>t<hi rend="italic">em est hu</hi>j<hi rend="italic">u</hi>s<hi rend="italic">m</hi>o<hi rend="italic">d</hi>i, <hi rend="italic">quicunque assec</hi>t<hi rend="italic">u</hi>s <hi rend="italic">mane curand</hi>i
-<lb/><hi rend="italic">sun</hi>t <hi rend="italic">si mer</hi>i<hi rend="italic">d</hi>i<hi rend="italic">e curen</hi>t<hi rend="italic">ur</hi>, i<hi rend="italic">ntempestive curan</hi>t<hi rend="italic">ur; tntempestiva
-<lb/>en</hi>i<hi rend="italic">m haec sunt, qu</hi>o<hi rend="italic">d</hi> i<hi rend="italic">n de</hi>t<hi rend="italic">er</hi>i<hi rend="italic">u</hi>s i<hi rend="italic">mpe</hi>t<hi rend="italic">um habeant
-<lb/>pr</hi>o<hi rend="italic">pter cura</hi>tio<hi rend="italic">nem n</hi>o<hi rend="italic">n</hi> i<hi rend="italic">n te</hi>m<hi rend="italic">p</hi>o<hi rend="italic">re adhibi</hi>t<hi rend="italic">am. Qu</hi>i<hi rend="italic">cunque
-<lb/>ver</hi>o <hi rend="italic">celer</hi>it<hi rend="italic">er sive mer</hi>i<hi rend="italic">d</hi>i<hi rend="italic">e sive vesper</hi>i <hi rend="italic">sive noc</hi>t<hi rend="italic">u curen</hi>
-<lb/>t<hi rend="italic">ur</hi>, i<hi rend="italic">n</hi>t<hi rend="italic">empest</hi>i<hi rend="italic">ve curantur; quod si vere curar</hi>i <hi rend="italic">opor-</hi>
-<pb n="190"/><hi rend="italic">teat hie</hi>m<hi rend="italic">e curen</hi>t<hi rend="italic">ur; aut si h</hi>i<hi rend="italic">e</hi>m<hi rend="italic">e deceat, aestate curentur;
-<lb/>aut si qu</hi>o<hi rend="italic">d su</hi>m <hi rend="italic">curar</hi>i <hi rend="italic">op</hi>o<hi rend="italic">rteat</hi> i<hi rend="italic">d</hi> i<hi rend="italic">psu</hi>m <hi rend="italic">d</hi>i<hi rend="italic">gera</hi>t<hi rend="italic">ur ; aut
-<lb/>si quod d</hi>i<hi rend="italic">fferri oportea</hi>t <hi rend="italic">h</hi>o<hi rend="italic">c</hi> j<hi rend="italic">a</hi>m <hi rend="italic">curetur pathe</hi>m<hi rend="italic">a; haec
-<lb/>omn</hi>i<hi rend="italic">a</hi> i<hi rend="italic">n</hi>t<hi rend="italic">empest</hi>i<hi rend="italic">vam c</hi>u<hi rend="italic">rat</hi>io<hi rend="italic">nem subea</hi>m. Et haec quidem
+<lb/><hi rend="italic">vitas autem est hujusmod</hi>i, <hi rend="italic">quicunque assectus mane curand</hi>i
+<lb/><hi rend="italic">sunt si meridie curentur</hi>, i<hi rend="italic">ntempestive curantur; tntempestiva
+<lb/>enim haec sunt, quod in deterius impetum habeant
+<lb/>propter curationem non in tempore adhibitam. Quicunque
+<lb/>vero celeriter sive meridie sive vesperi sive noctu curen</hi>
+<lb/>tur, i<hi rend="italic">ntempestive curantur; quod si vere curari opor-</hi>
+<pb n="190"/><hi rend="italic">teat hieme curentur; aut si hieme deceat, aestate curentur;
+<lb/>aut si quod sum curari oporteat id ipsum digeratur ; aut
+<lb/>si quod differri oporteat hoc jam curetur pathema; haec
+<lb/>omnia intempestivam curationem subea</hi>m. Et haec quidem
 <lb/>obiter ac tanquam praeter sermonis tradendi propositum
 <lb/>dicta sinti<space type="tab">    </space>.</p>
 </div>
@@ -252,11 +254,11 @@
 <lb/>alterum particulare cujusque paroxyfmi. Dicit ergo in
 <lb/>epidemiis necessarium esse ut totius morbi incrementum
 <lb/>et vigoris remissionem consideremus et ad utraque tempo
-<lb/><hi rend="italic">t</hi>a respiciendo .<hi rend="italic">s</hi>emper auxilia adhibeamus; atque hoc
+<lb/>ta respiciendo .semper auxilia adhibeamus; atque hoc
 <lb/>facile in omnibus doceri potest; at in alimento demonstrabitur.
 <lb/>Alimentum enim optimum est in victus ratione
 <lb/>praesidium; id namque ceteris comparatum aeque pollet
-<lb/>ac omnia complectitur. Hujus rei testis est <hi rend="italic">H</hi>i<hi rend="italic">pp</hi>o<hi rend="italic">crates</hi>
+<lb/>ac omnia complectitur. Hujus rei testis est <hi rend="italic">Hippocrates</hi>
 <pb n="191"/>qui alimenta diaetas appellavit , totius enim appellatione
 <lb/>partem exornavit. Verum tota haec oratio recentioribus
 <lb/>quidem medicis maxime contraria est, medicinae tamen
@@ -264,28 +266,28 @@
 <lb/>cujusque morbi diebus scire quis morbus celeriter et quis
 <lb/>tarde ad statum perventurus- sit; quumque hoc praefciverit,
 <lb/>laborantis etiam vires consideret ac tanquam in quadam
-<lb/><hi rend="italic">t</hi>uae ipsius cogitationis trutina duo perpendat, num
+<lb/>tuae ipsius cogitationis trutina duo perpendat, num
 <lb/>aegre per initia tenui usus victu ad usque vigorem fuffecerit,
 <lb/>ita ut post principii tempus ad usque statum tenui
-<lb/>victu <hi rend="italic">t</hi>emper cibetur: <hi rend="italic">quum en</hi>i<hi rend="italic">m</hi> i<hi rend="italic">n statu v</hi>i<hi rend="italic">ge</hi>t <hi rend="italic">m</hi>o<hi rend="italic">rbu</hi>s,
-<lb/>t<hi rend="italic">um e</hi>t <hi rend="italic">tenu</hi>i//im<hi rend="italic">o v</hi>i<hi rend="italic">ctu u</hi>t<hi rend="italic">endum est</hi>, au vero prius de<hi rend="italic">t</hi>eceris
+<lb/>victu temper cibetur: <hi rend="italic">quum enim in statu viget morbu</hi>s,
+<lb/>t<hi rend="italic">um et tenu</hi>i//im<hi rend="italic">o victu utendum est</hi>, hiu vero prius deteceris
 <lb/>nec tenui victu ab initio etiam ad usque vigorem ductus
 <lb/>sustinuerit. Nam si futurum est aegrum viribus ante
 <lb/>vigorem exolui, primis certe diebus vires instaurandae sunt
 <lb/>quo possit aeger vigoris accessu tenuiter cibari. ld autem
-<lb/>de omnibus dictum non est , i<hi rend="italic">n princ</hi>i<hi rend="italic">p</hi>io <hi rend="italic">p</hi>l<hi rend="italic">eniu</hi>s <hi rend="italic">c</hi>i<hi rend="italic">bandu</hi>
-<lb/>m <hi rend="italic">est</hi>, fed de iis in quibus futurum est ut vires circa
+<lb/>de omnibus dictum non est , i<hi rend="italic">n principio plenius cibandu</hi>
+<lb/>m est, hied de iis in quibus futurum est ut vires circa
 <pb n="192"/>morbi vigorem dissolvantur. Verum et hujus documenti
 <lb/>rationem discamus; ita namque ipfo audacius ad artis
-<lb/>opera utemur. Natura primigenium ac primarium <hi rend="italic">t</hi>ui
-<lb/>ipsius temperamentum ferv<hi rend="italic">e</hi>ns opportune cibos assumendos
+<lb/>opera utemur. Natura primigenium ac primarium tui
+<lb/>ipsius temperamentum fervens opportune cibos assumendos
 <lb/>appetit eosque assumptos probe concoquit atquerin universum
 <lb/>corpus distribuit appositionesque et detractiones commoderatas
 <lb/>efficit. Quum autem morbi inciderint ac fieditionem
 <lb/>et principatus dissolutionem effecerint, quantum
 <lb/>affectiones invaluerint tantum etiam natura laborat. Atque
 <lb/>circa morborum quidem principia exigua est naturalis
-<lb/>status eversio, <hi rend="italic">t</hi>ed magnum naturae robur; circa vigores
+<lb/>status eversio, ted magnum naturae robur; circa vigores
 <lb/>magna est status praeter naturam vis, multa vero naturae
 <lb/>infirmitas. Quare si quis a morbi principio tenui victu
 <lb/>deductus circa vigorem pleniorem victum viribus jam exhaustis
@@ -301,7 +303,7 @@
 <lb/>cavendae sunt alimentorum oblationes; sic et in universalium
 <lb/>morborum rigoribus plenius alimenta exhibenda
 <lb/>sunt. Sed adjacet, inquit, declinatio. Ego vero quid sit
-<lb/>quod futurum est non quaero, fed quid sit quod prae<hi rend="italic">s</hi>ens
+<lb/>quod futurum est non quaero, fed quid sit quod praesens
 <lb/>est; non enim quod humanius docet vigor, fed declinatio.
 <lb/>Morbi vis adeo cita est ut comprehendi nequeat. Nonne
 <lb/>saepius magnitudinem ignoramus etiamsi vires viguerint?
@@ -309,71 +311,71 @@
 <lb/>circa principium velit pinguius nutrire, sed quibus foturum
 <lb/>est ut circa vigorem vires dissolvantur, patet ex iis
 <lb/>quae inseruntur. Quid enim ait? N<hi rend="italic">eque suae praeter</hi>
-<lb/>t<hi rend="italic">e</hi>m<hi rend="italic">pu</hi>s <hi rend="italic">licet neque vehement</hi>i/sim<hi rend="italic">a</hi>s <hi rend="italic">vasorum vacua</hi>ti<hi rend="italic">one</hi>s
-<lb/><hi rend="italic">efficere neque v</hi>i<hi rend="italic">gent</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">morb</hi>is <hi rend="italic">neque in</hi> i<hi rend="italic">nsia</hi>mm<hi rend="italic">at</hi>to<hi rend="italic">nc</hi>
-<pb n="194"/><hi rend="italic">consisten</hi>ti<hi rend="italic">bu</hi>s <hi rend="italic">cibo</hi>s <hi rend="italic">offerre</hi>. Atque ruribus : <hi rend="italic">hoc ig</hi>i<hi rend="italic">tur max</hi>
-<lb/>i<hi rend="italic">mum documen</hi>t<hi rend="italic">u</hi>m <hi rend="italic">este censeo, quod prim</hi>i <hi rend="italic">d</hi>i<hi rend="italic">e</hi>s m<hi rend="italic">orbi hac
-<lb/>ve</hi>l i<hi rend="italic">lla sorb</hi>it<hi rend="italic">ione non sint pr</hi>i<hi rend="italic">vand</hi>i i<hi rend="italic">n i</hi>is <hi rend="italic">qu</hi>i <hi rend="italic">paulo post
-<lb/>h</hi>is <hi rend="italic">aut</hi> illis <hi rend="italic">sorbi</hi>t<hi rend="italic">ionibu</hi>s <hi rend="italic">usur</hi>i <hi rend="italic">sunt</hi>. Hoc autem praesumpsisse
+<lb/>t<hi rend="italic">empus licet neque vehement</hi>i/sim<hi rend="italic">as vasorum vacuatione</hi>s
+<lb/><hi rend="italic">efficere neque vigentibus morbis neque in insiammattonc</hi>
+<pb n="194"/><hi rend="italic">consistentibus cibos offerre</hi>. hitque ruribus : <hi rend="italic">hoc igitur max</hi>
+<lb/>i<hi rend="italic">mum documentum este censeo, quod primi dies morbi hac
+<lb/>vel illa sorbitione non sint privandi in iis qui paulo post
+<lb/>his aut</hi> illis <hi rend="italic">sorbitionibus usuri sunt</hi>. hioc autem praesumpsisse
 <lb/>decebat, quod de acutis ferme sit. Et paulo post
 <lb/>ostendit fe non in omnibus sied in quibusdam talem victnm
-<lb/>instituere his verbis: <hi rend="italic">haec</hi> i<hi rend="italic">gitur</hi> o<hi rend="italic">mn</hi>i<hi rend="italic">a magna sunt</hi>
-<lb/>t<hi rend="italic">est</hi>i<hi rend="italic">mon</hi>i<hi rend="italic">a quod aegroto</hi>s <hi rend="italic">ad victu</hi>m <hi rend="italic">non. rec</hi>t<hi rend="italic">e ducant medici</hi>
-<lb/>; im<hi rend="italic">o et in qu</hi>i<hi rend="italic">bu</hi>s m<hi rend="italic">orb</hi>is <hi rend="italic">eorum</hi> n<hi rend="italic">asia vacuare non
-<lb/>op</hi>o<hi rend="italic">rte</hi>t <hi rend="italic">qu</hi>i <hi rend="italic">sorb</hi>iti<hi rend="italic">on</hi>i<hi rend="italic">bus alend</hi>i <hi rend="italic">sun</hi>t, <hi rend="italic">evacuan</hi>t; <hi rend="italic">et</hi> i<hi rend="italic">n qu</hi>i-
-<lb/><hi rend="italic">bu</hi>s <hi rend="italic">ex va</hi>/o<hi rend="italic">rue</hi>t <hi rend="italic">vacua</hi>ti<hi rend="italic">one ad sorb</hi>i<hi rend="italic">t</hi>io<hi rend="italic">ne</hi>s <hi rend="italic">mu</hi>t<hi rend="italic">at</hi>i<hi rend="italic">o fac</hi>i<hi rend="italic">enda
-<lb/>non si</hi>t, <hi rend="italic">in i</hi>is <hi rend="italic">mu</hi>t<hi rend="italic">at</hi>io<hi rend="italic">nem suctu</hi>m <hi rend="italic">ac plerumque abso</hi>l<hi rend="italic">u</hi>t<hi rend="italic">e.</hi>
-<lb/>I<hi rend="italic">nterdu</hi>m <hi rend="italic">au</hi>t<hi rend="italic">e</hi>m <hi rend="italic">h</hi>is i<hi rend="italic">n tempor</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">ex casurum vacuat</hi>i<hi rend="italic">one
-<lb/>ad sorbit</hi>i<hi rend="italic">one</hi>s <hi rend="italic">mutat</hi>i<hi rend="italic">onem fac</hi>i<hi rend="italic">unt</hi>, i<hi rend="italic">n quibu</hi>s <hi rend="italic">suepe nu</hi>m<hi rend="italic">er</hi>o
-<lb/><hi rend="italic">exped</hi>it <hi rend="italic">a sorb</hi>i<hi rend="italic">t</hi>i<hi rend="italic">on</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">ad vasorum vacua</hi>tio<hi rend="italic">nem accedere,</hi>
-<lb/>si i<hi rend="italic">ta morbu</hi>m <hi rend="italic">exacerbar</hi>i <hi rend="italic">cont</hi>i<hi rend="italic">gerit</hi>. Hoc autem est vigoris
+<lb/>instituere his verbis: <hi rend="italic">haec igitur omnia magna sunt</hi>
+<lb/>t<hi rend="italic">estimonia quod aegrotos ad victum non. recte ducant medici</hi>
+<lb/>; him<hi rend="italic">o et in quibus morbis eorum nasia vacuare non
+<lb/>oportet qui sorbitionibus alendi sun</hi>t, <hi rend="italic">evacuan</hi>t; <hi rend="italic">et in qu</hi>i-
+<lb/><hi rend="italic">bus ex va</hi>/o<hi rend="italic">ruet vacuatione ad sorbitiones mutatio facienda
+<lb/>non si</hi>t, <hi rend="italic">in iis mutationem suctum ac plerumque absolute.</hi>
+<lb/>I<hi rend="italic">nterdum autem h</hi>is i<hi rend="italic">n temporibus ex casurum vacuatione
+<lb/>ad sorbitiones mutationem faciunt</hi>, i<hi rend="italic">n quibus suepe numer</hi>o
+<lb/><hi rend="italic">expedit a sorbitionibus ad vasorum vacuationem accedere,</hi>
+<lb/>si i<hi rend="italic">ta morbum exacerbari contigerit</hi>. hioc autem est vigoris
 <lb/>tempus in quo ob virium dissolutionem coacti a temaioribus
 <lb/>ad pleniora cibaria accedunt, quum tamen corpora
 <pb n="195"/>ab inflammatione detineantur. <hi rend="italic">Neque sune praeter
-<lb/>tempu</hi>s <hi rend="italic">neque vehemen</hi>t<hi rend="italic">i/stmu</hi>s <hi rend="italic">vasorum vacua</hi>i<hi rend="italic">i</hi>o<hi rend="italic">ne</hi>s <hi rend="italic">mol</hi>i<hi rend="italic">ri</hi>
-<lb/>fas <hi rend="italic">est neque v</hi>i<hi rend="italic">gen</hi>t<hi rend="italic">ibu</hi>s <hi rend="italic">morb</hi>is <hi rend="italic">neque</hi> i<hi rend="italic">n in</hi>/i<hi rend="italic">amma</hi>tio<hi rend="italic">ne c</hi>i-
-<lb/><hi rend="italic">bo</hi>s <hi rend="italic">exh</hi>i<hi rend="italic">bere. Neque decet</hi>, i<hi rend="italic">nquit</hi>, i<hi rend="italic">nco</hi>m<hi rend="italic">modera</hi>t<hi rend="italic">i</hi>s <hi rend="italic">proroga</hi>
-<lb/>ti<hi rend="italic">onibu</hi>s i<hi rend="italic">ndu</hi>l<hi rend="italic">gere neque intempest</hi>i<hi rend="italic">ve nu</hi>t<hi rend="italic">r</hi>i<hi rend="italic">re</hi>. In mullis
+<lb/>tempus neque vehementi/stmus vasorum vacuaiiones moliri</hi>
+<lb/>fas <hi rend="italic">est neque vigentibus morbis neque in in</hi>/i<hi rend="italic">ammatione c</hi>i-
+<lb/><hi rend="italic">bos exhibere. Neque decet</hi>, i<hi rend="italic">nquit</hi>, hi<hi rend="italic">ncommoderatis proroga</hi>
+<lb/>ti<hi rend="italic">onibus indulgere neque intempestive nutrire</hi>. hin mullis
 <lb/>autem intempestivum maxime est adusque tertium diem
 <lb/>prorogare. Noxia quoque est quae alternis diebus sit nutumenti
 <lb/>oblatio. Ad eos enim ita victum instituentes
 <lb/>refpiciens haec omnia scribit. In principiis namque magnos
 <lb/>error est triduana inedia, qua tamen etiam Hippocratis
 <lb/>temporibus utebantur. Testis est ipsis Hippocrates rurfus
-<lb/>in <hi rend="italic">l</hi>i<hi rend="italic">bro</hi> adven<hi rend="italic">o</hi>s Cnidiae sententias dicent: <hi rend="italic">at vero
-<lb/>nov</hi>i <hi rend="italic">medico</hi>s <hi rend="italic">h</hi>is <hi rend="italic">quae max</hi>i<hi rend="italic">me deceant con</hi>t<hi rend="italic">rar</hi>i<hi rend="italic">a moliri.
-<lb/>Volun</hi>t <hi rend="italic">en</hi>i<hi rend="italic">m omne</hi>s <hi rend="italic">ub</hi>i i<hi rend="italic">n morb</hi>o<hi rend="italic">ru</hi>m <hi rend="italic">princ</hi>i<hi rend="italic">p</hi>i<hi rend="italic">i</hi>s <hi rend="italic">h</hi>o<hi rend="italic">m</hi>i<hi rend="italic">ne</hi>s
-<lb/><hi rend="italic">du</hi>os <hi rend="italic">aut</hi> t<hi rend="italic">re</hi>s <hi rend="italic">au</hi>t <hi rend="italic">et</hi>i<hi rend="italic">am plure</hi>s <hi rend="italic">die</hi>s <hi rend="italic">ined</hi>i<hi rend="italic">a praemaceraverint</hi>,
-<lb/>it<hi rend="italic">a</hi> t<hi rend="italic">um sorbit</hi>i<hi rend="italic">one</hi>s t<hi rend="italic">um po</hi>t<hi rend="italic">u</hi>s <hi rend="italic">exh</hi>i<hi rend="italic">bere</hi>. Neque vero
-<lb/>arguit quod aliquos ad praedictum u<hi rend="italic">t</hi>que dierum numerum
+<lb/>in <hi rend="italic">libro</hi> advenos Cnidiae sententias dicent: <hi rend="italic">at vero
+<lb/>novi medicos his quae maxime deceant contraria moliri.
+<lb/>Volunt enim omnes ubi in morborum principiis homine</hi>s
+<lb/><hi rend="italic">duos aut tres aut etiam plures dies inedia praemaceraverint</hi>,
+<lb/>it<hi rend="italic">a tum sorbitiones tum potus exhibere</hi>. hieque vero
+<lb/>arguit quod aliquos ad praedictum utque dierum numerum
 <lb/>protrahant, fed quod omnes. Quandoquidem ipsis ad
 <pb n="196"/>tres et ad quatuor usque dies protrahit, fed protrahit quos
-<lb/>oportet. i<hi rend="italic">nstab</hi>i<hi rend="italic">les en</hi>im <hi rend="italic">febre</hi>s <hi rend="italic">d</hi>o<hi rend="italic">nec c</hi>o<hi rend="italic">nst</hi>i<hi rend="italic">terin</hi>t <hi rend="italic">sinere
-<lb/>op</hi>o<hi rend="italic">r</hi>t<hi rend="italic">et.; quum autem const</hi>i<hi rend="italic">terint</hi> t<hi rend="italic">um victu</hi> t<hi rend="italic">um curat</hi>i<hi rend="italic">one</hi>
-<lb/>o<hi rend="italic">ccurrere</hi>. Ita enim sorbitiones et potiones die confenlaneo
+<lb/>oportet. i<hi rend="italic">nstabiles enim febres donec constiterint sinere
+<lb/>oportet.; quum autem constiterint tum victu tum curatione</hi>
+<lb/>o<hi rend="italic">ccurrere</hi>.hiIta enim sorbitiones et potiones die confenlaneo
 <lb/>exhibet consulitque tertium et quartum diem cavend
-<lb/><hi rend="italic">a</hi>s esse ; quandoquidem h<hi rend="italic">i</hi> dies <hi rend="italic">recrudescent</hi>i<hi rend="italic">as</hi>, ut ipsis
-<lb/>pronunciat, <hi rend="italic">pot</hi>i<hi rend="italic">ssimum pariun</hi>t, t<hi rend="italic">um quae ad instamma</hi>ti<hi rend="italic">o-.
-<lb/>nem ac immund</hi>i<hi rend="italic">tiam incitan</hi>t, <hi rend="italic">tum quae ad febres tendunt
-<lb/>et quae aegro</hi>t<hi rend="italic">o</hi>s <hi rend="italic">pericli</hi>t<hi rend="italic">an</hi>t<hi rend="italic">e</hi>s <hi rend="italic">fac</hi>i<hi rend="italic">unt; ac magn</hi>i <hi rend="italic">ad</hi>m<hi rend="italic">odum</hi>
-<lb/>m<hi rend="italic">omen</hi>ti <hi rend="italic">per</hi>i<hi rend="italic">nde ac quod</hi>uis <hi rend="italic">aliud hoc documentum esi.</hi>
-<lb/>N<hi rend="italic">am quae sunt in. arte</hi> m<hi rend="italic">edendi opportun</hi>i/<hi rend="italic">stma qu</hi>i<hi rend="italic">bu</hi>s i<hi rend="italic">d
-<lb/>non sit c</hi>o<hi rend="italic">mmune</hi> P No<hi rend="italic">n en</hi>im <hi rend="italic">ad ulcera salum, veru</hi>m
-<lb/><hi rend="italic">et</hi>i<hi rend="italic">am ad ali</hi>os <hi rend="italic">m</hi>o<hi rend="italic">rb</hi>os <hi rend="italic">c</hi>o<hi rend="italic">mplure</hi>s <hi rend="italic">per</hi>t<hi rend="italic">inet, nisi qu</hi>is <hi rend="italic">e</hi>t <hi rend="italic">cetera</hi>
-<lb/>s <hi rend="italic">m</hi>o<hi rend="italic">rb</hi>os <hi rend="italic">ulcera este pr</hi>o<hi rend="italic">tuleri</hi>t<hi rend="italic">; habet en</hi>i<hi rend="italic">m quandam
-<lb/>etiam aequ</hi>it<hi rend="italic">a</hi>t<hi rend="italic">em haec</hi> o<hi rend="italic">rat</hi>io. Videamus ergo quae fequuntur,
+<lb/>as esse ; quandoquidem hi dies <hi rend="italic">recrudescentias</hi>, ut ipsis
+<lb/>pronunciat, <hi rend="italic">potissimum pariun</hi>t, t<hi rend="italic">um quae ad instammatio-.
+<lb/>nem ac immunditiam incitan</hi>t, <hi rend="italic">tum quae ad febres tendunt
+<lb/>et quae aegrotos periclitantes faciunt; ac magni admodum</hi>
+<lb/>m<hi rend="italic">omenti perinde ac quod</hi>uis <hi rend="italic">aliud hoc documentum esi.</hi>
+<lb/>N<hi rend="italic">am quae sunt in. arte medendi opportun</hi>i/<hi rend="italic">stma quibus id
+<lb/>non sit commune</hi> P No<hi rend="italic">n enim ad ulcera salum, veru</hi>m
+<lb/><hi rend="italic">etiam ad alios morbos complures pertinet, nisi quis et cetera</hi>
+<lb/>s <hi rend="italic">morbos ulcera este protulerit; habet enim quandam
+<lb/>etiam aequitatem haec orat</hi>io. Videamus ergo quae fequuntur,
 <lb/>per quae patrocinatur iis qui cibandi tempus in
-<lb/>plures dies prorogant. <hi rend="italic">Atque sortassi</hi>s <hi rend="italic">aliquid etiam c</hi>o<hi rend="italic">n/entaneum
-<lb/>ipsis esse videtur magna corpori oborta mu</hi>t<hi rend="italic">a-</hi>
-<pb n="197"/>i<hi rend="italic">ton</hi>e . <hi rend="italic">a</hi>li<hi rend="italic">quam qu</hi>o<hi rend="italic">q</hi>u<hi rend="italic">e ad</hi>m<hi rend="italic">odum magnam mu</hi>t<hi rend="italic">a</hi>t<hi rend="italic">ionem contra</hi>
-<lb/>o<hi rend="italic">b</hi>jiri. F<hi rend="italic">erum commutare quidem non parum bene
-<lb/>habe</hi>t; <hi rend="italic">recte tamen mutati</hi>o <hi rend="italic">transferenda et ex</hi> m<hi rend="italic">utat</hi>i<hi rend="italic">one
-<lb/>ciborum exh</hi>i<hi rend="italic">b</hi>iti<hi rend="italic">o e</hi>ti<hi rend="italic">a</hi>m<hi rend="italic">num mag</hi>i<hi rend="italic">s</hi>. Recte ergo cum mutatio
+<lb/>plures dies prorogant. <hi rend="italic">Atque sortassis aliquid etiam con/entaneum
+<lb/>ipsis esse videtur magna corpori oborta muta-</hi>
+<pb n="197"/>itone . <hi rend="italic">aliquam quoque admodum magnam mutationem contra</hi>
+<lb/>objiri. F<hi rend="italic">erum commutare quidem non parum bene
+<lb/>habe</hi>t; <hi rend="italic">recte tamen mutatio transferenda et ex mutatione
+<lb/>ciborum exhibitio etiamnum magis</hi>. hiecte ergo cum mutatio
 <lb/>in corpore facta est dilationem in tres usque dies
 <lb/>facientem laudat. Sed recte ex arte hoc facit quum asseorionis
 <lb/>genus et magnitudinem, anni tempestatem, regionem
 <lb/>et aetatem ac praecedentis diaetae ideam considerare subjicit,
-<lb/>quae certe ac firmissimae su<hi rend="italic">n</hi>t mutationis diaetae indicationes.
+<lb/>quae certe ac firmissimae sunt mutationis diaetae indicationes.
 <lb/>Illud enim in mutatione observandum est non
 <lb/>ita primis diebus alimenti ^exhibitiones subducendas esse,
 <lb/>quum aeger et id assumere valeat et natura quod assumptum
@@ -381,7 +383,7 @@
 <lb/>vires prope exsiolutas vides mutationem aggrediaris pugnareque
 <lb/>adhuc magis facultatem cogas quo tempore siorbitiones
 <lb/>quidem confici ab aegrotante nequeunt, si quando
-<lb/>illi <hi rend="italic">i</hi>usseris eumque alimentis suffocaveri<hi rend="italic">t</hi>. Videre namque
+<lb/>illi iusseris eumque alimentis suffocaverit. hiidere namque
 <lb/>licet verbo quidem methodicos, fed re aut opere a methodo
 <pb n="198"/>alienos medicos vinum et carnes dare ac tanquam in vas
 <lb/>inanimum alimenta infundere. At qui recte in principiis
@@ -390,107 +392,107 @@
 <lb/>ei circa principia etiam vires debilitantur partim
 <lb/>quidem morbi, partim vero imperitiae artificis violentia.
 <lb/>Ejusmodi quoque medicos aliis in locis hisce verbis loquutus
-<lb/>arguerat: <hi rend="italic">quid en</hi>im m<hi rend="italic">al</hi>i <hi rend="italic">con</hi>ti<hi rend="italic">ngeret si manuariam
-<lb/>in</hi>t<hi rend="italic">erced</hi>a<hi rend="italic">m</hi> ii <hi rend="italic">auferren</hi>t <hi rend="italic">qu</hi>i <hi rend="italic">ar</hi>tis <hi rend="italic">opera male adm</hi>i-
-<lb/><hi rend="italic">stra</hi>nt ? <hi rend="italic">A</hi>l <hi rend="italic">nunc c</hi>it<hi rend="italic">ra causam aegroti</hi>s <hi rend="italic">non su</hi>t<hi rend="italic">i</hi>s <hi rend="italic">este v</hi>is
-<lb/><hi rend="italic">m</hi>o<hi rend="italic">rbi v</hi>i<hi rend="italic">su est, n</hi>i<hi rend="italic">si e</hi>ti<hi rend="italic">a</hi>m <hi rend="italic">med</hi>i<hi rend="italic">ci accedere</hi>t i<hi rend="italic">mper</hi>iti<hi rend="italic">a</hi>. ltaque
-<lb/>per morborum initia semper ita <hi rend="italic">al</hi>i<hi rend="italic">men</hi>ti dilationibus
+<lb/>arguerat: <hi rend="italic">quid en</hi>im m<hi rend="italic">ali contingeret si manuariam
+<lb/>intercedam</hi> ii <hi rend="italic">auferrent qui ar</hi>tis <hi rend="italic">opera male adm</hi>i-
+<lb/><hi rend="italic">stra</hi>nt ? <hi rend="italic">Al nunc citra causam aegrotis non sutis este v</hi>is
+<lb/><hi rend="italic">morbi visu est, nisi etiam medici accederet imperitia</hi>. hitaque
+<lb/>per morborum initia semper ita <hi rend="italic">alimen</hi>ti dilationibus
 <lb/>uti oportet, ut ne quidem cogitandum sit circa vigores
 <lb/>morbos fore mitiores, etiamsi post dilationes easque maxime
 <lb/>quae plurium dierum funt cibus exhibeatur. Didicimus
 <lb/>autem et ex iis quae intulit; rationem enim connexuit.
-<lb/><hi rend="italic">rerum commu</hi>t<hi rend="italic">are quidem non parum bene habet, rec</hi>t<hi rend="italic">e</hi>
-<lb/>t<hi rend="italic">amen mu</hi>t<hi rend="italic">a</hi>ti<hi rend="italic">o tran</hi>s<hi rend="italic">ferenda^ et ex mutatione c</hi>i<hi rend="italic">borum ex-</hi>
-<pb n="199"/><hi rend="italic">b</hi>i<hi rend="italic">b</hi>iti<hi rend="italic">o e</hi>ti<hi rend="italic">amnum mag</hi>is. A communi ratiocinatione si
+<lb/><hi rend="italic">rerum commutare quidem non parum bene habet, recte</hi>
+<lb/>t<hi rend="italic">amen mutatio transferenda^ et ex mutatione ciborum ex-</hi>
+<pb n="199"/><hi rend="italic">bibitio etiamnum mag</hi>is. A communi ratiocinatione si
 <lb/>recte fiat commutatio, hoc certe fequi quoque auxilium
 <lb/>oportet. Malum sane est in alterutro peccare, pejus tamen
 <lb/>est in additione. Audiamus et quae deinceps dicat: <hi rend="italic">-ad
-<lb/>haec au</hi>t<hi rend="italic">em e</hi>t <hi rend="italic">v</hi>i<hi rend="italic">rium robur consectandu</hi>m <hi rend="italic">est et</hi> m<hi rend="italic">orb</hi>i
-<lb/><hi rend="italic">cu</hi>j<hi rend="italic">usque modus et hom</hi>i<hi rend="italic">n</hi>i<hi rend="italic">s na</hi>t<hi rend="italic">ura e</hi>t <hi rend="italic">aegrotant</hi>i<hi rend="italic">s</hi> i<hi rend="italic">n v</hi>i<hi rend="italic">ctu
-<lb/>c</hi>o<hi rend="italic">nsue</hi>t<hi rend="italic">udo non</hi> i<hi rend="italic">n cib</hi>is <hi rend="italic">salum, verum e</hi>ti<hi rend="italic">am</hi> i<hi rend="italic">n po</hi>t<hi rend="italic">ionibus.
-<lb/>Mul</hi>t<hi rend="italic">o autem m</hi>i<hi rend="italic">nus ad. c</hi>i<hi rend="italic">borum addi</hi>ti<hi rend="italic">onem procedendum
-<lb/>quandoqu</hi>i<hi rend="italic">dem</hi> i<hi rend="italic">psus de</hi>t<hi rend="italic">rac</hi>t<hi rend="italic">ione omn</hi>i<hi rend="italic">no subducere suepenumero
-<lb/>conduci</hi>t, <hi rend="italic">ub</hi>i <hi rend="italic">suffecturus est aeger donec morbi
-<lb/>v</hi>i<hi rend="italic">gor</hi> mit<hi rend="italic">esca</hi>t. Non enim erres hic considerandae sunt
+<lb/>haec autem et virium robur consectandum est et morb</hi>i
+<lb/><hi rend="italic">cujusque modus et hominis natura et aegrotantis in victu
+<lb/>consuetudo non in cibis salum, verum etiam in potionibus.
+<lb/>Multo autem minus ad. ciborum additionem procedendum
+<lb/>quandoquidem ipsus detractione omnino subducere suepenumero
+<lb/>conduci</hi>t, <hi rend="italic">ubi suffecturus est aeger donec morbi
+<lb/>vigor</hi> mit<hi rend="italic">esca</hi>t. Non enim erres hic considerandae sunt
 <lb/>an .phlebotomiam aut alvi vacuationem aut quidquam
 <lb/>aliud validum praesidium omnino ferre queant, Imo an
 <lb/>ex victus dilatione his neglectis perdurare ac morbi vigorem
 <lb/>subire valeat. Quare mihi ne dicas et ego vires infpicio.
 <lb/>Non enim ita inspicis ut oporteret. Quocunque
 <lb/>autem modo eas inspicis,. praeterquam quod nihil novi dicis
-<pb n="200"/>etiam universalia ipsius <hi rend="italic">H</hi>i<hi rend="italic">ppocrat</hi>is praecepta subvertis.
-<lb/>Quae igitur artificialis ratio est? <hi rend="italic">C</hi>o<hi rend="italic">n</hi>i<hi rend="italic">ec</hi>t<hi rend="italic">andum est an
-<lb/>aegr</hi>o<hi rend="italic">tu</hi>s <hi rend="italic">ex d</hi>i<hi rend="italic">ae</hi>t<hi rend="italic">a adusique morb</hi>i <hi rend="italic">vigorem perdurab</hi>it <hi rend="italic">et
-<lb/>utrum il</hi>l<hi rend="italic">e priu</hi>s <hi rend="italic">d</hi>i<hi rend="italic">sic</hi>i<hi rend="italic">et et ex diaeta non perdurab</hi>i<hi rend="italic">t vel
-<lb/>morbu</hi>s <hi rend="italic">pr</hi>i<hi rend="italic">u</hi>s <hi rend="italic">de</hi>/i<hi rend="italic">c</hi>i<hi rend="italic">et ac obtunde</hi>t<hi rend="italic">ur</hi>.</p>
+<pb n="200"/>etiam universalia ipsius <hi rend="italic">Hippocrat</hi>is praecepta subvertis.
+<lb/>Quae igitur artificialis ratio est? <hi rend="italic">Coniectandum est an
+<lb/>aegrotus ex diaeta adusique morbi vigorem perdurabit et
+<lb/>utrum ille prius disiciet et ex diaeta non perdurabit vel
+<lb/>morbus prius de</hi>/i<hi rend="italic">ciet ac obtundetur.</hi></p>
 </div>
 <div type="textpart" subtype="chapter" n="5">
 
 
-<p rend="indent">Quum autem sitiret <hi rend="italic">H</hi>i<hi rend="italic">ppocra</hi>t<hi rend="italic">e</hi>s non cujusvis
+<p rend="indent">Quum autem sitiret <hi rend="italic">Hippocrate</hi>s non cujusvis
 <lb/>esse medici a primo morborum infultu nosse qui cito
 <lb/>et qui tarde vigorem subeant, multas ad hoc praecepta
 <lb/>dedit in omni suorum operum constructione, praecipue
-<lb/>vero in secundo epidemiorum dicens : <hi rend="italic">per in</hi>i<hi rend="italic">t</hi>i<hi rend="italic">a m</hi>o<hi rend="italic">rb</hi>o.-
-<lb/><hi rend="italic">rum an sta</hi>ti<hi rend="italic">m</hi> i<hi rend="italic">psi vigean</hi>t <hi rend="italic">c</hi>o<hi rend="italic">nsiderandum ; pate</hi>t <hi rend="italic">autem
-<lb/>ex</hi> i<hi rend="italic">ncremento</hi>. Deprehendes, inquit, ni<hi rend="italic">t</hi>unt vigorem prope
+<lb/>vero in secundo epidemiorum dicens : <hi rend="italic">per initia morb</hi>o.-
+<lb/><hi rend="italic">rum an statim ipsi vigeant considerandum ; patet autem
+<lb/>ex incremento</hi>. hieprehendes, inquit, nitunt vigorem prope
 <lb/>aut procul esse, si probe incrementum consideraveris. . Qui
 <lb/>namque morbi lente paulatimque increscunt tardum; qui
-<lb/>celeriter adscendunt celerem vigorem denotant. <hi rend="italic">M</hi>o<hi rend="italic">rborum
-<lb/>au</hi>t<hi rend="italic">em</hi> i<hi rend="italic">ncre</hi>m<hi rend="italic">en</hi>t<hi rend="italic">a ex c</hi>i<hi rend="italic">rcu</hi>i<hi rend="italic">t</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">e</hi>t <hi rend="italic">cr</hi>ises <hi rend="italic">quoque h</hi>i<hi rend="italic">nc
-<lb/>man</hi>if<hi rend="italic">estae st</hi>a<hi rend="italic">nt</hi>. Per incrementa quidem vigorem agno-
-<lb/><hi rend="italic">l</hi>ces, incrementa vero per circuitus, Aliud enim est singulis
+<lb/>celeriter adscendunt celerem vigorem denotant. <hi rend="italic">Morborum
+<lb/>autem incrementa ex circuitibus et cr</hi>ises <hi rend="italic">quoque hinc
+<lb/>manifestae stant</hi>. hier incrementa quidem vigorem agno-
+<lb/>lces, incrementa vero per circuitus, Aliud enim est singulis
 <pb n="201"/>diebus praesultum habere et aliud alternis diebus aut duobus
 <lb/>interjectis. Neque vero hoc tantum fatis fuit, sed et
-<lb/>artificiosiora adjecit. <hi rend="italic">E</hi>t i<hi rend="italic">n acce/stonibu</hi>s <hi rend="italic">per circu</hi>i<hi rend="italic">tu</hi>s <hi rend="italic">perpendendum
-<lb/>est si celer</hi>i<hi rend="italic">u</hi>s <hi rend="italic">accedant aut non ; si d</hi>i<hi rend="italic">uturn</hi>i<hi rend="italic">or</hi>i
-<lb/>t<hi rend="italic">empore aut non et num vexen</hi>t m<hi rend="italic">ag</hi>is <hi rend="italic">aut non</hi>. Vult
+<lb/>artificiosiora adjecit. <hi rend="italic">Et in acce/stonibus per circuitus perpendendum
+<lb/>est si celerius accedant aut non ; si diuturnior</hi>i
+<lb/>t<hi rend="italic">empore aut non et num vexent magis aut non</hi>. hiult
 <lb/>enim ad praecelerantis aut immorantis vigoris praecognitionem
 <lb/>praedicta observari, hoc est utrum. acceleratum sit
 <lb/>incrementum an prope dimiserit; et utrum morbi modus
 <lb/>ad continuitatem propius accedat an longius absit a continuitate.
 <lb/>Ad haec et accessiones quae per circuitus fiunt,
-<lb/><hi rend="italic">an celer</hi>i<hi rend="italic">u</hi>s <hi rend="italic">an non</hi>, hoc est an celerius anticipent aut
+<lb/><hi rend="italic">an celerius an non</hi>, hioc est an celerius anticipent aut
 <lb/>subsequantur: tardius. Quae namque anticipant celeritatem
 <lb/>, quae subsequuntur tarditatem magis significant. Verum
 <lb/>quoniam quae anticipat accessio prius etiam desinere
-<lb/>potest, ob id-addidit: <hi rend="italic">et si long</hi>i<hi rend="italic">ori</hi> t<hi rend="italic">emp</hi>o<hi rend="italic">re an non</hi>. Praeterea
+<lb/>potest, ob id-addidit: <hi rend="italic">et si longiori tempore an non</hi>.hiPraeterea
 <lb/>quum Iniret non tantum in accessionum longitudine
 <lb/>ac brevitate differentiam esse; verum et in vehementia ac
 <lb/>lenitate fierique posse ut in aequali invalionis dimensione
 <pb n="202"/>vehementius aut lenius aliquis exacerbetur, idcirco addidit:
-<lb/><hi rend="italic">et num mag</hi>is <hi rend="italic">aut non</hi>. Quum videris magnum adoriri
-<lb/>incrementum ac fequi paroxysinum praecedenti <hi rend="italic">t</hi>em- ,
+<lb/><hi rend="italic">et num magis aut non</hi>. hiuum videris magnum adoriri
+<lb/>incrementum ac fequi paroxysinum praecedenti tem- ,
 <lb/>per tum multo longiorem tum multo graviorem, scias vigorem
-<lb/>statim affuturum. <hi rend="italic">Eteni</hi>m <hi rend="italic">qu</hi>i <hi rend="italic">derepente</hi> i<hi rend="italic">ntereunt;
-<lb/>celeriore</hi>s <hi rend="italic">sunt eorum crise</hi>s <hi rend="italic">quod celere</hi>s <hi rend="italic">sint .d</hi>o<hi rend="italic">lore</hi>s <hi rend="italic">et
-<lb/>con</hi>t<hi rend="italic">inu</hi>i <hi rend="italic">et vehe</hi>m<hi rend="italic">en</hi>t<hi rend="italic">e</hi>s. Ex contrariis autem contrarium.
-<lb/>E<hi rend="italic">ler</hi>t<hi rend="italic">a/si</hi>s <hi rend="italic">au</hi>t<hi rend="italic">e</hi>m <hi rend="italic">e</hi>t <hi rend="italic">ex ce</hi>t<hi rend="italic">eri</hi>s <hi rend="italic">rebu</hi>s <hi rend="italic">commun</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">quae qu</hi>i-
-<lb/><hi rend="italic">de</hi>m <hi rend="italic">.celeriu</hi>s <hi rend="italic">stan</hi>t <hi rend="italic">brev</hi>i<hi rend="italic">ore</hi>s <hi rend="italic">sun</hi>t, <hi rend="italic">quae vero</hi> t<hi rend="italic">ard</hi>i<hi rend="italic">u</hi>s <hi rend="italic">long</hi>
-<lb/>i<hi rend="italic">ores</hi>. At non siolum in epidemiis, verum etiam in aphori
+<lb/>statim affuturum. <hi rend="italic">Etenim qui derepente intereunt;
+<lb/>celeriores sunt eorum crises quod celeres sint .dolores et
+<lb/>continui et vehemente</hi>s. Ex contrariis autem contrarium.
+<lb/>E<hi rend="italic">lerta/sis autem et ex ceteris rebus communibus quae qu</hi>i-
+<lb/><hi rend="italic">dem .celerius stant breviores sun</hi>t, <hi rend="italic">quae vero tardius long</hi>
+<lb/>i<hi rend="italic">ores</hi>. hit non siolum in epidemiis, verum etiam in aphori
 <lb/>Imis dat rationes, quibus praescire poteris vigorem prope
-<lb/>vel pronul esse. <hi rend="italic">Accessiones autem et sta</hi>t<hi rend="italic">u</hi>s i<hi rend="italic">nd</hi>i<hi rend="italic">cabun</hi>t
+<lb/>vel pronul esse. <hi rend="italic">Accessiones autem et status indicabun</hi>t
 <lb/><hi rend="italic">morb</hi>i, horum enim alii natura acuti, alii natura diuturni,
-<lb/><hi rend="italic">et ann</hi>i t<hi rend="italic">empesta</hi>t<hi rend="italic">e</hi>s. Quaecunque enim ipsis analoga, morbis
+<lb/><hi rend="italic">et anni tempestate</hi>s. Quaecunque enim ipsis analoga, morbis
 <lb/>auxiliantur ; quum nihil pugnent, tum incrementa tum
-<lb/>rigores accelerant. Quocirca <hi rend="italic">accurate perd</hi>i<hi rend="italic">scendum esi
-<lb/>bonu</hi>m i<hi rend="italic">d esse, quod</hi> i<hi rend="italic">n sta</hi>t<hi rend="italic">u ac morb</hi>o <hi rend="italic">c</hi>omm<hi rend="italic">une esi</hi>, accircultuum
-<pb n="203"/>inter fe incrementa. Sed haec <hi rend="italic">quide</hi>m <hi rend="italic">cum i</hi>i<hi rend="italic">s
-<lb/>quae</hi> in epidemiis <hi rend="italic">dicun</hi>t<hi rend="italic">ur</hi> communia sunt. P<hi rend="italic">raeterea</hi>
+<lb/>rigores accelerant. Quocirca <hi rend="italic">accurate perdiscendum esi
+<lb/>bonum id esse, quod in statu ac morbo commune esi</hi>, accircultuum
+<pb n="203"/>inter fe incrementa. Sed haec <hi rend="italic">quidem cum iis
+<lb/>quae</hi> in epidemiis <hi rend="italic">dicuntur</hi> communia sunt. P<hi rend="italic">raeterea</hi>
 <lb/>vero et aliam quandam rationem adliciet qua vigorem
-<lb/>noveris. <hi rend="italic">sed e</hi>t <hi rend="italic">ex</hi> iis <hi rend="italic">mox apparen</hi>ti<hi rend="italic">bu</hi>s <hi rend="italic">u</hi>t i<hi rend="italic">n pleur</hi>iti-
-<lb/><hi rend="italic">ci</hi>s <hi rend="italic">spu</hi>t<hi rend="italic">um, si sta</hi>t<hi rend="italic">im</hi> i<hi rend="italic">n</hi>i<hi rend="italic">t</hi>io <hi rend="italic">appareat brevem fare denuncia</hi>
-<lb/>t<hi rend="italic">; si vero p</hi>o<hi rend="italic">st appareat</hi>, l<hi rend="italic">ongum. Conc</hi>o<hi rend="italic">c</hi>tio<hi rend="italic">ne</hi>s <hi rend="italic">en</hi>i<hi rend="italic">m
-<lb/>cr</hi>isis <hi rend="italic">celeri</hi>t<hi rend="italic">a</hi>t<hi rend="italic">em sun</hi>il<hi rend="italic">at</hi>i<hi rend="italic">sque securi</hi>t<hi rend="italic">atem significant. r</hi>o<hi rend="italic">rinae
-<lb/>qu</hi>o<hi rend="italic">que e</hi>t <hi rend="italic">defectione</hi>s <hi rend="italic">et sud</hi>o<hi rend="italic">re</hi>s <hi rend="italic">e</hi>t <hi rend="italic">sud</hi>i<hi rend="italic">catu suc</hi>i<hi rend="italic">les
-<lb/>ac d</hi>i<hi rend="italic">ffic</hi>i<hi rend="italic">les e</hi>t <hi rend="italic">breve</hi>s <hi rend="italic">e</hi>t <hi rend="italic">longo</hi>s m<hi rend="italic">orb</hi>os <hi rend="italic">fare quum apparuer</hi>
-<lb/>i<hi rend="italic">n</hi>l <hi rend="italic">demonstran</hi>t. Habes, inquit, rationum ubertatem,
-<lb/><hi rend="italic">si n</hi>o<hi rend="italic">stri</hi>s in operibus vec<hi rend="italic">t</hi>atus fueris; nec solum celerem
+<lb/>noveris. <hi rend="italic">sed et ex</hi> iis <hi rend="italic">mox apparentibus ut in pleur</hi>iti-
+<lb/><hi rend="italic">cis sputum, si statim initio appareat brevem fare denuncia</hi>
+<lb/>t<hi rend="italic">; si vero post appareat</hi>, l<hi rend="italic">ongum. Concoctiones enim
+<lb/>cr</hi>isis <hi rend="italic">celeritatem sunilatisque securitatem significant. rorinae
+<lb/>quoque et defectiones et sudores et sudicatu suciles
+<lb/>ac difficiles et breves et longos morbos fare quum apparuer</hi>
+<lb/>i<hi rend="italic">nl demonstran</hi>t. Habes, inquit, rationum ubertatem,
+<lb/><hi rend="italic">si nostri</hi>s in operibus vectatus fueris; nec solum celerem
 <lb/>vel tardum vigorem, verum etiam alia multa eorum quae
 <lb/>futura funt praenosces. Hoc dumtaxat prius accipe ac
-<lb/>tuto crede: <hi rend="italic">opt</hi>im<hi rend="italic">um esse ut</hi> m<hi rend="italic">edicu</hi>s <hi rend="italic">providen</hi>ti<hi rend="italic">a</hi>m <hi rend="italic">adb</hi>i-
+<lb/>tuto crede: <hi rend="italic">optimum esse ut medicus providentiam adb</hi>i-
 <lb/><hi rend="italic">beat</hi> non ad gloriam fotum, fed et multo magis ad curationis
-<lb/><hi rend="italic">rat</hi>i<hi rend="italic">one</hi>m. His prius constitutis ad <hi rend="italic">ar</hi>t<hi rend="italic">i</hi>s opera orationem
+<lb/><hi rend="italic">ratione</hi>m. His prius constitutis ad <hi rend="italic">arti</hi>s opera orationem
 <lb/>deducit.
 </p>
 <pb n="204"/>
@@ -498,22 +500,22 @@
 <div type="textpart" subtype="chapter" n="6">
 
 
-<p rend="indent">At enim, <hi rend="italic">qu</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">sta</hi>t<hi rend="italic">im v</hi>i<hi rend="italic">g</hi>o<hi rend="italic">r fu</hi>t<hi rend="italic">urus esi</hi>
-<lb/>iis <hi rend="italic">stat</hi>i<hi rend="italic">m tenu</hi>is <hi rend="italic">v</hi>i<hi rend="italic">c</hi>t<hi rend="italic">u</hi>s <hi rend="italic">exh</hi>i<hi rend="italic">bendu</hi>s. Non enim virium dif-solutionein
+<p rend="indent">At enim, <hi rend="italic">quibus statim vigor futurus esi</hi>
+<lb/>iis <hi rend="italic">statim tenuis victus exhibendu</hi>s. Non enim virium dif-solutionein
 <lb/>metuas ubi algor statim affuturus est, quemadmodum
 <lb/>in angina deprehenditur. Licet enim te totum
 <lb/>in morbum evertendum incumbere de viribus nihil venentem.
-<lb/><hi rend="italic">Qu</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">autem posteriu</hi>s <hi rend="italic">vig</hi>o<hi rend="italic">r su</hi>t<hi rend="italic">ura</hi>s <hi rend="italic">est</hi>, iis <hi rend="italic">sub</hi>
-<lb/>i<hi rend="italic">psu</hi>m <hi rend="italic">v</hi>i<hi rend="italic">g</hi>o<hi rend="italic">r</hi>is t<hi rend="italic">e</hi>m<hi rend="italic">pu</hi>s <hi rend="italic">e</hi>t <hi rend="italic">paul</hi>o <hi rend="italic">an</hi>t<hi rend="italic">e</hi> i<hi rend="italic">llud c</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">subsirahendu</hi>
-<lb/>s <hi rend="italic">esi, antea vero pleniu</hi>s <hi rend="italic">alendu</hi>m <hi rend="italic">quo aegr</hi>ot<hi rend="italic">u</hi>s <hi rend="italic">sut</hi>is <hi rend="italic">habuer</hi>
+<lb/><hi rend="italic">Quibus autem posterius vigor suturas est</hi>, iis sub
+<lb/>i<hi rend="italic">psum vigor</hi>is t<hi rend="italic">empus et paulo ante illud cibus subsirahendu</hi>
+<lb/>s <hi rend="italic">esi, antea vero plenius alendum quo aegrotus sutis habuer</hi>
 <lb/>it. Hic autem de utrisque simul, affectu scilicet et
 <lb/>viribus, coniectandum est. Plenius autem cibari est paulo
 <lb/>sulidius nutrire quam fiat in extreme tenui diaeta. f<hi rend="italic">n
-<lb/>exacerba</hi>t<hi rend="italic">ionibu</hi>s <hi rend="italic">c</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">subducendu</hi>s <hi rend="italic">est</hi>. His verbis documentum
+<lb/>exacerbationibus cibus subducendus est</hi>. hiis verbis documentum
 <lb/>valde curativum et ad aerem maxime spectans
-<lb/>tradit, hoc est incumbente graviori paroxys<hi rend="italic">t</hi>no nihil nutrimenti
+<lb/>tradit, hoc est incumbente graviori paroxystno nihil nutrimenti
 <lb/>apponendum esse. Sive enim per incrementa
-<lb/><hi rend="italic">t</hi>emper fiant vehementiores paroxy<hi rend="italic">t</hi>mi, pulchrum fano est
+<lb/>temper fiant vehementiores paroxytmi, pulchrum fano est
 <lb/>viribus suadentibus ad ciborum detractiones accedere; sive
 <lb/>etiamnum quidem leviores, rutilis autem graviores fiant
 <pb n="205"/>infirltus, ex arte rursum est ante graviorem paroxyfmum
@@ -527,17 +529,17 @@
 <lb/>aliquantulum augebo, at vires magnopere roborabo. Qui
 <lb/>vero opinatur vires non refici, fed morbum exacerbari, is
 <lb/>aegrotanti ex professo mortem allaturus esu <hi rend="italic">Qui autem
-<lb/>errore</hi>s <hi rend="italic">per</hi> i<hi rend="italic">n</hi>i<hi rend="italic">tia com</hi>m<hi rend="italic">ittun</hi>t<hi rend="italic">ur n</hi>o<hi rend="italic">n h</hi>is <hi rend="italic">peraeque sunt</hi> im- .
-<lb/>m<hi rend="italic">edicab</hi>i<hi rend="italic">le</hi>s, <hi rend="italic">sed mul</hi>to <hi rend="italic">fac</hi>i<hi rend="italic">l</hi>i<hi rend="italic">u</hi>s <hi rend="italic">emendantur</hi>. Patet ergo
+<lb/>errores per initia committuntur non his peraeque sunt</hi> im- .
+<lb/>m<hi rend="italic">edicabile</hi>s, <hi rend="italic">sed multo facilius emendantur</hi>. hiatet ergo
 <lb/>quod non lubens in primis diebus ad alimenti exhibitionem
 <lb/>accedat, fed tanquam lu angustis quadam detentus
-<lb/>tempus commodissimum eligat. Quod si nihil ip<hi rend="italic">t</hi>e de viribus
+<lb/>tempus commodissimum eligat. Quod si nihil ipte de viribus
 <lb/>vereatur artis maxime esse autumat ad tertium et
 <lb/>ad quartum usque diem nonnunquam etiam ad quintum,
 <pb n="206"/>etiam ad longius tempus ciborum prorogationibus uti,
 <lb/>quum et virium robur adsit et morbi mores cogant multaque
 <lb/>fubsit humorum redundantia et loco pblebotomiae
-<lb/>vel aliorum vacuantium <hi rend="italic">praesid</hi>io<hi rend="italic">rum</hi> l<hi rend="italic">o</hi>ngiorem cibi extussiendi
+<lb/>vel aliorum vacuantium <hi rend="italic">praesidiorum lo</hi>ngiorem cibi extussiendi
 <lb/>prorogationem eligimus. Quibusdam enim in diatrito,
 <lb/>quibusdam ante diatriton, nonnullis post diatriton
 <lb/>probe primum alimentum exhibitum esu Atque in universum
@@ -568,13 +570,13 @@
 <lb/>meridionalem esse. .Quoties autem imbecillae vires deprehenduntur
 <lb/>an toties per alimenti detractionem roborantur?
 <lb/>Audi Hippocratem ignaros -medicos ita arguentem
-<lb/>: <hi rend="italic">n</hi>o<hi rend="italic">n eni</hi>m <hi rend="italic">vide</hi>o m<hi rend="italic">edic</hi>os t<hi rend="italic">alium rerum este</hi> i<hi rend="italic">ta perit</hi>
-<lb/>os <hi rend="italic">qu</hi>i <hi rend="italic">u</hi>t <hi rend="italic">op</hi>o<hi rend="italic">rte</hi>t <hi rend="italic">dignoscant</hi> i<hi rend="italic">n</hi> mo<hi rend="italic">rb</hi>is i<hi rend="italic">mbec</hi>i<hi rend="italic">ll</hi>i<hi rend="italic">ta</hi>t<hi rend="italic">e</hi>s ; <hi rend="italic">e</hi>t
-<lb/><hi rend="italic">quae</hi> o<hi rend="italic">b vasorum vacuat</hi>m<hi rend="italic">ne</hi>m <hi rend="italic">e</hi>t <hi rend="italic">quae</hi> o<hi rend="italic">b aliud qu</hi>o<hi rend="italic">dda</hi>m
-<lb/><hi rend="italic">irr</hi>i<hi rend="italic">tamentu</hi>m <hi rend="italic">e</hi>t <hi rend="italic">quae ob d</hi>olo<hi rend="italic">re</hi>m <hi rend="italic">et ab acum</hi>i<hi rend="italic">ne m</hi>o<hi rend="italic">rb</hi>i
-<lb/><hi rend="italic">ob</hi>o<hi rend="italic">rian</hi>t<hi rend="italic">ur,. et qu</hi>os <hi rend="italic">affec</hi>t<hi rend="italic">u</hi>s <hi rend="italic">ac d</hi>i<hi rend="italic">ve</hi>rsus - <hi rend="italic">eorum specie</hi>s
-<lb/><hi rend="italic">na</hi>t<hi rend="italic">ura n</hi>o<hi rend="italic">stra e</hi>t <hi rend="italic">hab</hi>i<hi rend="italic">tu</hi>s <hi rend="italic">singulis par</hi>i<hi rend="italic">a</hi>t, <hi rend="italic">quamvi</hi>s <hi rend="italic">haec</hi>
-<pb n="208"/><hi rend="italic">cogn</hi>i<hi rend="italic">ta aut ign</hi>o<hi rend="italic">ra</hi>t<hi rend="italic">a salute</hi>m <hi rend="italic">au</hi>t m<hi rend="italic">orte</hi>m <hi rend="italic">adferan</hi>t. Non
+<lb/>: <hi rend="italic">non enim video medic</hi>os t<hi rend="italic">alium rerum este ita perit</hi>
+<lb/>os <hi rend="italic">qui ut oportet dignoscant in morb</hi>is i<hi rend="italic">mbecillitate</hi>s ; et
+<lb/><hi rend="italic">quae ob vasorum vacuatmnem et quae ob aliud quodda</hi>m
+<lb/><hi rend="italic">irritamentum et quae ob dolorem et ab acumine morb</hi>i
+<lb/><hi rend="italic">oboriantur,. et quos affectus ac dive</hi>rsus - <hi rend="italic">eorum specie</hi>s
+<lb/><hi rend="italic">natura nostra et habitus singulis paria</hi>t, <hi rend="italic">quamvis haec</hi>
+<pb n="208"/><hi rend="italic">cognita aut ignorata salutem aut mortem adferan</hi>t. Non
 <lb/>enim parvum periculum est si ignoretur utrum vires per
 <lb/>indigentiam dissolvantur, ita ut cibi exhibitione indigeant;
 <lb/>an ob inflammationis magnitudinem aeger suffocetur, an
@@ -585,29 +587,29 @@
 <lb/>quumque purum non est et argillofum: sic et qui
 <lb/>nobis innatus est calor quum natura existat flammae similis
 <lb/>et alimenti penuria et cepia et pravitate corrumpitur.
-<lb/><hi rend="italic">Et quo</hi>s <hi rend="italic">affec</hi>t<hi rend="italic">u</hi>s <hi rend="italic">et d</hi>i<hi rend="italic">versu</hi>s <hi rend="italic">eorum spec</hi>i<hi rend="italic">e</hi>s <hi rend="italic">nostra natura
-<lb/>et hab</hi>it<hi rend="italic">u</hi>s <hi rend="italic">singu</hi>l<hi rend="italic">i</hi>s <hi rend="italic">par</hi>i<hi rend="italic">a</hi>t. Quidam enim natura famelici
-<lb/>sunt;. quidam stomachum habent qui facile afficitur <hi rend="italic">fac</hi>i-
+<lb/><hi rend="italic">Et quos affectus et diversus eorum species nostra natura
+<lb/>et habitus singulis paria</hi>t. Quidam enim natura famelici
+<lb/>sunt;. quidam stomachum habent qui facile afficitur faci-
 <lb/><hi rend="italic">leque</hi> animo delinquunt et a minimis affectionibus magnopere
 <lb/>laeduntur et alimenti appositione^ femper indigent.
 <lb/>Atque aliae sunt privatim in singulis constitutiones. Quare
 <lb/>animadvertendum est ne quum in hujusmodi habitus lucidimus
-<pb n="209"/><hi rend="italic">al</hi>i<hi rend="italic">quem</hi> errorem committamus. illusus <hi rend="italic">siqu</hi>i<hi rend="italic">de</hi>m
-<lb/>m<hi rend="italic">alu</hi>m <hi rend="italic">est siqui</hi>s <hi rend="italic">ob laborem et</hi> m<hi rend="italic">orb</hi>i <hi rend="italic">acu</hi>m<hi rend="italic">en deb</hi>i<hi rend="italic">l</hi>i<hi rend="italic">tat</hi>o
-<lb/><hi rend="italic">potu</hi>m <hi rend="italic">au</hi>t <hi rend="italic">sorb</hi>itio<hi rend="italic">ne</hi>m <hi rend="italic">cop</hi>i<hi rend="italic">osi</hi>o<hi rend="italic">rem au</hi>t <hi rend="italic">c</hi>i<hi rend="italic">bum exh</hi>i<hi rend="italic">bent,
-<lb/>ob vasorum vacua</hi>tio<hi rend="italic">nem</hi> i<hi rend="italic">mbec</hi>i<hi rend="italic">llum este arb</hi>i<hi rend="italic">tratu</hi>s. f<hi rend="italic">ndecorum
-<lb/>au</hi>t<hi rend="italic">em est et</hi> o<hi rend="italic">se vasoru</hi>m <hi rend="italic">vacua</hi>ti<hi rend="italic">one</hi>m <hi rend="italic">deb</hi>i<hi rend="italic">l</hi>i<hi rend="italic">tatu</hi>
-<lb/>m <hi rend="italic">non cogn</hi>o<hi rend="italic">scere ac v</hi>i<hi rend="italic">ctu eu</hi>m o<hi rend="italic">ppr</hi>i<hi rend="italic">mere. periculum
-<lb/>en</hi>i<hi rend="italic">m quoddam affer</hi>t <hi rend="italic">e</hi>t <hi rend="italic">hic error, multo tamen m</hi>i<hi rend="italic">nu</hi>s
-<lb/><hi rend="italic">altero, sed mul</hi>l<hi rend="italic">o mag</hi>is <hi rend="italic">altero r</hi>i<hi rend="italic">su d</hi>i<hi rend="italic">gn</hi>i<hi rend="italic">or h</hi>i<hi rend="italic">c error
-<lb/>est. s</hi>i <hi rend="italic">namque al</hi>i<hi rend="italic">u</hi>s m<hi rend="italic">edicu</hi>s <hi rend="italic">aut e</hi>ti<hi rend="italic">am plebe</hi>j<hi rend="italic">u</hi>s <hi rend="italic">accesu
-<lb/>sier</hi>i<hi rend="italic">t et quae c</hi>o<hi rend="italic">nt</hi>i<hi rend="italic">ngerun</hi>t <hi rend="italic">c</hi>o<hi rend="italic">gnover</hi>i<hi rend="italic">t deder</hi>im<hi rend="italic">us tum c</hi>i-
-<lb/><hi rend="italic">bo</hi>s t<hi rend="italic">um po</hi>t<hi rend="italic">u</hi>s <hi rend="italic">qu</hi>os <hi rend="italic">alter pr</hi>o<hi rend="italic">h</hi>i<hi rend="italic">bu</hi>it, <hi rend="italic">aperte aux</hi>i<hi rend="italic">l</hi>i<hi rend="italic">u</hi>m <hi rend="italic">attul</hi>
-<lb/>i/<hi rend="italic">fe ex</hi>isti<hi rend="italic">mab</hi>i<hi rend="italic">tur</hi>. T<hi rend="italic">al</hi>i<hi rend="italic">a artificum inst</hi>it<hi rend="italic">uta max</hi>i<hi rend="italic">me ab
-<lb/>h</hi>o<hi rend="italic">m</hi>i<hi rend="italic">n</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">v</hi>it<hi rend="italic">uperantur. r</hi>i<hi rend="italic">de</hi>t<hi rend="italic">ur en</hi>i<hi rend="italic">m</hi> i<hi rend="italic">psi</hi>s <hi rend="italic">qu</hi>i <hi rend="italic">accessi</hi>t
-<lb/>m<hi rend="italic">ed</hi>i<hi rend="italic">cu</hi>s <hi rend="italic">au</hi>t <hi rend="italic">plebe</hi>j<hi rend="italic">u</hi>s t<hi rend="italic">anquam</hi> m<hi rend="italic">ortuum susc</hi>i<hi rend="italic">tasse</hi>. Flo-
-<lb/><hi rend="italic">rum</hi> i<hi rend="italic">gitur e</hi>ti<hi rend="italic">a</hi>m <hi rend="italic">signa qu</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">singula d</hi>i<hi rend="italic">gnoscere opor</hi>t<hi rend="italic">ea</hi>t
-<lb/><hi rend="italic">scr</hi>i<hi rend="italic">bentu</hi>m. De universalibus igitur morb<hi rend="italic">o</hi>rum temporibus
+<pb n="209"/><hi rend="italic">aliquem</hi> errorem committamus. illusus <hi rend="italic">siquide</hi>m
+<lb/>m<hi rend="italic">alum est siquis ob laborem et morbi acumen debilitat</hi>o
+<lb/><hi rend="italic">potum aut sorb</hi>itio<hi rend="italic">nem copiosiorem aut cibum exhibent,
+<lb/>ob vasorum vacuationem imbecillum este arbitratu</hi>s. f<hi rend="italic">ndecorum
+<lb/>autem est et ose vasorum vacuationem debilitatu</hi>
+<lb/>m <hi rend="italic">non cognoscere ac victu eum opprimere. periculum
+<lb/>enim quoddam affert et hic error, multo tamen minu</hi>s
+<lb/><hi rend="italic">altero, sed mullo magis altero risu dignior hic error
+<lb/>est. si namque alius medicus aut etiam plebejus accesu
+<lb/>sierit et quae contingerunt cognoverit dederimus tum c</hi>i-
+<lb/><hi rend="italic">bos tum potus quos alter prohibu</hi>it, <hi rend="italic">aperte auxilium attul</hi>
+<lb/>i/<hi rend="italic">fe ex</hi>isti<hi rend="italic">mabitur</hi>. hi<hi rend="italic">alia artificum instituta maxime ab
+<lb/>hominibus vituperantur. ridetur enim ipsis qui accessi</hi>t
+<lb/>m<hi rend="italic">edicus aut plebejus tanquam mortuum suscitasse</hi>. hilo-
+<lb/><hi rend="italic">rum igitur etiam signa quibus singula dignoscere oportea</hi>t
+<lb/><hi rend="italic">scribentu</hi>m. De universalibus igitur morborum temporibus
 <lb/>et de prima alimenti exhibitione haec fatis sint.
 </p>
 <pb n="210"/>
@@ -617,23 +619,23 @@
 
 <p rend="indent">Jam videamus quae de particularibus
 <lb/>paroxyfmis ac. quae de diaeta in his praescribenda decernuntur.
-<lb/><hi rend="italic">Qu</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">per stato</hi>s ^<hi rend="italic">circuitu</hi>s <hi rend="italic">accessione</hi>s <hi rend="italic">obort</hi>amt
-<lb/><hi rend="italic">ur n</hi>i<hi rend="italic">hil dare neque cogere, sed de ciborum oblatione
-<lb/>detrahere ante crise</hi>s <hi rend="italic">oportet</hi>. Atque hoc, <hi rend="italic">in ipsi</hi>s <hi rend="italic">parox</hi>
-<lb/>ysmis <hi rend="italic">c</hi>i<hi rend="italic">bum subtrahere oportet, exhibere enim nox</hi>i<hi rend="italic">u</hi>m,
-<lb/><hi rend="italic">Et quaecunque per c</hi>i<hi rend="italic">rcuitu</hi>s <hi rend="italic">exacerbantur in par</hi>o<hi rend="italic">x</hi>ysmis
-<lb/><hi rend="italic">sub</hi>t<hi rend="italic">rahere c</hi>i<hi rend="italic">bu</hi>m <hi rend="italic">op</hi>o<hi rend="italic">rtet</hi>. In morbis lane per circuitus
+<lb/><hi rend="italic">Quibus per stato</hi>s ^<hi rend="italic">circuitus accessiones obort</hi>amt
+<lb/><hi rend="italic">ur nihil dare neque cogere, sed de ciborum oblatione
+<lb/>detrahere ante crises oportet</hi>. hitque hoc, <hi rend="italic">in ipsis parox</hi>
+<lb/>ysmis <hi rend="italic">cibum subtrahere oportet, exhibere enim noxiu</hi>m,
+<lb/><hi rend="italic">Et quaecunque per circuitus exacerbantur in parox</hi>ysmis
+<lb/><hi rend="italic">subtrahere cibum oportet</hi>. hin morbis lane per circuitus
 <lb/>vexantibus sive continui sint nullasque habeant intermissiones
 <lb/>sive ex quibusdam intervallis exacerbentur ac plane
 <lb/>recrudescant ; in paroxysinis tandem neque esculenta neque
-<lb/>poculenta neque diacly<hi rend="italic">t</hi>mata danda funt. Quandoquidem
+<lb/>poculenta neque diaclytmata danda funt. Quandoquidem
 <lb/>quidquid tunc offertur id morbi non corporis alimentum
-<lb/>futurum esu <hi rend="italic">s</hi>i<hi rend="italic">quis enim subricitan</hi>ti <hi rend="italic">al</hi>i<hi rend="italic">men</hi>t<hi rend="italic">um dederit
+<lb/>futurum esu <hi rend="italic">siquis enim subricitanti alimentum dederit
 <lb/>fano quidem robur, aegrotanti vero morbu</hi>s. N<hi rend="italic">eque cogere</hi>
 <lb/>; hoc est nulla re cogente uti. Solatio namque potius
 <lb/>quam violentia in paroxyfmis opus est ac remissionis
 <lb/>tempus exspectandum est in eoque vehementia cogentiaque
-<pb n="211"/>remedia assumenda <hi rend="italic">t</hi>uus, ubi vero paroxysnri inriderint
+<pb n="211"/>remedia assumenda tuus, ubi vero paroxysnri inriderint
 <lb/>lenientia. Quemadmodum enim. ferae etiam valde
 <lb/>agrestes siquis ipsas placide adeat hlandeque demulceat
 <lb/>manfuetae redduntur; si vero contra ipsis irascatur violenterque
@@ -641,64 +643,64 @@
 <lb/>agrestiores facti siquis eos in paroxyfmis soletur
 <lb/>ac mitiget, leniores ac mansuetos essicit; siquis vero reluctetur
 <lb/>ipsisque violentias inserat, excitantur exacerbanturque
-<lb/>ac <hi rend="italic">d</hi>ij<hi rend="italic">sic</hi>ili<hi rend="italic">ore</hi>s <hi rend="italic">reddun</hi>t<hi rend="italic">ur</hi>. Propter has et alias hujusmodi
+<lb/>ac <hi rend="italic">dijsiciliores redduntur</hi>. hiropter has et alias hujusmodi
 <lb/>causas neque rebus cogentibus neque alimentis vult
 <lb/>uti in paroxysmis cogentibus partim quidem ob adjectionem
 <lb/>alimenti, partim vero ob perturbationem quae in disitributionibus
-<lb/>oboritur. <hi rend="italic">Et quaecunque per circu</hi>it<hi rend="italic">u</hi>s <hi rend="italic">e</hi>r<hi rend="italic">acerban</hi>
-<lb/>t<hi rend="italic">ur</hi> i<hi rend="italic">n</hi> i<hi rend="italic">psi</hi>s <hi rend="italic">exacerbat</hi>i<hi rend="italic">on</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">c</hi>i<hi rend="italic">bum sub</hi>t<hi rend="italic">rahere opor-</hi>
-<lb/>t<hi rend="italic">e</hi>t <hi rend="italic">; exh</hi>i<hi rend="italic">bere en</hi>im <hi rend="italic">nox</hi>i<hi rend="italic">u</hi>m. Non Iulum autem dum adsunt
+<lb/>oboritur. <hi rend="italic">Et quaecunque per circuitus eracerban</hi>
+<lb/>t<hi rend="italic">ur in ipsis exacerbationibus cibum subtrahere opor-</hi>
+<lb/>t<hi rend="italic">et ; exhibere enim noxiu</hi>m. Non Iulum autem dum adsunt
 <lb/>paroxystni nulla re quae movere aut addere possit
 <lb/>utendum esse censet, verum etiam neque dum mox futuri
-<lb/><hi rend="italic">sun</hi>t , fed dum deorsum inclinat morbus. Hocque sapietrter
+<lb/>sunt , fed dum deorsum inclinat morbus. Hocque sapietrter
 <pb n="212"/>admodum in libro de morbis ac -praeterea in aliis his
-<lb/>verbis demonstrat: <hi rend="italic">quum aute</hi>m im<hi rend="italic">pe</hi>t<hi rend="italic">u feruntur m</hi>o<hi rend="italic">rb</hi>i,
-<lb/><hi rend="italic">tu</hi>m <hi rend="italic">lab</hi>o<hi rend="italic">rante</hi>m t<hi rend="italic">u</hi>m m<hi rend="italic">ed</hi>i<hi rend="italic">cum a curat</hi>i<hi rend="italic">on</hi>i<hi rend="italic">bu</hi>s <hi rend="italic">quiescere
-<lb/>op</hi>o<hi rend="italic">rte</hi>t, <hi rend="italic">nequid</hi> m<hi rend="italic">al</hi>i i<hi rend="italic">nduca</hi>t<hi rend="italic">ur</hi>. Sed haec omnibus dilncidiora
+<lb/>verbis demonstrat: <hi rend="italic">quum aute</hi>m im<hi rend="italic">petu feruntur morb</hi>i,
+<lb/><hi rend="italic">tum laborantem tum medicum a curationibus quiescere
+<lb/>oporte</hi>t, <hi rend="italic">nequid mali inducatur</hi>. hied haec omnibus dilncidiora
 <lb/>et ampliora in libro adversius Cnidias sententias
-<lb/>edidit. <hi rend="italic">occasione</hi>m- <hi rend="italic">au</hi>t<hi rend="italic">e</hi>m <hi rend="italic">sorb</hi>i<hi rend="italic">t</hi>i<hi rend="italic">on</hi>is e<hi rend="italic">xh</hi>i<hi rend="italic">bendae tu</hi>m <hi rend="italic">p</hi>e<hi rend="italic">r</hi>
-<lb/>i<hi rend="italic">n</hi>i<hi rend="italic">t</hi>i<hi rend="italic">a tum per un</hi>i<hi rend="italic">versu</hi>m mo<hi rend="italic">rbum hanc</hi> m<hi rend="italic">axi</hi>m<hi rend="italic">e obfervare
-<lb/>oportet. Quu</hi>m p<hi rend="italic">ede</hi>s <hi rend="italic">qu</hi>i<hi rend="italic">dem /r</hi>i<hi rend="italic">gidi suer</hi>i<hi rend="italic">nt , sorb</hi>itio<hi rend="italic">n</hi>is.
-<lb/><hi rend="italic">exh</hi>i<hi rend="italic">b</hi>i<hi rend="italic">tionem prohibere oportet, max</hi>i<hi rend="italic">me vero et a potu
-<lb/>temperandum est. Quu</hi>m <hi rend="italic">vero calor ad pede</hi>s <hi rend="italic">descenderit,
-<lb/>tunc dare conven</hi>i<hi rend="italic">t repu</hi>t<hi rend="italic">areque cum</hi> iit m<hi rend="italic">orbi</hi>s <hi rend="italic">o</hi>m<hi rend="italic">n</hi>i<hi rend="italic">bu</hi>s
-<lb/><hi rend="italic">tum haud m</hi>i<hi rend="italic">n</hi>im<hi rend="italic">e</hi> i<hi rend="italic">n acut</hi>is <hi rend="italic">ac pot</hi>i<hi rend="italic">ssimum in</hi> m<hi rend="italic">ag</hi>is <hi rend="italic">febril</hi>
-<lb/>i<hi rend="italic">bu</hi>i <hi rend="italic">ac periculosissi</hi>mis m<hi rend="italic">orbi</hi>s <hi rend="italic">hancce occasione</hi>m <hi rend="italic">plurimu</hi>
-<lb/>m <hi rend="italic">poste</hi>. Fortassis alia aliquis dictionis Graecanicae
+<lb/>edidit. <hi rend="italic">occasione</hi>m- <hi rend="italic">autem sorbition</hi>is e<hi rend="italic">xhibendae tum per</hi>
+<lb/>i<hi rend="italic">nitia tum per universu</hi>m mo<hi rend="italic">rbum hanc maxime obfervare
+<lb/>oportet. Quum pedes quidem /rigidi suerint , sorb</hi>itionis.
+<lb/><hi rend="italic">exhibitionem prohibere oportet, maxime vero et a potu
+<lb/>temperandum est. Quum vero calor ad pedes descenderit,
+<lb/>tunc dare convenit reputareque cum</hi> iit m<hi rend="italic">orbis omnibu</hi>s
+<lb/><hi rend="italic">tum haud minime in acutis ac potissimum in magis febril</hi>
+<lb/>i<hi rend="italic">bui ac periculosissi</hi>mis m<hi rend="italic">orbis hancce occasionem plurimu</hi>
+<lb/>m <hi rend="italic">poste</hi>. hiortassis alia aliquis dictionis Graecanicae
 <lb/>imperitus dixerit Hippocratem febricitantibus in morbi
 <lb/>vigore alimentum exhibere. Quum enim ad pedes defcen-.
 <lb/>derit, tum febrem vigere corpore univerfo aeque ac simiIiter
 <pb n="213"/>calefacto. Verum qui haec in veteres audet dicere,
 <lb/>stoliditatem fummamque inscitiam prae fe fert nec quid
-<lb/>sit <hi rend="italic">descendere</hi> intelligit. Qui ergo Hi<hi rend="italic">pp</hi>o<hi rend="italic">cra</hi>t<hi rend="italic">i</hi>s praecepta
+<lb/>sit <hi rend="italic">descendere</hi> intelligit. Qui ergo Hi<hi rend="italic">ppocrati</hi>s praecepta
 <lb/>aemulantur discant eum non in vigore sed remissione febris
-<lb/>alimentum dare. Quid enim ait? <hi rend="italic">Quum calor</hi> i<hi rend="italic">n
-<lb/>pede</hi>s <hi rend="italic">descenderi</hi>t, t<hi rend="italic">um dare conven</hi>i<hi rend="italic">t</hi>. Quidquid autem
+<lb/>alimentum dare. Quid enim ait? <hi rend="italic">Quum calor in
+<lb/>pedes descenderi</hi>t, t<hi rend="italic">um dare convenit</hi>. hiuidquid autem
 <lb/>jam descendit superiores partes reliquit ac inferiores adiit
 <lb/>calore non extenso fed ad inferiores regiones transnato.
 <lb/>Illudque adeo clare ipsis edocet, ut a stolidis etiam queat
-<lb/>intelligi. Sic autem loquitur: <hi rend="italic">fulgen</hi>ti<hi rend="italic">bu</hi>s <hi rend="italic">aute</hi>m <hi rend="italic">ped</hi>i<hi rend="italic">bus
-<lb/>neque po</hi>t<hi rend="italic">um neque sorbit</hi>i<hi rend="italic">one</hi>m <hi rend="italic">neque al</hi>i<hi rend="italic">ud quidquam
-<lb/>hu</hi>j<hi rend="italic">u</hi>s<hi rend="italic">mod</hi>i <hi rend="italic">da</hi>t<hi rend="italic">o. rerum</hi> i<hi rend="italic">d max</hi>i<hi rend="italic">mum esse duci</hi>t<hi rend="italic">o si exspectaver</hi>
-<lb/>is , <hi rend="italic">quou</hi>s<hi rend="italic">que valde</hi> i<hi rend="italic">nca</hi>l<hi rend="italic">uer</hi>i<hi rend="italic">nt ; deinde</hi> it<hi rend="italic">a quod
-<lb/>conserat exh</hi>i<hi rend="italic">be</hi>. P<hi rend="italic">edum en</hi>i<hi rend="italic">m suigus pleru</hi>m<hi rend="italic">que fabr</hi>i<hi rend="italic">s
-<lb/>acce/surae signum ex</hi>i<hi rend="italic">sti</hi>t. <hi rend="italic">At eo tem</hi>p<hi rend="italic">ore siqu</hi>i<hi rend="italic">d exhibue-</hi>
-<lb/>vis, i<hi rend="italic">n omn</hi>i<hi rend="italic">bu</hi>s m<hi rend="italic">ax</hi>i<hi rend="italic">me peccaveris; morbum namque n</hi>o<hi rend="italic">n
-<lb/>parum auxe</hi>ris. <hi rend="italic">At quum febr</hi>is <hi rend="italic">desin</hi>it, <hi rend="italic">vice versu pede</hi>s
-<pb n="214"/><hi rend="italic">rel</hi>i<hi rend="italic">qu</hi>o <hi rend="italic">corp</hi>o<hi rend="italic">re cal</hi>i<hi rend="italic">d</hi>i<hi rend="italic">ores evadunt. Quum enimsp</hi>a<hi rend="italic">des re-</hi>
-<lb/>sui<hi rend="italic">gera</hi>t <hi rend="italic">febr</hi>is <hi rend="italic">augetur et accensu ex</hi> t<hi rend="italic">horace ad caput
-<lb/>siamma</hi>m <hi rend="italic">e</hi>mi<hi rend="italic">t</hi>ti<hi rend="italic">t. At ferv</hi>i<hi rend="italic">do calore un</hi>i<hi rend="italic">verso sursum concu</hi>
-<lb/>m<hi rend="italic">n</hi>t<hi rend="italic">e a</hi>t<hi rend="italic">que ad caput exhalan</hi>t<hi rend="italic">e pedes</hi> m<hi rend="italic">erito re/rigerantur,
-<lb/>quum natura exca</hi>m<hi rend="italic">es ac. nervosi sint. prae</hi>t<hi rend="italic">erea
-<lb/>et a cal</hi>i<hi rend="italic">d</hi>i<hi rend="italic">ssim</hi>i<hi rend="italic">s loris multum d</hi>i<hi rend="italic">stante</hi>s <hi rend="italic">re/r</hi>i<hi rend="italic">gerantur, siefa
-<lb/>coll</hi>i<hi rend="italic">gente ad thorace</hi>m <hi rend="italic">calore. Atque rursum eadem ra-</hi>
-<lb/>ti<hi rend="italic">one quum febr</hi>i<hi rend="italic">s solvitur e</hi>t .mi<hi rend="italic">nutas in par</hi>t<hi rend="italic">es d</hi>i<hi rend="italic">stribui-</hi>
-<lb/>t<hi rend="italic">ur, ad pede</hi>s <hi rend="italic">calor descend</hi>i<hi rend="italic">t. Hoc</hi> i<hi rend="italic">g</hi>itu<hi rend="italic">r</hi> t<hi rend="italic">e</hi>m<hi rend="italic">pore caput
-<lb/>et thorax perfa</hi>i<hi rend="italic">g</hi>e<hi rend="italic">rata sunt</hi>. In universo itaque corpore
+<lb/>intelligi. Sic autem loquitur: <hi rend="italic">fulgentibus autem pedibus
+<lb/>neque potum neque sorbitionem neque aliud quidquam
+<lb/>hujusmodi dato. rerum id maximum esse ducito si exspectaver</hi>
+<lb/>is , <hi rend="italic">quousque valde incaluerint ; deinde ita quod
+<lb/>conserat exhibe</hi>. hi<hi rend="italic">edum enim suigus plerumque fabris
+<lb/>acce/surae signum existi</hi>t. <hi rend="italic">At eo tempore siquid exhibue-</hi>
+<lb/>vis, i<hi rend="italic">n omnibus maxime peccaveris; morbum namque non
+<lb/>parum auxe</hi>ris. <hi rend="italic">At quum febris desin</hi>it, <hi rend="italic">vice versu pede</hi>s
+<pb n="214"/><hi rend="italic">reliquo corpore calidiores evadunt. Quum enimspades re-</hi>
+<lb/>sui<hi rend="italic">gerat febris augetur et accensu ex thorace ad caput
+<lb/>siammam emittit. At fervido calore universo sursum concu</hi>
+<lb/>m<hi rend="italic">nte atque ad caput exhalante pedes merito re/rigerantur,
+<lb/>quum natura excames ac. nervosi sint. praeterea
+<lb/>et a calidissimis loris multum distantes re/rigerantur, siefa
+<lb/>colligente ad thoracem calore. Atque rursum eadem ra-</hi>
+<lb/>ti<hi rend="italic">one quum febris solvitur e</hi>t .mi<hi rend="italic">nutas in partes distribui-</hi>
+<lb/>t<hi rend="italic">ur, ad pedes calor descendit. Hoc igitur tempore caput
+<lb/>et thorax perfaigerata sunt</hi>. hin universo itaque corpore
 <lb/>calor non est neque intensus est; sed ut vigente
 <lb/>ultra principium paroxyfmo partes circa thoracem caputque
 <lb/>affatim incendebantur; ita et nunc quum adest remissi
-<lb/><hi rend="italic">o</hi>, calor nobiliores quidem partes reliquit, extremos
+<lb/>o, calor nobiliores quidem partes reliquit, extremos
 <lb/>vero pedes occupat, quod natura fit. Nam rationi maxime
 <lb/>consentaneum est ut quae partes prius vehementer perfrixerunt
 <lb/>, eas calor etiam ingens prehendat, natura nimirum
@@ -709,47 +711,47 @@
 <lb/>incalescunt. Quamobrem et in gravissimis febribus; quum
 <lb/>levatio cum pedum perfrigeratione sit, in remissione pedes
 <lb/>vehementer calefieri contingit. Quare quum locum abfolveret
-<lb/><hi rend="italic">H</hi>i<hi rend="italic">pp</hi>o<hi rend="italic">crate</hi>s inquit: <hi rend="italic">ea</hi>s o<hi rend="italic">b causa</hi>s <hi rend="italic">sorb</hi>it<hi rend="italic">i</hi>o <hi rend="italic">exh</hi>i—
-<lb/><hi rend="italic">benda, quod quu</hi>m <hi rend="italic">pede</hi>s /<hi rend="italic">r</hi>i<hi rend="italic">g</hi>i<hi rend="italic">d</hi>i <hi rend="italic">suerin</hi>t, <hi rend="italic">ven</hi>t<hi rend="italic">riculu</hi>m <hi rend="italic">calidum
-<lb/>este necesse est</hi> m<hi rend="italic">ul</hi>to<hi rend="italic">que fastid</hi>i<hi rend="italic">o plenu</hi>m <hi rend="italic">in</hi>t<hi rend="italic">end</hi>i<hi rend="italic">que
-<lb/>h</hi>y<hi rend="italic">p</hi>o<hi rend="italic">chondr</hi>i<hi rend="italic">u</hi>m <hi rend="italic">e</hi>t <hi rend="italic">corpor</hi>is <hi rend="italic">secta</hi>ti<hi rend="italic">one</hi>m <hi rend="italic">pr</hi>o<hi rend="italic">p</hi>t<hi rend="italic">er</hi> i<hi rend="italic">nternam
-<lb/>turbat</hi>io<hi rend="italic">nem</hi>, m<hi rend="italic">enti</hi>s <hi rend="italic">defec</hi>t<hi rend="italic">um e</hi>t <hi rend="italic">dolore</hi>s <hi rend="italic">aeger vellicatur,
-<lb/>vomere vult et si prava v</hi>o<hi rend="italic">muerit, d</hi>o<hi rend="italic">lore a/sic</hi>i<hi rend="italic">tur. A</hi>t
-<lb/><hi rend="italic">quum calor ad pede</hi>s <hi rend="italic">descenderit ur</hi>i<hi rend="italic">naque prod</hi>i<hi rend="italic">er</hi>i<hi rend="italic">t, et</hi>i<hi rend="italic">amsi
-<lb/>non sudaverit, o</hi>m<hi rend="italic">n</hi>i<hi rend="italic">a ce/funt. Eo</hi> i<hi rend="italic">g</hi>it<hi rend="italic">ur</hi> t<hi rend="italic">emp</hi>o<hi rend="italic">re sorb</hi>iti<hi rend="italic">o
+<lb/><hi rend="italic">Hippocrate</hi>s inquit: <hi rend="italic">eas ob causas sorbitio exh</hi>i—
+<lb/><hi rend="italic">benda, quod quum pede</hi>s /<hi rend="italic">rigidi suerin</hi>t, <hi rend="italic">ventriculum calidum
+<lb/>este necesse est multoque fastidio plenum intendique
+<lb/>hypochondrium et corporis sectationem propter internam
+<lb/>turbationem</hi>, hi<hi rend="italic">entis defectum et dolores aeger vellicatur,
+<lb/>vomere vult et si prava vomuerit, dolore a/sicitur. A</hi>t
+<lb/><hi rend="italic">quum calor ad pedes descenderit urinaque prodierit, etiamsi
+<lb/>non sudaverit, omnia ce/funt. Eo igitur tempore sorbitio
 <lb/>exhibenda est, tum autem pernicie</hi>s; ac maxime propter
 <lb/>nocumentum ex intempestiva exhibitione concitatum in
 <lb/>morbis acutis mortiferum esse pronuncians sub paroxyfmum
 <lb/>nutrire. Aperte igitur haec imperat. oportuerat igitur
 <pb n="216"/>fatis jam haec te edoctum fuisse; si quid tamen amplius
 <lb/>discere cupias, audias haec luculenter praecipientem Hippocratem.
-<lb/><hi rend="italic">Quu</hi>m <hi rend="italic">aute</hi>m m<hi rend="italic">edica</hi>m<hi rend="italic">ent</hi>o <hi rend="italic">purgaver</hi>is, <hi rend="italic">farb</hi>i-
-<lb/><hi rend="italic">t</hi>i<hi rend="italic">onibu</hi>s <hi rend="italic">utere</hi> o<hi rend="italic">bservat</hi>is <hi rend="italic">subr</hi>i<hi rend="italic">u</hi>m <hi rend="italic">par</hi>m<hi rend="italic">t</hi>y<hi rend="italic">smis, ut nequaquam
-<lb/>dum adsunt neque quum satur</hi>i <hi rend="italic">sunt exh</hi>i<hi rend="italic">beas, .sed</hi>
-<lb/>sin<hi rend="italic">um</hi> r<hi rend="italic">estant aut cesserunt et quam</hi> l<hi rend="italic">ong</hi>i<hi rend="italic">ssime a pr</hi>i<hi rend="italic">nc</hi>i<hi rend="italic">pi</hi>o</p>
-<p rend="indent"><hi rend="italic">aut quum nuper ce/su</hi>u<hi rend="italic">erit par</hi>o<hi rend="italic">x</hi>y<hi rend="italic">smu</hi>s. Alimenta vero
+<lb/><hi rend="italic">Quum autem medicamento purgaver</hi>is, <hi rend="italic">farb</hi>i-
+<lb/><hi rend="italic">tionibus utere observatis subrium parmtysmis, ut nequaquam
+<lb/>dum adsunt neque quum saturi sunt exhibeas, .sed</hi>
+<lb/>sin<hi rend="italic">um restant aut cesserunt et quam longissime a principi</hi>o</p>
+<p rend="indent"><hi rend="italic">aut quum nuper ce/suuerit paroxysmu</hi>s. Alimenta vero
 <lb/>exhibenda funt non exspectata omninofebris declinatione,
 <lb/>ubi nimirum aeger fame intolerabili premitur aut a longis
 <lb/>ciborum dilationibus.male admodum affectus est aut aliqua
 <lb/>pars stomachi obriguit et valde exfoluta esu Tunc sane
-<lb/>in <hi rend="italic">subr</hi>i<hi rend="italic">um</hi> remissionibus corporibus adhuc calidis existentibus
+<lb/>in <hi rend="italic">subrium</hi> remissionibus corporibus adhuc calidis existentibus
 <lb/>alimenta exhibenda sunt, ac potissimum quum remissionis
 <lb/>intervallum angustum fuerit. Qui. namque paulo
 <lb/>antequam desierit paroxyfmus cibum exhibet, is longius a
 <lb/>futura assignatione- cibum dat. Quod autem interdum fedata
 <lb/>jam invasione cibus offerri debeat olere ipsis ostendit.
-<lb/>his verbis : <hi rend="italic">et quam lon</hi>gi<hi rend="italic">ssime a pr</hi>i<hi rend="italic">ncipio</hi>. Ut enim
+<lb/>his verbis : <hi rend="italic">et quam longissime a principio</hi>. hit enim
 <pb n="217"/>assignatio febrilis alimentum distributioni ineptum, sed probe
 <lb/>concoctum ac jam corpori familiare redditum suscipiat,
 <lb/>fedata invasione alimenta praebet; quod tempus a futuro
-<lb/>paroxys<hi rend="italic">t</hi>no plurimum abest. Praeterea vero et in libro
-<lb/>adverihs cnidia<hi rend="italic">e</hi> sententias ea adjuugit quae tum praedictis
-<lb/>tum artis operibus consentiant. <hi rend="italic">D</hi>i<hi rend="italic">ae</hi>t<hi rend="italic">e</hi>tic<hi rend="italic">e</hi>s <hi rend="italic">max</hi>i<hi rend="italic">mum
-<lb/>est subr</hi>i<hi rend="italic">um tu</hi>m i<hi rend="italic">ntensione</hi>s <hi rend="italic">tu</hi>m <hi rend="italic">re</hi>mi<hi rend="italic">ssione</hi>s <hi rend="italic">ut</hi> i<hi rend="italic">n acu</hi>tis <hi rend="italic">sic
-<lb/>e</hi>t i<hi rend="italic">nlong</hi>i<hi rend="italic">s</hi> m<hi rend="italic">orb</hi>is <hi rend="italic">observare e</hi>t <hi rend="italic">cavere</hi> , it<hi rend="italic">a ut</hi> t<hi rend="italic">empora
-<lb/>.quando c</hi>i<hi rend="italic">b</hi>i <hi rend="italic">offerend</hi>i <hi rend="italic">non sin</hi>t <hi rend="italic">e</hi>t <hi rend="italic">quand</hi>o <hi rend="italic">tuto offerend</hi>i
-<lb/><hi rend="italic">sint</hi> o<hi rend="italic">bser</hi>v<hi rend="italic">are scia</hi>s; <hi rend="italic">a</hi>t<hi rend="italic">que et</hi>i<hi rend="italic">a</hi>m <hi rend="italic">quando plurimu</hi>m <hi rend="italic">ab
-<lb/>intensione abfuer</hi>i<hi rend="italic">n</hi>t. Atque haec rursus fatebitur qui in
+<lb/>paroxystno plurimum abest. Praeterea vero et in libro
+<lb/>adverihs cnidiae sententias ea adjuugit quae tum praedictis
+<lb/>tum artis operibus consentiant. <hi rend="italic">Diaetetices maximum
+<lb/>est subrium tum intensiones tum remissiones ut in acu</hi>tis <hi rend="italic">sic
+<lb/>et inlongis morbis observare et cavere</hi> , hit<hi rend="italic">a ut tempora
+<lb/>.quando cibi offerendi non sint et quando tuto offerend</hi>i
+<lb/><hi rend="italic">sint observare scia</hi>s; <hi rend="italic">atque etiam quando plurimum ab
+<lb/>intensione abfuerin</hi>t. Atque haec rursus fatebitur qui in
 <lb/>artis operibus fuerit exercitatus.</p>
 </div>
 <div type="textpart" subtype="chapter" n="9">
@@ -764,7 +766,7 @@
 <lb/>magna funt inter paroxyfmos et remissiones discrimina;</p>
 <p>ile ut et ab .idiotis etiam saepenumero dignoscantur. In
 <lb/>diuturnis autem exiles quidem ac lentae sunt febres vixque
-<lb/>depre<hi rend="italic">h</hi>enduntur, et earum occulti funt paroxyfmi ac
+<lb/>deprehenduntur, et earum occulti funt paroxyfmi ac
 <lb/>potissimum ubi plurimum processerunt, ut et ipsius aegros
 <lb/>multoties lateant. Unde vel exquisitum omnino signum
 <lb/>erit illi qui aliquantulum ipforum differentias possit dignoscere.
@@ -782,24 +784,24 @@
 <lb/>Unde ut pomeridianum tempus quod autumno analogum ,
 <lb/>este tradidimus, si.matutino, quod veri simile esse diximus,
 <lb/>comparetur, exitialissimum erit, sicuti matutinum saluberrimum.
-<pb n="219"/>lta fan<hi rend="italic">o</hi> crepusculum verfpertinum conturbans et
-<lb/>exacerbans est, matutinum vero tempus benig<hi rend="italic">n</hi>itatis ac remissionis
-<lb/>efficiens: <hi rend="italic">tanquam annu</hi>s <hi rend="italic">c</hi>i<hi rend="italic">rcu</hi>i<hi rend="italic">tum habeat m</hi>o<hi rend="italic">rb</hi>
-<lb/>o<hi rend="italic">ru</hi>m, <hi rend="italic">quale d</hi>i<hi rend="italic">e</hi>s <hi rend="italic">morb</hi>i <hi rend="italic">est, quale esi ve</hi>s<hi rend="italic">pert</hi>i<hi rend="italic">nu</hi>m t<hi rend="italic">empu</hi>s
-<lb/><hi rend="italic">ad exacerbat</hi>i<hi rend="italic">onem tale est</hi> m<hi rend="italic">orb</hi>i <hi rend="italic">et un</hi>m<hi rend="italic">scususque co</hi>istit
-<lb/><hi rend="italic">a</hi>lio<hi rend="italic">n</hi>i<hi rend="italic">s in</hi>t<hi rend="italic">er su</hi> i<hi rend="italic">nvice</hi>m. Quare si nullum sit remissionis
+<pb n="219"/>lta fano crepusculum verfpertinum conturbans et
+<lb/>exacerbans est, matutinum vero tempus benignitatis ac remissionis
+<lb/>efficiens: <hi rend="italic">tanquam annus circuitum habeat morb</hi>
+<lb/>orum, <hi rend="italic">quale dies morbi est, quale esi vespertinum tempu</hi>s
+<lb/><hi rend="italic">ad exacerbationem tale est morbi et unmscususque co</hi>istit
+<lb/><hi rend="italic">alionis inter su invice</hi>m. Quare si nullum sit remissionis
 <lb/>vestigium, tempus veris temperamento assimilatum eligas.
 <lb/>Id autem existit quod circa matutinum crepusculum est
 <lb/>idque tum ceteris remediis tum cibis exhibendis maxime
 <lb/>idoneum esse deprehenditur. Haec quidem fatis sint ad
 <lb/>id suadendum quod a nobis propositum esu Portionem
 <lb/>enim selegi ex infinitis prope quae apud Hippocratem leguntur,
-<lb/>ex. arte tamen erit quae enuncianda <hi rend="italic">t</hi>unt eorum.
+<lb/>ex. arte tamen erit quae enuncianda tunt eorum.
 <lb/>quaedam in librum de consuetudine a nobis confcribeudum,
 <lb/>quaedam vero in librum de quantitate et qualitate
 <lb/>reponere. lllic ergo ex Hippocrate quam plurima ponuntur
-<lb/>quae in prae<hi rend="italic">t</hi>enti libro silentio praetermisimus larga-.
-<lb/>que .copia in unoquoque the<hi rend="italic">o</hi>remate scriptis tradentur.
+<lb/>quae in praetenti libro silentio praetermisimus larga-.
+<lb/>que .copia in unoquoque theoremate scriptis tradentur.
 </p>
 <pb n="220"/>
 </div>
@@ -808,21 +810,21 @@
 
 <p rend="indent">Qui ergo ad Hippocratis scripta imparati
 <lb/>prius accedunt quam primas literas didicerint, temere illi
-<lb/>advertantur. Suam enim ip<hi rend="italic">s</hi>orum ignorantiam incusare
+<lb/>advertantur. Suam enim ipsorum ignorantiam incusare
 <lb/>quum deceret, Hippocratis obscuritatem reprehendunt, quod
 <lb/>nimirum ob propriam imbecillitatem non possint Hippocratinae
 <lb/>virtutis magnitudinem assequi. Ita enim, opinor,
 <lb/>affectae funt ad Hippocratis scripturas imperitorum abjectorumque
-<lb/>hominum animae ut oculi ad felem, dum ip<hi rend="italic">t</hi>um
+<lb/>hominum animae ut oculi ad felem, dum iptum
 <lb/>contuentur. Quemadmodum etenim hi de propria imbecillitate
 <lb/>a fotis pulchritudine redarguuntur convincunturque
 <lb/>quum perseveranter citra laborem in ipfum intueri
-<lb/>nequeunt, <hi rend="italic">t</hi>est laudem caecutientes ad tenebrosa <hi rend="italic">t</hi>e vertuut
+<lb/>nequeunt, test laudem caecutientes ad tenebrosa te vertuut
 <lb/>, ita profanorum hominum animae in encyclopaedla
 <lb/>prius non educatae , scriptorum Hippocratis fulgore perenisi,
 <lb/>sententiarum splendoribus offusi quodammodo caecutiunt.
-<lb/>Quamobrem et ab iis quae majora <hi rend="italic">t</hi>uut quam ut
-<lb/>p<hi rend="italic">i</hi>ae ferre queant aversae ad parva quaedam ac obscura
+<lb/>Quamobrem et ab iis quae majora tuut quam ut
+<lb/>piae ferre queant aversae ad parva quaedam ac obscura
 <lb/>luaeque ipsorum imperitiae accommodata procedunt. Nos
 <pb n="221"/>autem non eorum gratia, fed ut illis qui probe instituti
 <lb/>funt congratulemur, tum haec conscripsimus tum omnia
